@@ -8,8 +8,9 @@ Uso como teste de conexão (na raiz do projeto, com o venv ativo):
 import os
 import sys
 
+import certifi
 from dotenv import load_dotenv
-from neo4j import Driver, GraphDatabase
+from neo4j import Driver, GraphDatabase, TrustCustomCAs
 
 VARIAVEIS_OBRIGATORIAS = ("NEO4J_URI", "NEO4J_USERNAME", "NEO4J_PASSWORD")
 
@@ -28,10 +29,22 @@ def criar_driver() -> Driver:
             + ", ".join(ausentes)
             + ". Copie o .env.example para .env e preencha."
         )
-    return GraphDatabase.driver(
-        os.environ["NEO4J_URI"],
-        auth=(os.environ["NEO4J_USERNAME"], os.environ["NEO4J_PASSWORD"]),
-    )
+    uri = os.environ["NEO4J_URI"]
+    auth = (os.environ["NEO4J_USERNAME"], os.environ["NEO4J_PASSWORD"])
+
+    # O AuraDB usa uma autoridade certificadora (SSL.com) que pode faltar no
+    # repositório de certificados do Windows, o que faz a conexão "+s" falhar
+    # com CERTIFICATE_VERIFY_FAILED. Validamos então com o pacote de
+    # autoridades do certifi: a verificação do certificado continua completa.
+    esquema, separador, resto = uri.partition("://")
+    if esquema.endswith("+s"):
+        return GraphDatabase.driver(
+            esquema.removesuffix("+s") + separador + resto,
+            auth=auth,
+            encrypted=True,
+            trusted_certificates=TrustCustomCAs(certifi.where()),
+        )
+    return GraphDatabase.driver(uri, auth=auth)
 
 
 def banco() -> str:
