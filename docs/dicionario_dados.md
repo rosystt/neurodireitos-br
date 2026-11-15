@@ -34,9 +34,12 @@ Ordenados da evidência mais forte para a mais fraca:
 | Valor | Significado |
 |---|---|
 | `marketplace_br` | Há anúncio do aparelho em marketplace brasileiro (Amazon.com.br ou Mercado Livre). |
+| `loja_oficial_checkout_brasil` | O checkout da loja oficial lista o Brasil entre os países de entrega. |
 | `loja_oficial_cita_brasil` | A loja oficial menciona o Brasil nas condições de envio. |
 | `loja_oficial_envio_mundial` | A loja oficial declara envio internacional ou mundial, sem listar países. |
 | `nao_confirmado` | Nenhuma evidência de entrega no Brasil foi encontrada. |
 | `nao_entrega` | A loja oficial restringe o envio a países que não incluem o Brasil. |
 
-Só os três primeiros valores satisfazem o critério de inclusão.
+Só os quatro primeiros valores satisfazem o critério de inclusão.
+
+A lista de países do checkout foi lida abrindo o carrinho da loja oficial com um produto, sem preencher dados nem concluir a compra.

@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: 8 aparelhos incluídos e 10 pendentes de confirmação, de 23 candidatos avaliados.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: 10 aparelhos incluídos, 3 pendentes de confirmação e 10 excluídos, de 23 candidatos avaliados.
 
 ## Pergunta de pesquisa
 
@@ -29,7 +29,7 @@ Um aparelho entra na amostra quando atende a **todos** os requisitos:
 
 1. Capta sinais cerebrais por **EEG** (aparelhos só de fNIRS ou de estimulação ficam de fora).
 2. É vendido como produto de **consumo** — bem-estar, foco, meditação ou sono — e não como dispositivo médico, implante ou kit de pesquisa.
-3. É **vendido ou entregue no Brasil**, com evidência registrada: anúncio em marketplace brasileiro, menção ao Brasil nas condições de envio da loja oficial ou declaração de envio mundial.
+3. É **vendido ou entregue no Brasil**, com evidência registrada: anúncio em marketplace brasileiro, Brasil na lista de países do checkout ou nas condições de envio da loja oficial, ou declaração de envio mundial.
 4. Tem **política de privacidade pública**, acessível sem compra ou cadastro.
 5. Está **à venda** na data da coleta (produtos apenas anunciados ficam de fora).
 

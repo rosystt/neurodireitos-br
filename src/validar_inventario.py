@@ -22,7 +22,8 @@ COLUNAS = [
 ]
 STATUS = {"incluido", "pendente", "excluido"}
 CANAIS = {
-    "marketplace_br", "loja_oficial_cita_brasil", "loja_oficial_envio_mundial",
+    "marketplace_br", "loja_oficial_checkout_brasil", "loja_oficial_cita_brasil",
+    "loja_oficial_envio_mundial",
     "nao_confirmado", "nao_entrega",
 }
 # Canais que contam como evidência de venda ou entrega no Brasil.
