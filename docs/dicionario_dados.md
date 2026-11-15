@@ -15,8 +15,9 @@ Codificação UTF-8, separador vírgula, campos vazios quando a informação nã
 | `fabricante` | texto | Razão social da empresa responsável, como aparece na política de privacidade ou no site. | Política ou site do fabricante |
 | `pais_sede` | texto | País da sede do fabricante. | Política ou site do fabricante |
 | `tipo_aparelho` | texto | Formato do aparelho: `headband`, `headband de sono`, `headset`, `fones de ouvido`, `fones de ouvido de sono`, `kit de pesquisa`. | Classificação do projeto |
-| `status_inclusao` | categoria | `incluido` (atende ao critério de inclusão), `pendente` (falta confirmar algum requisito) ou `excluido`. | Classificação do projeto |
-| `motivo_status` | categoria | Vazio para incluídos. Para os demais: `envio_br_nao_confirmado`, `politica_nao_localizada`, `escopo_a_decidir`, `nao_entrega_no_brasil`, `nao_e_eeg`, `nao_e_de_consumo`, `nao_lancado`. | Classificação do projeto |
+| `status_inclusao` | categoria | `incluido` (entra na avaliação, em um dos dois grupos), `pendente` (falta confirmar algum requisito) ou `excluido`. | Classificação do projeto |
+| `motivo_status` | categoria | Vazio para incluídos. Para os demais: `envio_br_nao_confirmado`, `politica_nao_localizada`, `nao_e_eeg`, `nao_e_de_consumo`, `nao_lancado`. | Classificação do projeto |
+| `grupo` | categoria | Preenchido só para incluídos. `brasil`: vendido ou entregue no Brasil; é o grupo que responde à pergunta de pesquisa. `comparacao`: atende aos demais requisitos, mas a loja oficial não entrega no Brasil; serve de referência. | Classificação do projeto |
 | `canal_venda_br` | categoria | Evidência de venda ou entrega no Brasil (ver abaixo). | Pesquisa em marketplaces e lojas oficiais |
 | `url_evidencia_venda` | URL | Página que sustenta o valor de `canal_venda_br`. | Marketplace ou loja oficial |
 | `preco_referencia` | decimal | Preço de tabela do aparelho, sem impostos de importação nem frete. Vazio se não coletado. | `fonte_preco` |
@@ -40,6 +41,6 @@ Ordenados da evidência mais forte para a mais fraca:
 | `nao_confirmado` | Nenhuma evidência de entrega no Brasil foi encontrada. |
 | `nao_entrega` | A loja oficial restringe o envio a países que não incluem o Brasil. |
 
-Só os quatro primeiros valores satisfazem o critério de inclusão.
+Os quatro primeiros valores satisfazem o requisito de venda no Brasil (grupo `brasil`). O grupo `comparacao` exige `nao_entrega`. Aparelhos com `nao_confirmado` ficam pendentes.
 
 A lista de países do checkout foi lida abrindo o carrinho da loja oficial com um produto, sem preencher dados nem concluir a compra.

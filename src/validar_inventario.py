@@ -16,11 +16,12 @@ CAMINHO = Path("data/raw/inventario.csv")
 
 COLUNAS = [
     "id", "aparelho", "fabricante", "pais_sede", "tipo_aparelho",
-    "status_inclusao", "motivo_status", "canal_venda_br", "url_evidencia_venda",
+    "status_inclusao", "motivo_status", "grupo", "canal_venda_br", "url_evidencia_venda",
     "preco_referencia", "moeda", "fonte_preco", "url_politica",
     "idioma_politica", "data_coleta", "observacoes",
 ]
 STATUS = {"incluido", "pendente", "excluido"}
+GRUPOS = {"brasil", "comparacao"}
 CANAIS = {
     "marketplace_br", "loja_oficial_checkout_brasil", "loja_oficial_cita_brasil",
     "loja_oficial_envio_mundial",
@@ -45,6 +46,8 @@ def validar(df: pd.DataFrame) -> list[str]:
 
     vazio = df.eq("")
     incluido = df["status_inclusao"].eq("incluido")
+    brasil = df["grupo"].eq("brasil")
+    comparacao = df["grupo"].eq("comparacao")
 
     registrar(df["id"].duplicated(keep=False), "id duplicado")
     registrar(df[["aparelho", "fabricante"]].duplicated(keep=False), "aparelho repetido")
@@ -55,8 +58,16 @@ def validar(df: pd.DataFrame) -> list[str]:
     registrar(~incluido & vazio["motivo_status"], "pendente ou excluído sem motivo_status")
     registrar(incluido & ~vazio["motivo_status"], "incluído com motivo_status preenchido")
 
-    # Critério de inclusão: evidência de venda no Brasil e política pública.
-    registrar(incluido & ~df["canal_venda_br"].isin(CANAIS_COM_EVIDENCIA), "incluído sem evidência de venda no Brasil")
+    # Todo incluído pertence a um grupo, e só incluídos têm grupo.
+    registrar(incluido & ~df["grupo"].isin(GRUPOS), "incluído sem grupo válido")
+    registrar(~incluido & ~vazio["grupo"], "pendente ou excluído com grupo preenchido")
+
+    # Grupo brasil: evidência de venda ou entrega no Brasil.
+    # Grupo comparacao: evidência de que a loja oficial não entrega no Brasil.
+    registrar(brasil & ~df["canal_venda_br"].isin(CANAIS_COM_EVIDENCIA), "grupo brasil sem evidência de venda no Brasil")
+    registrar(comparacao & ~df["canal_venda_br"].eq("nao_entrega"), "grupo comparacao sem evidência de que não entrega no Brasil")
+
+    # Os dois grupos exigem a evidência registrada e a política pública.
     registrar(incluido & vazio["url_evidencia_venda"], "incluído sem url_evidencia_venda")
     registrar(incluido & vazio["url_politica"], "incluído sem url_politica")
     registrar(~vazio["url_politica"] & vazio["idioma_politica"], "política sem idioma")
@@ -80,6 +91,8 @@ def main() -> None:
 
     print(f"{len(df)} candidatos avaliados")
     print(df["status_inclusao"].value_counts().to_string())
+    print("\nIncluídos por grupo:")
+    print(df.loc[df["grupo"].ne(""), "grupo"].value_counts().to_string())
     if erros:
         print("\nProblemas encontrados:", *erros, sep="\n- ")
         sys.exit(1)

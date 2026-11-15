@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: 10 aparelhos incluídos, 3 pendentes de confirmação e 10 excluídos, de 23 candidatos avaliados.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: de 23 candidatos avaliados, 10 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação, 3 estão pendentes de confirmação e 4 foram excluídos.
 
 ## Pergunta de pesquisa
 
@@ -18,20 +18,29 @@ São hipóteses a testar, não a provar:
 2. Parte relevante das empresas compartilha dados com terceiros ou guarda os dados fora do Brasil.
 3. As políticas oferecem menos garantias do que exigem as leis de referência (Colorado, Califórnia, Chile).
 
+Pergunta complementar: as políticas dos aparelhos que chegam ao Brasil oferecem menos garantias do que as dos aparelhos vendidos só em mercados onde leis de dados neurais já estão em vigor?
+
 ## Escopo da versão 1
 
-- **Dentro:** 15 a 20 aparelhos de EEG de consumo (headbands, fones, tiaras, wearables de sono) vendidos ou entregues no Brasil, com política de privacidade pública.
+- **Dentro:** os aparelhos de EEG de consumo (headbands, fones, tiaras, wearables de sono) vendidos ou entregues no Brasil, com política de privacidade pública, mais um grupo de comparação de aparelhos equivalentes que não chegam ao Brasil.
+- **Tamanho:** o plano inicial previa de 15 a 20 aparelhos vendidos no Brasil. O levantamento encontrou 10 (com mais 3 em confirmação), de 7 fabricantes; por isso o grupo principal é tratado como um levantamento de todos os casos localizados, e não como uma amostra.
 - **Fora:** dispositivos médicos e implantes, análise jurídica formal e coleta de dados de usuários.
 
 ## Critério de inclusão
 
-Um aparelho entra na amostra quando atende a **todos** os requisitos:
+Um aparelho entra no **grupo principal** (`brasil`) quando atende a **todos** os requisitos:
 
 1. Capta sinais cerebrais por **EEG** (aparelhos só de fNIRS ou de estimulação ficam de fora).
 2. É vendido como produto de **consumo** — bem-estar, foco, meditação ou sono — e não como dispositivo médico, implante ou kit de pesquisa.
 3. É **vendido ou entregue no Brasil**, com evidência registrada: anúncio em marketplace brasileiro, Brasil na lista de países do checkout ou nas condições de envio da loja oficial, ou declaração de envio mundial.
 4. Tem **política de privacidade pública**, acessível sem compra ou cadastro.
 5. Está **à venda** na data da coleta (produtos apenas anunciados ficam de fora).
+
+### Grupo de comparação
+
+Um aparelho entra no grupo `comparacao` quando atende aos requisitos 1, 2, 4 e 5, mas a loja oficial **não entrega no Brasil** — verificado na lista de países do checkout ou na política de envio. São aparelhos vendidos principalmente nos Estados Unidos, onde leis estaduais sobre dados neurais já estão em vigor.
+
+O grupo foi definido **antes** da régua de critérios e de qualquer leitura das políticas. Ele serve só de referência: os achados sobre o Brasil vêm exclusivamente do grupo principal.
 
 Todos os candidatos avaliados — incluídos, pendentes e excluídos, com o motivo — estão em [`data/raw/inventario.csv`](data/raw/inventario.csv); as colunas estão descritas em [`docs/dicionario_dados.md`](docs/dicionario_dados.md). Para conferir a consistência do arquivo:
 
@@ -88,7 +97,8 @@ Depois, execute os notebooks em ordem (`01` a `04`).
 
 ## Limitações
 
-- Amostra pequena (15 a 20 aparelhos), sem pretensão de representar todo o mercado.
+- Poucos casos: 10 aparelhos de 7 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
+- O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
 - Políticas de privacidade mudam; cada texto é registrado com a data de coleta.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
