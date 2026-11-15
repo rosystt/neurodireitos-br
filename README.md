@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: de 23 candidatos avaliados, 11 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação, 2 estão pendentes de confirmação e 4 foram excluídos.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: de 23 candidatos avaliados, 11 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação, 1 está pendente de confirmação e 5 foram excluídos.
 
 ## Pergunta de pesquisa
 
@@ -23,7 +23,7 @@ Pergunta complementar: as políticas dos aparelhos que chegam ao Brasil oferecem
 ## Escopo da versão 1
 
 - **Dentro:** os aparelhos de EEG de consumo (headbands, fones, tiaras, wearables de sono) vendidos ou entregues no Brasil, com política de privacidade pública, mais um grupo de comparação de aparelhos equivalentes que não chegam ao Brasil.
-- **Tamanho:** o plano inicial previa de 15 a 20 aparelhos vendidos no Brasil. O levantamento encontrou 11 (com mais 2 em confirmação), de 8 fabricantes; por isso o grupo principal é tratado como um levantamento de todos os casos localizados, e não como uma amostra.
+- **Tamanho:** o plano inicial previa de 15 a 20 aparelhos vendidos no Brasil. O levantamento encontrou 11 (com mais 1 em confirmação), de 8 fabricantes; por isso o grupo principal é tratado como um levantamento de todos os casos localizados, e não como uma amostra.
 - **Fora:** dispositivos médicos e implantes, análise jurídica formal e coleta de dados de usuários.
 
 ## Critério de inclusão
