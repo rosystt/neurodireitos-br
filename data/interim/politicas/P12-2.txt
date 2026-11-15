@@ -1,0 +1,30 @@
+Your brain data
+belongs to you.
+At NextSense, we believe your brain data is yours alone. That’s why we’ll never sell your data, and sharing is always off by default.
+Three Pillars to Data Privacy
+# You own it
+Your brain and sleep data belongs to you. You control how it's used and can delete it at any time.
+# Sharing is off by default
+We never collect or share your data without explicit consent. Every choice is yours to make.
+# Ethics-first approach
+We partner with leading neuroethicists to ensure your mental privacy is protected.
+Your questions
+answered clearly.
+# How is my brain data being used?
+Only to improve your sleep and deliver a seamless experience. The NextSense app processes data on your device to power features like sleep tracking and brain-responsive audio. We don’t send brain data to the cloud unless you opt in. If you choose to do so, the data is anonymized and stored securely.
+# Can Smartbuds read my thoughts?
+No. EEG measures the brain’s electrical activity, which can be used to determine brain states, but doesn’t capture or interpret thoughts.
+# What if I change my mind?
+You can always change your sharing preferences or choose to delete your data entirely. We respond to all privacy requests within 2 weeks.
+Trusted by Experts
+# Emory University
+"Advances in this field require high-quality neural data, and NextSense has distinguished itself by ensuring that such data is only shared within a framework of earned trust and uncompromising privacy."
+Prabhjyot Saini
+Senior Associate
+# Emory University
+Real world monitoring of consciousness states derived by acquisition of brain derived signals will demand the sort of high quality devices manufactured by NextSense. Data quality is not only robust, but personal privacy and data integrity are highly valued and prioritized by NextSense.
+Dr. David Rye, MD
+# Privacy is just the beginning.
+See how NextSense is building a more thoughtful future for brain-computer interfaces.
+Discover Smartbuds
+Read Full Privacy Policy

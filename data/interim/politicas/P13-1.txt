@@ -1,0 +1,62 @@
+Privacy Policy and Terms of Use
+# StimScience Inc.
+Last Updated: June 3, 2026
+Introduction
+StimScience Inc., in Berkeley, CA, is the manufacturer of the Somnee headband, the operator of the Somnee Sleep Service and Somnee App, and the operator of the StimScience.com and TrySomnee.com websites (the “Websites”). StimScience, which may be referred to in this Privacy Notice as “StimScience,” “we,” or “us”, provides this Privacy Notice to inform visitors to our Websites and users (“you”) of our products, services and Websites (collectively, the “Services”) of our policies and procedures regarding the collection, use and disclosure of information received from or about you.
+StimScience will not sell your information to a third party or use it in advertising. We may share your information with selected third parties solely to facilitate your relationship with us, as further described below.
+By using our Services, you are acknowledging the terms of this Privacy Notice and consenting to our processing of your information as set forth in this Privacy Notice now and as amended by us from time to time. “Processing” means using or handling information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information and transferring it within the United States and internationally.
+Information Collection
+Biometric Information. StimScience collects biometric data. The data we collect includes passive brain measurements and motion data collected with the Somnee headband. This biometric data may be used to track the duration of your sleep each night, your brain activity before and during sleep, and your motion before and during sleep. In addition, we may ask you to provide subjective or behavioral information about your sleep and your usage of the Somnee headband.
+Personally Identifiable Information. Personally Identifiable Information (“PII”) is information that can be used to identify you. In connection with the use of our Services, PII that we may collect includes your name, email address, age, mailing address, telephone number, credit card data and IP address.
+Methods of Data Collection. In general, it is not necessary to provide us with PII in order to view our Websites. If you wish to be placed on our mailing list to receive additional information about our Services, you will be asked to provide your name and email address. Optionally, you can provide your telephone number.
+If you order Services from our Websites, you must provide your name, credit card information, email address and physical address, and your telephone number.
+Most of the information we collect is specifically provided by users of our Services. Some information is collectively passively. For example, when you use the Somnee headband, biometric data is automatically transmitted to a cloud service. Our online applications collect IP addresses from your devices.
+If you contact us by email through the Websites, we may keep a record of your contact information and correspondence, and may use your email address, and any information that you provide to us or is contained in your message, to respond to you. Please do not provide us with any sensitive information.
+Information Use
+Purpose. Our primary goal in collecting information is to monitor and improve our Services, respond to your inquiries and to provide you with information that you request from us via your use of the Services.
+Certain information, such as name, address and credit card data, is necessary to fulfill orders and facilitate payment for our Services.
+Biometric data may be used for future product development, regulatory purposes, and scientific journal submission.
+Your choices and access to your information
+Required Information. The information requested of you when using our Services is mandatory. If you do not wish to provide such information, you will not be able to use those Services.
+Changing or Deleting Information. If you want to know the PII or Biometric information we hold about you, or to modify your PII, or to have us delete such information, please contact us via our Contact page with your request. We’ll take steps to honor your request as soon we can, but some information may remain in archived/backup copies for our records or as otherwise required by law.
+Right to Appeal. If we decide not to take action in response to your request, you may submit an appeal by sending an email to dataprotection@somneesleep.com and mark your request as an “Appeal.” We will resolve your appeal within the time frames established by applicable law. If your appeal is denied, we will explain why. If you continue to dispute our decision or would like to file a complaint regarding our handling of your personal information, you may contact the regulator in your jurisdiction that handles privacy complaints, such as your state Attorney General.
+Marketing Information. We regularly send out emails, SMS, and other messages to our customers to keep them updated on new and improved Services and tips for using our Services as well as providing promotional offers. If you do not wish to receive these messages, you will have the ability to unsubscribe.
+Do Not Sell or Share My Personal Information
+If you are located in certain U.S. states (including California), you may have the right to opt out of the "sale" or "sharing" of your personal information for cross-context behavioral advertising (also called "targeted advertising").
+Explanation. We may disclose certain information to third parties (such as advertising partners) to help measure performance and deliver relevant ads. Under some state privacy laws, these disclosures may be considered a "sale" or "sharing."
+How to opt out via Global Privacy Control (GPC). If your browser sends a Global Privacy Control (GPC) signal, we will treat it as an opt-out preference for this browser/device where supported.
+How to submit an Opt-out form. Submit the form below to record your opt-out preference for your customer account. We will apply your preference as soon as possible, though some systems may take time to fully update.
+Form: Do not sell or share my personal information
+Information Sharing and Disclosure
+Service Providers. StimScience may employ third party companies and individuals to facilitate the provision of Services via the Websites or otherwise, or to perform certain Website-related services (e.g., hosting and maintenance services, database management and improvement of the Websites’ features). We may from time to time share your PII with such third parties to administer or complete these tasks. These third parties shall only have access to your information as necessary to perform their functions and may not use it for any other purpose.
+Sharing of Information. StimScience will not share PII with any third party whom it knows or reasonably should know plans to use the information to contact or track you or who may transfer the information to any other parties.
+Compliance with Laws and Law Enforcement. If legally requested, StimScience may cooperate with government and law enforcement officials or private parties, to enforce and comply with the law. We may disclose any information about you, including PII, to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims or legal process (including subpoenas), to protect the property and rights of StimScience or a third party, the safety of the public or any person, to prevent or stop any illegal, unethical, or legally actionable activity, or to comply with the law.
+Business Transfers. If any or all of the assets of StimScience are acquired by, or merged with, another entity, we will share some or all of your information with such entity.
+Information Security and Retention
+Security. StimScience is very concerned about safeguarding the confidentiality of information that we collect about you (including your PII). We take reasonable administrative, physical and electronic measures designed to protect your information from unauthorized access, use or disclosure. Biometric data is pseudonymized (linked to age, time zone, and a customer identifier, but separated from your PII). That data is stored in a password protected system that can only be accessed by members of our neuroscience team, as designated by our CTO. Billing data is stored in password protected third party systems. The data can only be accessed by a limited number of individuals within the company, on a need to know basis.
+Please be aware, however, that no method of transmitting information over the Internet or storing information is completely secure. Accordingly, we cannot guarantee the absolute security of any information.
+Retention. Our intent is to only retain your data for so long as it is useful to us. To that end, we periodically purge our files of outdated information.
+Other Topics
+Cookies. We and our partners use cookies and similar technologies on our services, including our websites and mobile applications (the “Services”) to deliver the best possible experience. Here we explain these technologies, why we use them, and the choices you have.
+Below are the ways that we and our partners use these technologies on our Services.
+CATEGORY OF USE
+PURPOSE OF USE
+Strictly Necessary
+Essential for the website to function properly, these cookies enable core features such as security, page navigation, complete purchases, and access to secure areas. They cannot be disabled.
+Analytics
+By collecting anonymous data, these cookies help us understand how visitors interact with the website, allowing us to improve performance and user experience.
+Marketing
+These cookies track your activity across websites to deliver personalized ads and relevant content. They also help measure the effectiveness of our marketing campaigns.
+Preferences
+These cookies remember your choices - such as language preferences or login details - to provide a more personalized experience.
+For more information, please see our list of cookies that we and our partners use on our Services.
+Click the below ‘Cookies Settings’ link to review and manage your somneesleep.com cookie preferences.
+Cookie Preferences
+Responding to Do Not Track Signals. Our Websites do not have the capability to respond to “Do Not Track” signals received from various web browsers.
+Third Party Sites. This Privacy Notice only applies to our Services and does not apply to any third-party websites, products, applications or services, even if they are accessible through our Services. If you are linked to our Websites from a third party website or application, be aware that StimScience has no control over the data privacy practices of such websites or applications.
+Our Policy Towards Minors. Our Websites and other Services are not directed to children under age 18. If a parent or guardian becomes aware that their child has provided us with PII without their consent, please contact us via the contact page.
+Changes in this Privacy Notice. This Privacy Notice may be updated from time to time at our discretion. We will notify you of any material changes by posting the revised Privacy Notice on this Website and updating the “Last Updated” date. You are advised to consult this Privacy Notice regularly for any changes we have made to it.
+Please submit any questions or comments about this Privacy Notice or our use of your PII via email to dataprotection@somneesleep.com.
+US Privacy Request Policy
+To view our US Privacy Request Policy, please click below.
+US Privacy Request

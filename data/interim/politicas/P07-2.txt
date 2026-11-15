@@ -1,0 +1,13 @@
+# Privacy
+# Your brain is what, how, and why you think. It's the most personal thing about you. So we took a stand.
+# Hardware-Enabled Security
+Inscribed in every N3 chipset we make are two statements: never lose raw data, never send raw data.
+The N3 chipset handles all signal processing. It translates your raw brainwaves into metadata so that those brainwaves never leave the device. It's the heart of the Crown because the brain is, you.
+# Your brain trains your Crown.
+From brain data to metadata, what the Crown does is personalized to you. Neural activity is captured by the electrodes as electrical impulses. Less than one millisecond later, the data is received by the N3 chipset and instantaneously processed into metadata, which transiently trains your Crown to you.
+From neurons firing, to machine learning classifiers, your Crown finds meaning, all while being secured on the N3 chipset.
+# Your thoughts stay with you.
+As a team, we've built the N3 chipset to empower you. It's created to translate your brain's electrical signals into action and insight for you to shape your world.
+It doesn't watch. It doesn't listen. It doesn't know that you actually love broccoli. And it never stores your brainwaves.
+The N3 chipset ensures that no third-party will ever see or receive your brain data. By having all computation executed on device, it eliminates the need to have data analyzed by an external source. Your thoughts are yours, and we keep it that way.
+The N3 makes a promise. Your neural fingerprint is never seen and never sent.
