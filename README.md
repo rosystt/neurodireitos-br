@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 23 candidatos avaliados, 12 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Próxima etapa: Fase 2 (régua de critérios).
+**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Próxima etapa: Fase 2 (régua de critérios).
 
 ## Pergunta de pesquisa
 
@@ -23,7 +23,7 @@ Pergunta complementar: as políticas dos aparelhos que chegam ao Brasil oferecem
 ## Escopo da versão 1
 
 - **Dentro:** os aparelhos de EEG de consumo (headbands, fones, tiaras, wearables de sono) vendidos ou entregues no Brasil, com política de privacidade pública, mais um grupo de comparação de aparelhos equivalentes que não chegam ao Brasil.
-- **Tamanho:** o plano inicial previa de 15 a 20 aparelhos vendidos no Brasil. O levantamento encontrou 12, de 9 fabricantes; por isso o grupo principal é tratado como um levantamento de todos os casos localizados, e não como uma amostra.
+- **Tamanho:** o plano inicial previa de 15 a 20 aparelhos vendidos no Brasil. O levantamento encontrou 13, de 9 fabricantes; por isso o grupo principal é tratado como um levantamento de todos os casos localizados, e não como uma amostra.
 - **Fora:** dispositivos médicos e implantes, análise jurídica formal e coleta de dados de usuários.
 
 ## Critério de inclusão
@@ -97,7 +97,7 @@ Depois, execute os notebooks em ordem (`01` a `04`).
 
 ## Limitações
 
-- Poucos casos: 12 aparelhos de 9 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
+- Poucos casos: 13 aparelhos de 9 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
 - O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
 - Políticas de privacidade mudam; cada texto é registrado com a data de coleta.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
