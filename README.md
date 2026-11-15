@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 0 (setup) concluída; Fase 1 (inventário de aparelhos) a iniciar.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) em curso: 8 aparelhos incluídos e 10 pendentes de confirmação, de 23 candidatos avaliados.
 
 ## Pergunta de pesquisa
 
@@ -22,6 +22,22 @@ São hipóteses a testar, não a provar:
 
 - **Dentro:** 15 a 20 aparelhos de EEG de consumo (headbands, fones, tiaras, wearables de sono) vendidos ou entregues no Brasil, com política de privacidade pública.
 - **Fora:** dispositivos médicos e implantes, análise jurídica formal e coleta de dados de usuários.
+
+## Critério de inclusão
+
+Um aparelho entra na amostra quando atende a **todos** os requisitos:
+
+1. Capta sinais cerebrais por **EEG** (aparelhos só de fNIRS ou de estimulação ficam de fora).
+2. É vendido como produto de **consumo** — bem-estar, foco, meditação ou sono — e não como dispositivo médico, implante ou kit de pesquisa.
+3. É **vendido ou entregue no Brasil**, com evidência registrada: anúncio em marketplace brasileiro, menção ao Brasil nas condições de envio da loja oficial ou declaração de envio mundial.
+4. Tem **política de privacidade pública**, acessível sem compra ou cadastro.
+5. Está **à venda** na data da coleta (produtos apenas anunciados ficam de fora).
+
+Todos os candidatos avaliados — incluídos, pendentes e excluídos, com o motivo — estão em [`data/raw/inventario.csv`](data/raw/inventario.csv); as colunas estão descritas em [`docs/dicionario_dados.md`](docs/dicionario_dados.md). Para conferir a consistência do arquivo:
+
+```bash
+python -m src.validar_inventario
+```
 
 ## Método (resumo)
 
