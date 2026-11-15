@@ -100,6 +100,7 @@ Depois, execute os notebooks em ordem (`01` a `04`).
 - Poucos casos: 13 aparelhos de 9 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
 - O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
 - Políticas de privacidade mudam; cada texto é registrado com a data de coleta.
+- A régua de critérios está na versão 0.9 e aguarda revisão por profissional de Direito digital; a avaliação das políticas só começa depois dessa revisão.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
 ## Licença
