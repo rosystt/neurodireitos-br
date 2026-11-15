@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Próxima etapa: Fase 2 (régua de critérios).
+**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado.
 
 ## Pergunta de pesquisa
 
@@ -93,13 +93,21 @@ Para as etapas que usam o grafo, crie uma instância gratuita no [Neo4j AuraDB](
 python -m src.conexao_neo4j
 ```
 
-Depois, execute os notebooks em ordem (`01` a `04`).
+Depois, execute os notebooks em ordem (`01` a `04`). O `01_coleta` baixa as políticas de novo, com a data do dia no nome dos arquivos; para reproduzir a análise com os mesmos textos, use os que já estão em `data/raw/politicas/`.
+
+Para conferir os dados depois de cada etapa:
+
+```bash
+python -m src.validar_inventario
+python -m src.validar_coleta
+```
 
 ## Limitações
 
 - Poucos casos: 13 aparelhos de 9 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
 - O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
-- Políticas de privacidade mudam; cada texto é registrado com a data de coleta.
+- Políticas de privacidade mudam; cada texto é registrado com a data de coleta e o hash do arquivo baixado. A análise vale para as versões coletadas em 15/11/2026.
+- A política de um dos fabricantes existe apenas em chinês.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
 ## Licença
