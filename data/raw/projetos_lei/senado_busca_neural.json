@@ -1,0 +1,16 @@
+{
+  "PesquisaBasicaMateria": {
+    "Metadados": {
+      "Versao": "15/11/2026 01:47:41",
+      "VersaoServico": "7",
+      "DataVersaoServico": "2021-08-18",
+      "DescricaoDataSet": "Retorna as matérias que satisfazem aos parâmetros informados",
+      "Descontinuacao": {
+        "DataDepreciacao": "2025-03-18",
+        "DataDesativacaoCompleta": "2026-02-01",
+        "UrlServicoSubstituto": "https://legis.senado.leg.br/dadosabertos/processo"
+      }
+    }
+  },
+  "coletado_em_utc": "2026-11-15T04:49:00+00:00"
+}
