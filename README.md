@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Próxima etapa: Fase 2 (régua de critérios).
+**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) em curso: [régua com 12 critérios](docs/criterios.md) proposta, aguardando revisão jurídica.
 
 ## Pergunta de pesquisa
 
@@ -51,7 +51,7 @@ python -m src.validar_inventario
 ## Método (resumo)
 
 1. Inventário dos aparelhos e das políticas de privacidade.
-2. Régua de critérios fechada **antes** da avaliação, com base na LGPD, no PL 522/22 e nas leis do Colorado, da Califórnia e do Chile.
+2. [Régua de critérios](docs/criterios.md) fechada **antes** da avaliação, com base na LGPD, no PL 522/22 e nas leis do Colorado, da Califórnia e do Chile: 12 perguntas respondidas com `sim`, `nao` ou `nao_menciona`, somando até 25 pontos.
 3. Coleta e limpeza dos textos das políticas e dos projetos de lei (APIs de Dados Abertos da Câmara e do Senado).
 4. Avaliação: padrão-ouro manual em 3 políticas, classificação das demais com LLM e medição da concordância entre os dois.
 5. Carga em grafo no Neo4j e consultas Cypher que respondem às hipóteses.
