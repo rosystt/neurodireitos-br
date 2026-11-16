@@ -1,0 +1,20 @@
+id,nome,tipo,id_empresa,grupo,canal_venda_br,url_evidencia_venda,preco_referencia,moeda,data_coleta
+A01,Muse 2,headband,P01,brasil,marketplace_br,https://www.mercadolivre.com.br/faixa-de-cabeca-com-sensor-cerebral-muse-2/p/MLB2116678519,249.99,USD,2026-11-15
+A02,Muse S Athena,headband de sono,P01,brasil,marketplace_br,https://www.amazon.com.br/Muse-Brain-Sensing-Headband-Athena/dp/B0G7L2QJZN,474.99,USD,2026-11-15
+A03,MindWave Mobile 2,headset,P02,brasil,marketplace_br,https://www.mercadolivre.com.br/aparelho-neurofeedback-sensor-de-ondas-cerebrais-2bluetooth/up/MLBU3665086708,129.99,USD,2026-11-15
+A04,Insight,headset,P03,brasil,marketplace_br,https://www.mercadolivre.com.br/aparelho-neurofeedback-e-biofeedback-emotiv-insight-5-canais/up/MLBU3354495358,499.00,USD,2026-11-15
+A05,MN8,fones de ouvido,P03,brasil,loja_oficial_cita_brasil,https://www.emotiv.com/shipping,399.00,USD,2026-11-15
+A06,Flowtime,headband,P04,brasil,marketplace_br,https://www.mercadolivre.com.br/aparelho-neurofeedback-sensor-ondas-cerebrais-flowtime/p/MLB2129408028,207.90,USD,2026-11-15
+A07,BrainBit Headband,headband,P05,brasil,loja_oficial_checkout_brasil,https://store.brainbit.com/products/brainbit-sdk,399.00,USD,2026-11-15
+A08,MINDO,headband,P05,brasil,loja_oficial_checkout_brasil,https://store.brainbit.com/products/mindo,499.00,USD,2026-11-15
+A10,BrainLink Lite,headband,P06,brasil,marketplace_br,https://www.mercadolivre.com.br/aparelho-neurofeedback-brainlink-lite-sensor-onda-cerebrais/p/MLB2129844028,,,2026-11-15
+A12,Crown,headset,P07,brasil,loja_oficial_checkout_brasil,https://store.neurosity.co/cart/44411279966259:1,1899.00,USD,2026-11-15
+A13,FocusCalm,headband,P10,comparacao,nao_entrega,https://focuscalm.com/policies/shipping-policy,309.99,USD,2026-11-15
+A14,Neurable One,fones de ouvido,P11,comparacao,nao_entrega,https://checkout.neurable.com/products/neurable-one,499.00,USD,2026-11-15
+A15,Smartbuds,fones de ouvido de sono,P12,comparacao,nao_entrega,https://nextsense.io/,349.00,USD,2026-11-15
+A16,Sens.ai,headset,P08,brasil,loja_oficial_envio_mundial,https://sens.ai/store,1250.00,USD,2026-11-15
+A17,Neuphony,headband,P09,brasil,loja_oficial_envio_mundial,https://www.neuphony.com/product/brain-wearables/neuphony-eeg-headband,,,2026-11-15
+A18,FRENZ Brainband,headband de sono,P14,comparacao,nao_entrega,https://frenzband.com/policies/shipping-policy,,,2026-11-15
+A19,Elemind,headband de sono,P15,comparacao,nao_entrega,https://elemindtech.com/policies/shipping-policy,,,2026-11-15
+A20,Somnee,headband de sono,P13,comparacao,nao_entrega,https://somneesleep.com/policies/shipping-policy,,,2026-11-15
+A24,BrainLink Pro,headband,P06,brasil,marketplace_br,https://www.mercadolivre.com.br/brainlink-pro-sensor-de-ondas-cerebrais-neurofeedback/p/MLB2120726755,,,2026-11-15

@@ -1,0 +1,12 @@
+id,nome,tipo,pais,jurisdicao,status,data_vigencia,cita_dado_neural,url
+LGPD,Lei 13.709/2018 (LGPD),lei,Brasil,federal,vigente,2020-09-18,nao,https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+CO-HB-24-1058,HB 24-1058 (Colorado Privacy Act),lei,Estados Unidos,Colorado,vigente,2024-08-07,sim,https://leg.colorado.gov/bills/hb24-1058
+CA-SB-1223,SB 1223 (CCPA),lei,Estados Unidos,Califórnia,vigente,2025-01-01,sim,https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1223
+CL-LEY-21383,Ley 21.383,emenda constitucional,Chile,nacional,vigente,2021-10-25,sim,https://www.bcn.cl/leychile/navegar?idNorma=1166983
+CL-ROL-105065-2023,"Corte Suprema, Rol 105.065-2023",decisão judicial,Chile,nacional,julgado,2023-08-09,sim,https://desc.scjn.gob.mx/sites/default/files/2025-04/CHI38-Sentencia.pdf
+PL-1221-2021,PL 1221/2021,projeto de lei,Brasil,federal,retirado,,sim,https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2276561
+PL-1229-2021,PL 1229/2021,projeto de lei,Brasil,federal,em_tramitacao,,sim,https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2276604
+PL-522-2022,PL 522/2022,projeto de lei,Brasil,federal,em_tramitacao,,sim,https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2317524
+PL-2174-2023,PL 2174/2023,projeto de lei,Brasil,federal,em_tramitacao,,sim,https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2358605
+PL-6687-2025,PL 6687/2025,projeto de lei,Brasil,federal,em_tramitacao,,sim,https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2599280
+PEC-29-2023,PEC 29/2023,proposta de emenda constitucional,Brasil,federal,em_tramitacao,,sim,https://www25.senado.leg.br/web/atividade/materias/-/materia/158095

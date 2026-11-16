@@ -1,0 +1,13 @@
+id,criterio,pergunta,peso,hipotese
+C01,Categoria específica,A política trata o dado neural como uma categoria própria de dado?,3,H1
+C02,Proteção reforçada,A política dá ao dado neural proteção reforçada em relação aos demais dados pessoais?,3,H1
+C03,Consentimento específico,A política condiciona a coleta e o uso do dado neural a um consentimento específico e destacado do usuário?,3,H3
+C04,Finalidades declaradas,A política declara para quais finalidades específicas o dado neural é usado?,2,H3
+C05,Inferências informadas,A política informa quais inferências sobre o usuário são feitas a partir do dado neural?,2,H3
+C06,Sem venda nem publicidade,A política afirma que o dado neural não é vendido nem usado ou compartilhado para publicidade?,3,H2
+C07,Terceiros identificados,"A política identifica, por nome ou por categoria, os terceiros que recebem o dado neural?",1,H2
+C08,Local de armazenamento,A política informa em que país os dados são armazenados e com que garantias são transferidos para o exterior?,2,H2
+C09,Exclusão a pedido,A política garante ao usuário a exclusão do seu dado neural mediante pedido?,2,H3
+C10,Prazo de retenção,A política informa por quanto tempo o dado neural é guardado ou o critério que define esse prazo?,1,H3
+C11,Uso secundário controlado,A política condiciona o uso do dado neural em pesquisa ou no treinamento de algoritmos a consentimento separado ou à anonimização?,2,H3
+C12,Direitos no Brasil,A política reconhece os direitos previstos na LGPD ou indica um canal de atendimento para titulares no Brasil?,1,H3
