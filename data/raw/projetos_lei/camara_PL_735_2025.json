@@ -1,0 +1,93 @@
+{
+  "coletado_em_utc": "2026-11-15T04:48:59+00:00",
+  "detalhes": {
+    "id": 2485846,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2485846",
+    "siglaTipo": "PL",
+    "codTipo": 139,
+    "numero": 735,
+    "ano": 2025,
+    "ementa": "Dispõe sobre a identificação precoce de defeitos do tubo neural em recém-nascidos, em especial a lipomielomeningocele.",
+    "dataApresentacao": "2025-02-28T14:16",
+    "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+    "statusProposicao": {
+      "dataHora": "2025-10-15T19:49",
+      "sequencia": 30,
+      "siglaOrgao": "CFT",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010",
+      "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178966",
+      "regime": "Ordinário (Art. 151, III, RICD)",
+      "descricaoTramitacao": "Recebimento",
+      "codTipoTramitacao": "500",
+      "descricaoSituacao": "Aguardando Designação de Relator(a)",
+      "codSituacao": 907,
+      "despacho": "Recebimento pela CFT.",
+      "url": null,
+      "ambito": "Regimental",
+      "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II"
+    },
+    "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2485846/autores",
+    "descricaoTipo": "Projeto de Lei",
+    "ementaDetalhada": "",
+    "keywords": "Diagnóstico precoce, defeito, tubo neural, lipomielomeningocele, obrigatoriedade, notificação, pré-natal, recém-nascido, Sistema Único de Saúde (SUS), ácido fólico, data comemorativa, dia nacional, novembro.",
+    "uriPropPrincipal": null,
+    "uriPropAnterior": null,
+    "uriPropPosterior": null,
+    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2862502",
+    "urnFinal": null,
+    "texto": null,
+    "justificativa": null
+  },
+  "autores": [
+    {
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220557",
+      "nome": "Daniela Reinehr",
+      "codTipo": 10000,
+      "tipo": "Deputado(a)",
+      "ordemAssinatura": 1,
+      "proponente": 1
+    }
+  ],
+  "relacionadas": [
+    {
+      "id": 2572535,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2572535",
+      "siglaTipo": "PAR",
+      "codTipo": "187",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Parecer da Comissão  (CSAUDE) ao PL 735/2025",
+      "dataApresentacao": "2025-10-15T16:44"
+    },
+    {
+      "id": 2545394,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545394",
+      "siglaTipo": "PRL",
+      "codTipo": "190",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Parecer da Relatora, Dep. Geovania de Sá (PSDB-SC), pela aprovação, com substitutivo.",
+      "dataApresentacao": "2025-08-14T09:51"
+    },
+    {
+      "id": 2545400,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545400",
+      "siglaTipo": "SBT",
+      "codTipo": "255",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Dispões sobre a identificação precoce de defeitos do tubo neural em recém-nascidos, em especial a lipomielomeningocele.",
+      "dataApresentacao": "2025-08-14T09:51"
+    },
+    {
+      "id": 2572539,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2572539",
+      "siglaTipo": "SBT-A",
+      "codTipo": "701",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Substitutivo adotado pela Comissão ao PL 735/2025",
+      "dataApresentacao": "2025-10-15T16:24"
+    }
+  ]
+}

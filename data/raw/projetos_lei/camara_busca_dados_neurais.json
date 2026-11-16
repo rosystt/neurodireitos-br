@@ -1,0 +1,46 @@
+{
+  "termo": "dados neurais",
+  "coletado_em_utc": "2026-11-15T04:48:56+00:00",
+  "dados": [
+    {
+      "id": 2276561,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2276561",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 1221,
+      "ano": 2021,
+      "ementa": "Modifica a Lei n° 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), a fim de conceituar dado neural e regulamentar a sua proteção.",
+      "dataApresentacao": "2021-04-06T09:02"
+    },
+    {
+      "id": 2276604,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2276604",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 1229,
+      "ano": 2021,
+      "ementa": "Modifica a Lei n° 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), a fim de conceituar dado neural e regulamentar a sua proteção.",
+      "dataApresentacao": "2021-04-06T11:53"
+    },
+    {
+      "id": 2317524,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317524",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 522,
+      "ano": 2022,
+      "ementa": "Modifica a Lei n° 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), a fim de conceituar dado neural e regulamentar a sua proteção.",
+      "dataApresentacao": "2022-03-09T20:02"
+    },
+    {
+      "id": 2599280,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2599280",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 6687,
+      "ano": 2025,
+      "ementa": "Altera a Lei nº 13.709/2018 para incluir os dados neurais no rol de dados pessoais sensíveis, definir parâmetros técnicos para seu tratamento, estabelecer regras especiais para coleta, uso, armazenamento e descarte, vedar usos abusivos no trabalho e na educação, criar exceções médicas, científicas e de acessibilidade, atribuir competência regulatória à ANPD e dar outras providências.",
+      "dataApresentacao": "2025-12-22T17:15"
+    }
+  ]
+}

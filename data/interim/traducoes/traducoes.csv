@@ -1,0 +1,2 @@
+id_documento,arquivo_original,sha256_original,idioma_original,arquivo_traducao,idioma_traducao,metodo,modelo,data_traducao,revisao_humana,observacoes
+P06-1,P06-1.txt,ebac60dabc768b59760f61d1e96b23a152094798ceaae5622bdc9f10fa1fcee7,zh,P06-1_pt.txt,pt,traducao_automatica_llm,claude-fable-5-2,2026-11-15,nao,Tradução alinhada linha a linha com o original. Na linha 12 o original traz 手机 (celular) onde o sentido pede 收集 (coletar); traduzido pelo sentido.

@@ -1,0 +1,56 @@
+# BrainCo FocusCalm Digital Application Privacy Policy Notice
+Version: 2.0 dated September 7, 2025
+BrainCo develops applications and devices that collect data to improve learning processes and/or train attentive relaxation abilities. Our products create a personalized experience by using certain personal data to provide analysis and insights directly to the individual customer.
+The FocusCalm device collects EEG and IMU signals during use. The FocusCalm application processes these raw signals locally on your device in the FocusCalm mobile app to generate several scores that reflect your meditation state. Neither EEG nor IMU raw data is transmitted to BrainCo servers. Only the computed Meditation Scores and Training History are transmitted, solely for the purpose of helping you visualize and evaluate your meditation training. The computed scores do not contain raw EEG or IMU signals and cannot be used to reconstruct the original biometric signals.
+Protecting your privacy and securing your data is a top priority. This Privacy Notice provides information on how the FocusCalm application processes data and is organized into eight sections:
+Purpose of Data Processing
+How We Get Data
+Data We Process
+Legal Basis for Data Processing
+Use of Data After Processing
+Rights of the Individual
+Contacting BrainCo
+Updates to this Privacy Policy Notice
+# 1. Purpose of Data Processing
+The FocusCalm application uses data retrieved through the BrainCo headband to calculate the levels of calmness an individual has to help improve their ability to concentrate, increase productivity and enhance skills that aid relaxation.
+# 2. How We Get Data
+Data is received from the headband (EEG signals processed locally on the device) and from data that is entered into the application by the user.
+When the application is used, limited non-biometric data is retrieved from our servers to provide historical data and to make sure that a user’s account is accessed in a secure manner.
+# 3. Data We Process
+Category
+Direct/Indirect Personal Data
+Description
+Purpose
+Profile Information
+Direct
+We collect information about the individual using the application such as a nickname the user assigns themselves, gender, date of birth, and email address. The application will assign a userID that connects to an email address entered. We store all data in this category on both the application on the user’s smart device and in BrainCo’s cloud-based servers. Users also have the option of uploading an optional picture to the app. This picture allows users to personalize the application. The picture is not further processed.
+We collect these data to allow the user to secure their app, for the app to authenticate identity for use, and to allow a personal touch to users interacting with the application.
+EEG and IMU Data
+Direct
+All EEG data remains strictly within the FocusCalm application on the user’s smart device. This data is not transmitted to BrainCo’s servers or outside the device. All raw EEG and IMU data is automatically purged from the application at the conclusion of each session.
+EEG data is used within the FocusCalm application to assign metrics that indicate levels of calmness in the application.
+Brain Games: These include memory tests and focus test
+Indirect
+Information is collected as the user plays the games to obtain the attentiveness and after the user is done playing the game you see a score with the number of questions answered correctly and your relaxation level as measured by the headband.
+To provide feedback to the user about your attentiveness, and try to identify the user’s feeling of calm.
+# 4. Legal Basis for Data Processing
+Data is processed through the FocusCalm application for clients as outlined in the FocusCalm terms of service. By using the FocusCalm application, the user is agreeing to the processing of their personal data by BrainCo on their behalf in order for the user to interact with the application.
+BrainCo will not process data for anyone under the age of 13 years of age (or higher threshold required by local law).
+BrainCo will not process data on behalf of an employer such that any data sharing agreement would allow for said employer to gain access to specific employee data.
+# 5. Use of Data After Processing
+All the data collected and processed, with the exception of EEG data, is stored on BrainCo’s servers.
+BrainCo does not sell data to any individual or entity.
+Non-biometric personal data may be retained as long as the account is active or as legally required, but not longer than necessary.
+# 6. Rights of the Individual
+Right to Know: BrainCo will keep you informed of any changes to this privacy notice, and you may reach out to use with questions regarding how your data is collected, used, and stored. Please contact us as outlined in number seven below.
+Right to File Complaint: If you have any concerns about how your data is being processed by our website or questions about your right to restrict processing (where applicable), please contact us as outlined in number seven below.
+Right to Access: You have a right to access the information that BrainCo stores through our website. Most of this information can be viewed by logging into the application itself. Should you require additional information about what BrainCo is storing, please contact us as outlined in number seven below.
+Right to Data Portability: Users of our website have a right to request any data that is directly connected to them and generated through the application to be provided when requested. Please contact us as outlined in number seven below.
+Right to Rectify: If the user of our website feels that any data that is stored is incorrect and they cannot make corrections on their own, please contact us as outlined in number seven below.
+Right to be Forgotten: Should a user of our website no longer wish to have data previously submitted through the application to be stored by BrainCo, please contact us as outlined in number seven below.
+# 7. Contacting BrainCo
+Questions about how personal data is processed, used, and stored can be directed to privacy@brainco.tech
+BrainCo Privacy
+120 Beacon Street Ste 201, Somerville MA, 02143 USA
+# 8. Updates to this Privacy Policy Notice
+BrainCo may update this Privacy Policy from time to time. Significant changes will be posted within the FocusCalm application and on the FocusCalm website: https://focuscalm.com/pages/privacy-policy

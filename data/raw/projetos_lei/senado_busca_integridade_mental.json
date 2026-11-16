@@ -1,0 +1,58 @@
+{
+  "PesquisaBasicaMateria": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/PesquisaBasicaMateriav7.xsd",
+    "Metadados": {
+      "Versao": "15/11/2026 01:46:55",
+      "VersaoServico": "7",
+      "DataVersaoServico": "2021-08-18",
+      "DescricaoDataSet": "Retorna as matérias que satisfazem aos parâmetros informados",
+      "Descontinuacao": {
+        "DataDepreciacao": "2025-03-18",
+        "DataDesativacaoCompleta": "2026-02-01",
+        "UrlServicoSubstituto": "https://legis.senado.leg.br/dadosabertos/processo"
+      }
+    },
+    "Materias": {
+      "Materia": [
+        {
+          "Codigo": "174974",
+          "IdentificacaoProcesso": "9078743",
+          "DescricaoIdentificacao": "REQ 76/2026 - CI",
+          "Sigla": "REQ",
+          "Numero": "00076",
+          "Ano": "2026",
+          "SiglaComissao": "CI",
+          "Ementa": "Requer a realização de audiência pública para instrução do PL 4812/2025.",
+          "Autor": "Senador Weverton (PDT/MA), Senador Rogério Carvalho (PT/SE)",
+          "Data": "2026-07-08",
+          "UrlDetalheMateria": "https://legis.senado.leg.br/dadosabertos/materia/174974"
+        },
+        {
+          "Codigo": "175325",
+          "IdentificacaoProcesso": "9089834",
+          "DescricaoIdentificacao": "PL 4850/2026",
+          "Sigla": "PL",
+          "Numero": "04850",
+          "Ano": "2026",
+          "Ementa": "Institui a Política Nacional de Proteção dos Profissionais da Educação e, no âmbito do Sistema Nacional de Acompanhamento e Combate à Violência nas Escolas (SNAVE), o Observatório Nacional da Violência contra Profissionais da Educação; e altera as Leis nº 9.394, de 20 de dezembro de 1996, nº 8.069, de 13 de julho de 1990, nº 13.185, de 6 de novembro de 2015, e nº 14.817, de 16 de janeiro de 2024.",
+          "Autor": "Senadora Leila Barros (PDT/DF)",
+          "Data": "2026-07-31",
+          "UrlDetalheMateria": "https://legis.senado.leg.br/dadosabertos/materia/175325"
+        },
+        {
+          "Codigo": "175428",
+          "IdentificacaoProcesso": "9094178",
+          "DescricaoIdentificacao": "PL 5019/2026",
+          "Sigla": "PL",
+          "Numero": "05019",
+          "Ano": "2026",
+          "Ementa": "Institui o Dia Nacional de Proteção Integral dos Estudantes Infantojuvenis e a Semana Nacional de Mobilização para Segurança e Fiscalização de Ambientes Escolares e Recreativos.",
+          "Autor": "Senador Ciro Nogueira (PP/PI)",
+          "Data": "2026-08-12",
+          "UrlDetalheMateria": "https://legis.senado.leg.br/dadosabertos/materia/175428"
+        }
+      ]
+    }
+  },
+  "coletado_em_utc": "2026-11-15T04:49:00+00:00"
+}

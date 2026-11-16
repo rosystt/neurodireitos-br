@@ -1,0 +1,20 @@
+# EMOTIV Consumer Health Data Privacy Policy
+Effective Date: November 9, 2026
+This Consumer Health Data Privacy Policy of EMOTIV, Inc. ("EMOTIV") applies solely to non-HIPAA health, cognitive wellness, and neural metrics collected from residents of jurisdictions with specific consumer health privacy statutes (including Washington and Nevada).
+# Categories of Consumer Health Data Collected:
+Raw electrical biosignals, central or peripheral nervous system telemetry, and EEG data.
+Derived cognitive performance metrics (e.g., Focus, Attention, Cognitive Stress, Cognitive Load, Fatigue, Readiness, and Brain Age).
+Facial expression artifacts and eye movement telemetry.
+Voluntary health-related survey responses provided during research experiments.
+# Sources of Consumer Health Data
+We collect Consumer Health Data directly from you when you connect an EMOTIV headset, interact with our Software or Applications, or participate in Experiments.
+# Purpose of Collection and Processing
+We collect and process Consumer Health Data to: (i) operate your neuroheadset and software; (ii) deliver personalized cognitive metrics and requested features (such as Emotiv-IQ™); (iii) with your consent, improve our Services and algorithms; and (iv) subject to your explicit opt-in consent, aggregate and pool pseudonymized telemetry to train our Large Brain Model (LBM).
+# Sharing of Consumer Health Data
+EMOTIV does not sell Consumer Health Data or Neural Data to third parties. We share Consumer Health Data only: (i) with third-party service providers bound by Data Processing Addenda solely to support app infrastructure; (ii) with third-party researchers or applications where you explicitly authorize us to transfer your data; (iii) with our affiliates Emotiv Research Pty Ltd (Australia) and Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam), solely to support the operation of our Services; (iv) as necessary to comply with legal obligations; or (v) through services powered by our Large Brain Model, where partners receive model outputs on their own data and do not receive your Consumer Health Data. The categories shared are: with service providers and our affiliates, the categories in section 1 that they need to support our Services; with researchers or applications you authorize, the categories you choose to share; and for legal compliance, the categories the law requires.
+# Your Rights & Appeal Process
+You have the right to confirm collection, access, correct, or request deletion of your Consumer Health Data, or withdraw consent for health data processing. You may exercise these rights by contacting privacy@emotiv.com. If we decline to take action on your request, you may appeal our decision by emailing privacy@emotiv.com with the subject line "Consumer Health Privacy Appeal". If we deny your appeal, you may submit a complaint to the Washington State Attorney General at https://www.atg.wa.gov/file-complaint. You may also request a list of all third parties and affiliates with whom we have shared your Consumer Health Data, with their contact details. When we delete your data, we tell our service providers and any third parties that received it, and we delete it from our backups within six months.
+# Changes to this Policy
+If we make material changes to this Policy, we will post the updated Policy on this page with a new effective date and notify you by email or in the app before the changes apply to you.
+# Third-Party Tracking
+We do not allow third parties to collect your Consumer Health Data through our Services to track your activity over time or across other websites or online services without your consent, and we are not aware of any third party doing so. If you consent to share your data with a third-party app, that app's own privacy policy governs how it uses your data.

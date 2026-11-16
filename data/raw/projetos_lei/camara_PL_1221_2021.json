@@ -1,0 +1,63 @@
+{
+  "coletado_em_utc": "2026-11-15T04:48:56+00:00",
+  "detalhes": {
+    "id": 2276561,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2276561",
+    "siglaTipo": "PL",
+    "codTipo": 139,
+    "numero": 1221,
+    "ano": 2021,
+    "ementa": "Modifica a Lei n° 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais), a fim de conceituar dado neural e regulamentar a sua proteção.",
+    "dataApresentacao": "2021-04-06T09:02",
+    "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+    "statusProposicao": {
+      "dataHora": "2021-04-30T00:00",
+      "sequencia": 8,
+      "siglaOrgao": "CCP",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+      "uriUltimoRelator": null,
+      "regime": ".",
+      "descricaoTramitacao": "Publicação de Proposição",
+      "codTipoTramitacao": "604",
+      "descricaoSituacao": "Retirado pelo(a) Autor(a)",
+      "codSituacao": 950,
+      "despacho": "Encaminhada à publicação. Publicação Inicial no DCD de 01/05/21 PÅG 38",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2012606",
+      "ambito": "Regimental",
+      "apreciacao": "Indefinida"
+    },
+    "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2276561/autores",
+    "descricaoTipo": "Projeto de Lei",
+    "ementaDetalhada": "",
+    "keywords": "Alteração, Lei Geral de Proteção de Dados Pessoais (LGPDP), conceituação, dados neurais, regulamentação, proteção, tratamento de dados.",
+    "uriPropPrincipal": null,
+    "uriPropAnterior": null,
+    "uriPropPosterior": null,
+    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1985277",
+    "urnFinal": null,
+    "texto": null,
+    "justificativa": null
+  },
+  "autores": [
+    {
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178993",
+      "nome": "Carlos Henrique Gaguim",
+      "codTipo": 10000,
+      "tipo": "Deputado(a)",
+      "ordemAssinatura": 1,
+      "proponente": 1
+    }
+  ],
+  "relacionadas": [
+    {
+      "id": 2276598,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2276598",
+      "siglaTipo": "REQ",
+      "codTipo": "319",
+      "numero": "687",
+      "ano": "2021",
+      "ementa": "Requer, nos termos do art. 104 do Regimento Interno desta Casa, a retirada de tramitação do Projeto de Lei 1221, de 2021, de minha autoria.",
+      "dataApresentacao": "2021-04-06T11:44"
+    }
+  ]
+}

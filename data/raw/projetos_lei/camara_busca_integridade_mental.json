@@ -1,0 +1,16 @@
+{
+  "termo": "integridade mental",
+  "coletado_em_utc": "2026-11-15T04:48:56+00:00",
+  "dados": [
+    {
+      "id": 2358605,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358605",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 2174,
+      "ano": 2023,
+      "ementa": "Estabelece as normas e princípios para proteção dos direitos fundamentais relacionados ao cérebro e ao sistema nervoso humano, objetivando garantir a proteção e promoção dos neurodireitos dos indivíduos.",
+      "dataApresentacao": "2023-04-26T18:04"
+    }
+  ]
+}
