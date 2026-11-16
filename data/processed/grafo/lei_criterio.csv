@@ -1,0 +1,39 @@
+id_lei,id_criterio,dispositivo
+PL-522-2022,C01,"art. 5º, XX (proposto)"
+CO-HB-24-1058,C01,C.R.S. 6-1-1303 (neural data)
+CA-SB-1223,C01,Civ. Code 1798.140 (neural data)
+CL-LEY-21383,C01,"Constituição, art. 19, nº 1"
+LGPD,C02,"arts. 5º, II, e 11 (por analogia com dado de saúde e biométrico)"
+PL-522-2022,C02,"art. 5º, II (proposto)"
+CO-HB-24-1058,C02,C.R.S. 6-1-1303 (sensitive data)
+CA-SB-1223,C02,Civ. Code 1798.140 (sensitive personal information)
+CL-LEY-21383,C02,"Constituição, art. 19, nº 1"
+LGPD,C03,"art. 11, I (se o dado for tratado como sensível)"
+PL-522-2022,C03,"art. 13-A, I (proposto)"
+CO-HB-24-1058,C03,C.R.S. 6-1-1308(7)
+LGPD,C04,"arts. 6º, I, e 9º, I"
+PL-522-2022,C04,"art. 13-A, I (proposto)"
+CO-HB-24-1058,C04,C.R.S. 6-1-1308(2)
+CA-SB-1223,C04,Civ. Code 1798.100(a)
+LGPD,C05,"arts. 6º, VI, e 9º"
+PL-522-2022,C05,"art. 5º, XX (proposto)"
+LGPD,C06,"art. 11, § 3º"
+PL-522-2022,C06,art. 13-C (proposto)
+CO-HB-24-1058,C06,C.R.S. 6-1-1306(1)(a) e 6-1-1308(7)
+CA-SB-1223,C06,Civ. Code 1798.120 e 1798.121
+LGPD,C07,"arts. 9º, V, e 18, VII"
+CO-HB-24-1058,C07,C.R.S. 6-1-1308(1)
+CA-SB-1223,C07,Civ. Code 1798.110
+LGPD,C08,arts. 33 a 36
+LGPD,C09,"art. 18, VI"
+CO-HB-24-1058,C09,C.R.S. 6-1-1306(1)(d)
+CA-SB-1223,C09,Civ. Code 1798.105
+CL-ROL-105065-2023,C09,"Corte Suprema, Rol 105.065-2023"
+LGPD,C10,"arts. 9º, II, 15 e 16"
+CA-SB-1223,C10,Civ. Code 1798.100(a)(3)
+LGPD,C11,"arts. 6º, I, e 11, II, c"
+PL-522-2022,C11,"art. 13-A, II, a (proposto)"
+CO-HB-24-1058,C11,C.R.S. 6-1-1308(4)
+CA-SB-1223,C11,Civ. Code 1798.100(c)
+CL-ROL-105065-2023,C11,"Corte Suprema, Rol 105.065-2023"
+LGPD,C12,"arts. 3º, 18 e 41"

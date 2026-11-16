@@ -149,3 +149,33 @@ Codificação UTF-8, separador vírgula. Uma coluna de fonte vazia significa que
 | `fonte_colorado` | texto | Dispositivos do Colorado Privacy Act (com a redação do HB 24-1058). | Fontes secundárias, a conferir na revisão jurídica |
 | `fonte_california` | texto | Dispositivos do CCPA (com a redação do SB 1223). | Fontes secundárias, a conferir na revisão jurídica |
 | `fonte_chile` | texto | Norma ou decisão chilena que embasa o critério. | Texto da lei e fontes secundárias |
+
+## `data/raw/leis_referencia.csv`
+
+Uma linha por norma de referência da régua, preenchida à mão a partir das fontes citadas em [`criterios.md`](criterios.md). As proposições brasileiras não ficam aqui: vêm de `data/interim/projetos_lei.csv`.
+
+| Coluna | Tipo | Descrição | Origem |
+|---|---|---|---|
+| `id` | texto | Identificador da norma (`LGPD`, `CO-HB-24-1058`…). | Atribuído no projeto |
+| `nome` | texto | Nome usual da norma. | Texto da norma |
+| `tipo` | categoria | `lei`, `emenda constitucional` ou `decisão judicial`. | Classificação do projeto |
+| `pais` | texto | País da norma. | Texto da norma |
+| `jurisdicao` | texto | `federal`, `nacional` ou o estado, no caso de leis estaduais. | Texto da norma |
+| `status` | categoria | `vigente` ou, para decisão judicial, `julgado`. | Verificado em 15/11/2026 |
+| `data_vigencia` | data | Data de início da vigência ou do julgamento (`AAAA-MM-DD`). | Texto da norma e fontes secundárias |
+| `cita_dado_neural` | categoria | `sim` se a norma trata expressamente de dado neural ou atividade cerebral; `nao` caso contrário. | Leitura da norma |
+| `url` | URL | Endereço da norma. | Site oficial ou repositório que a reproduz |
+
+## `data/processed/grafo/`
+
+Tabelas de nós e de relações do grafo, geradas por `python -m src.preparar_grafo` a partir do inventário, da lista de políticas, das leis e da régua. Nenhuma é editada à mão. O significado de cada rótulo e relação está em [`modelo_grafo.md`](modelo_grafo.md).
+
+| Arquivo | Uma linha por | Colunas | Origem |
+|---|---|---|---|
+| `paises.csv` | país | `nome` | Sedes das empresas, países das leis e Brasil |
+| `empresas.csv` | fabricante incluído | `id_empresa` (igual a `id_politica`), `nome`, `pais_sede`, `grupo`, `url_politica` | `inventario.csv` e `fontes_politicas.csv` |
+| `aparelhos.csv` | aparelho incluído | `id`, `nome`, `tipo`, `id_empresa`, `grupo`, `canal_venda_br`, `url_evidencia_venda`, `preco_referencia`, `moeda`, `data_coleta` | `inventario.csv` |
+| `leis.csv` | norma ou proposição | as colunas de `leis_referencia.csv`; para proposições, `status` vale `em_tramitacao` ou `retirado` | `leis_referencia.csv` e `projetos_lei.csv` (só as que tratam do tema) |
+| `criterios.csv` | critério | `id`, `criterio`, `pergunta`, `peso`, `hipotese` | `data/processed/criterios.csv` |
+| `lei_criterio.csv` | norma que fundamenta um critério | `id_lei`, `id_criterio`, `dispositivo` | Colunas `fonte_*` de `criterios.csv` |
+
