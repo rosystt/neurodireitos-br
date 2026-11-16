@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) em curso: [régua com 12 critérios](docs/criterios.md) proposta, aguardando revisão jurídica. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado. Fase 5 (grafo) iniciada: a [parte fixa do grafo](docs/modelo_grafo.md) — empresas, aparelhos, países, leis e critérios — está carregada no Neo4j.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) concluída: [régua com 12 critérios](docs/criterios.md) congelada na versão 1.0, com revisão jurídica prevista para o fim do projeto. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado. Fase 5 (grafo) iniciada: a [parte fixa do grafo](docs/modelo_grafo.md) — empresas, aparelhos, países, leis e critérios — está carregada no Neo4j.
 
 ## Pergunta de pesquisa
 
@@ -116,7 +116,7 @@ python -m src.grafo
 - O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
 - Políticas de privacidade mudam; cada texto é registrado com a data de coleta e o hash do arquivo baixado. A análise vale para as versões coletadas em 15/11/2026.
 - A política de um dos fabricantes existe apenas em chinês. A tradução para o português foi feita por modelo de linguagem e não foi revisada por pessoa fluente em chinês.
-- A régua de critérios está na versão 0.9 e aguarda revisão por profissional de Direito digital; a avaliação das políticas só começa depois dessa revisão.
+- A régua de critérios (versão 1.0) foi congelada antes da leitura das políticas, mas ainda não passou por revisão de profissional de Direito digital. A revisão está prevista para o fim do projeto; se ela alterar a régua, todas as políticas serão reavaliadas.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
 ## Licença

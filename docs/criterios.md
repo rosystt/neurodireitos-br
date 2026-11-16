@@ -1,6 +1,6 @@
 # Régua de critérios
 
-**Versão 0.9 — proposta, aguardando revisão jurídica.** A régua só passa a valer para a avaliação depois de revisada por alguém de Direito digital e congelada como versão 1.0 (ver [Congelamento](#congelamento)).
+**Versão 1.0 — congelada em 15/11/2026.** Esta versão ainda não passou por revisão jurídica: a revisão por alguém de Direito digital está prevista para o fim do projeto (ver [Congelamento](#congelamento)).
 
 Esta régua mede o que cada política de privacidade **declara** sobre dados neurais. Ela foi escrita antes da leitura das políticas, para que os critérios não sejam ajustados aos resultados.
 
@@ -204,7 +204,7 @@ Situação verificada em 15/11/2026.
 | Ley 21.383 | Chile | Em vigor desde 25/10/2021 | Emenda constitucional que manda proteger a atividade cerebral e a informação proveniente dela. |
 | Corte Suprema, Rol 105.065-2023 | Chile | Julgado em 09/08/2023 | Ordenou a uma fabricante de EEG de consumo a eliminação dos dados cerebrais de um usuário. |
 
-Os dispositivos do PL 522/2022 foram lidos no texto integral do projeto. As citações de artigos das leis estrangeiras vêm de fontes secundárias e ainda precisam ser conferidas no texto oficial — é um dos pontos da revisão jurídica.
+Os dispositivos do PL 522/2022 foram lidos no texto integral do projeto. As citações de artigos das leis estrangeiras vêm de fontes secundárias e ainda precisam ser conferidas no texto oficial — é um dos pontos da revisão jurídica, prevista para o fim do projeto.
 
 Fontes:
 
@@ -224,8 +224,9 @@ Fontes:
 
 ## Congelamento
 
-1. A revisão jurídica gera ajustes nesta versão 0.9.
-2. Fechados os ajustes, o documento vira versão 1.0 e o commit recebe a tag `criterios-v1.0` no Git.
-3. A partir daí a régua não muda durante a avaliação. Qualquer alteração posterior exige nova versão, justificativa registrada aqui e reavaliação de **todas** as políticas.
+1. A versão 1.0 foi congelada em 15/11/2026, antes da avaliação de qualquer política, e está marcada no Git com a tag `criterios-v1.0`.
+2. A régua não muda durante a avaliação.
+3. A revisão jurídica acontece no fim do projeto. O plano inicial previa a revisão antes do congelamento; a ordem foi invertida para não interromper o trabalho, e a consequência está registrada nas limitações do README.
+4. Se a revisão apontar erro em algum critério, peso ou citação, a régua ganha nova versão, com a justificativa registrada aqui, e **todas** as políticas são reavaliadas com ela. Os resultados da versão 1.0 ficam preservados no histórico para comparação.
 
 A versão em tabela, usada pelo código e pelo grafo, está em [`data/processed/criterios.csv`](../data/processed/criterios.csv). `python -m src.validar_criterios` confere se ela e este documento estão de acordo.
