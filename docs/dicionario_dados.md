@@ -131,3 +131,21 @@ Uma linha por proposição encontrada nas buscas, inclusive as que não tratam d
 | `trata_do_tema` | categoria | `sim` se a ementa fala de dados ou direitos ligados ao cérebro (expressão `PADRAO_TEMA`); `nao` para resultados que só usam o termo de passagem. | Calculado |
 | `data_coleta` | data | Data da consulta à API. | Registro do projeto |
 
+## `data/processed/criterios.csv`
+
+Uma linha por critério da régua de avaliação. É a versão em tabela de [`criterios.md`](criterios.md), usada pelo código e pela carga do grafo (nós `:Criterio`). A coerência entre os dois é verificada por `python -m src.validar_criterios`.
+
+Codificação UTF-8, separador vírgula. Uma coluna de fonte vazia significa que aquela norma não foi usada como base do critério.
+
+| Coluna | Tipo | Descrição | Origem |
+|---|---|---|---|
+| `id` | texto | Identificador do critério (`C01` a `C12`). | Atribuído no projeto |
+| `criterio` | texto | Nome curto do critério. | `docs/criterios.md` |
+| `pergunta` | texto | Pergunta respondida para cada política com `sim`, `nao` ou `nao_menciona`. | `docs/criterios.md` |
+| `peso` | inteiro | Peso do critério na nota, de 1 a 3. | `docs/criterios.md` |
+| `hipotese` | categoria | Hipótese do projeto que o critério ajuda a testar: `H1`, `H2` ou `H3`. | `docs/criterios.md` |
+| `fonte_lgpd` | texto | Dispositivos da Lei 13.709/2018 que embasam o critério. | Texto da lei |
+| `fonte_pl_522` | texto | Dispositivos propostos pelo PL 522/2022. | Texto integral do projeto |
+| `fonte_colorado` | texto | Dispositivos do Colorado Privacy Act (com a redação do HB 24-1058). | Fontes secundárias, a conferir na revisão jurídica |
+| `fonte_california` | texto | Dispositivos do CCPA (com a redação do SB 1223). | Fontes secundárias, a conferir na revisão jurídica |
+| `fonte_chile` | texto | Norma ou decisão chilena que embasa o critério. | Texto da lei e fontes secundárias |
