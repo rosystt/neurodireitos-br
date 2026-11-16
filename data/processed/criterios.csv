@@ -1,0 +1,13 @@
+id,criterio,pergunta,peso,hipotese,fonte_lgpd,fonte_pl_522,fonte_colorado,fonte_california,fonte_chile
+C01,Categoria específica,A política trata o dado neural como uma categoria própria de dado?,3,H1,,"art. 5º, XX (proposto)","C.R.S. 6-1-1303 (neural data)","Civ. Code 1798.140 (neural data)","Constituição, art. 19, nº 1"
+C02,Proteção reforçada,A política dá ao dado neural proteção reforçada em relação aos demais dados pessoais?,3,H1,"arts. 5º, II, e 11 (por analogia com dado de saúde e biométrico)","art. 5º, II (proposto)","C.R.S. 6-1-1303 (sensitive data)","Civ. Code 1798.140 (sensitive personal information)","Constituição, art. 19, nº 1"
+C03,Consentimento específico,A política condiciona a coleta e o uso do dado neural a um consentimento específico e destacado do usuário?,3,H3,"art. 11, I (se o dado for tratado como sensível)","art. 13-A, I (proposto)","C.R.S. 6-1-1308(7)",,
+C04,Finalidades declaradas,A política declara para quais finalidades específicas o dado neural é usado?,2,H3,"arts. 6º, I, e 9º, I","art. 13-A, I (proposto)","C.R.S. 6-1-1308(2)","Civ. Code 1798.100(a)",
+C05,Inferências informadas,A política informa quais inferências sobre o usuário são feitas a partir do dado neural?,2,H3,"arts. 6º, VI, e 9º","art. 5º, XX (proposto)",,,
+C06,Sem venda nem publicidade,A política afirma que o dado neural não é vendido nem usado ou compartilhado para publicidade?,3,H2,"art. 11, § 3º","art. 13-C (proposto)","C.R.S. 6-1-1306(1)(a) e 6-1-1308(7)","Civ. Code 1798.120 e 1798.121",
+C07,Terceiros identificados,"A política identifica, por nome ou por categoria, os terceiros que recebem o dado neural?",1,H2,"arts. 9º, V, e 18, VII",,"C.R.S. 6-1-1308(1)","Civ. Code 1798.110",
+C08,Local de armazenamento,A política informa em que país os dados são armazenados e com que garantias são transferidos para o exterior?,2,H2,arts. 33 a 36,,,,
+C09,Exclusão a pedido,A política garante ao usuário a exclusão do seu dado neural mediante pedido?,2,H3,"art. 18, VI",,"C.R.S. 6-1-1306(1)(d)","Civ. Code 1798.105","Corte Suprema, Rol 105.065-2023"
+C10,Prazo de retenção,A política informa por quanto tempo o dado neural é guardado ou o critério que define esse prazo?,1,H3,"arts. 9º, II, 15 e 16",,,"Civ. Code 1798.100(a)(3)",
+C11,Uso secundário controlado,"A política condiciona o uso do dado neural em pesquisa ou no treinamento de algoritmos a consentimento separado ou à anonimização?",2,H3,"arts. 6º, I, e 11, II, c","art. 13-A, II, a (proposto)","C.R.S. 6-1-1308(4)","Civ. Code 1798.100(c)","Corte Suprema, Rol 105.065-2023"
+C12,Direitos no Brasil,A política reconhece os direitos previstos na LGPD ou indica um canal de atendimento para titulares no Brasil?,1,H3,"arts. 3º, 18 e 41",,,,
