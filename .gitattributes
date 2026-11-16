@@ -1,2 +1,6 @@
 * text=auto eol=lf
 *.ipynb text eol=lf
+
+# Os HTMLs coletados sao guardados byte a byte: sem conversao de quebra de linha,
+# para que o hash registrado na coleta continue valendo depois de um clone.
+data/raw/politicas/*.html -text
