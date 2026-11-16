@@ -1,0 +1,52 @@
+{
+  "coletado_em_utc": "2026-11-15T04:48:58+00:00",
+  "detalhes": {
+    "id": 2599280,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2599280",
+    "siglaTipo": "PL",
+    "codTipo": 139,
+    "numero": 6687,
+    "ano": 2025,
+    "ementa": "Altera a Lei nº 13.709/2018 para incluir os dados neurais no rol de dados pessoais sensíveis, definir parâmetros técnicos para seu tratamento, estabelecer regras especiais para coleta, uso, armazenamento e descarte, vedar usos abusivos no trabalho e na educação, criar exceções médicas, científicas e de acessibilidade, atribuir competência regulatória à ANPD e dar outras providências.",
+    "dataApresentacao": "2025-12-22T17:15",
+    "uriOrgaoNumerador": null,
+    "statusProposicao": {
+      "dataHora": "2026-03-16T00:00",
+      "sequencia": 16,
+      "siglaOrgao": "CCP",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+      "uriUltimoRelator": null,
+      "regime": "Ordinário (Art. 151, III, RICD)",
+      "descricaoTramitacao": "Publicação de Proposição",
+      "codTipoTramitacao": "604",
+      "descricaoSituacao": "Tramitando em Conjunto",
+      "codSituacao": 925,
+      "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 17/03/2026 PÁG 643.",
+      "url": null,
+      "ambito": "Regimental",
+      "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II"
+    },
+    "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2599280/autores",
+    "descricaoTipo": "Projeto de Lei",
+    "ementaDetalhada": "",
+    "keywords": "Alteração, Lei Geral de Proteção de Dados Pessoais (LGPDP) (2018), inclusão, Tratamento de dados, proteção, Dados neurais, Dados pessoais sensíveis.",
+    "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317524",
+    "uriPropAnterior": null,
+    "uriPropPosterior": null,
+    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3071952",
+    "urnFinal": null,
+    "texto": null,
+    "justificativa": null
+  },
+  "autores": [
+    {
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220715",
+      "nome": "Amom Mandel",
+      "codTipo": 10000,
+      "tipo": "Deputado(a)",
+      "ordemAssinatura": 1,
+      "proponente": 1
+    }
+  ],
+  "relacionadas": []
+}

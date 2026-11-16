@@ -1,0 +1,52 @@
+{
+  "coletado_em_utc": "2026-11-15T04:48:59+00:00",
+  "detalhes": {
+    "id": 2358605,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358605",
+    "siglaTipo": "PL",
+    "codTipo": 139,
+    "numero": 2174,
+    "ano": 2023,
+    "ementa": "Estabelece as normas e princípios para proteção dos direitos fundamentais relacionados ao cérebro e ao sistema nervoso humano, objetivando garantir a proteção e promoção dos neurodireitos dos indivíduos.",
+    "dataApresentacao": "2023-04-26T18:04",
+    "uriOrgaoNumerador": null,
+    "statusProposicao": {
+      "dataHora": "2023-06-14T00:00",
+      "sequencia": 14,
+      "siglaOrgao": "CCP",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+      "uriUltimoRelator": null,
+      "regime": "Ordinário (Art. 151, III, RICD)",
+      "descricaoTramitacao": "Publicação de Proposição",
+      "codTipoTramitacao": "604",
+      "descricaoSituacao": "Aguardando Designação de Relator(a)",
+      "codSituacao": 907,
+      "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 15/06/2023.",
+      "url": null,
+      "ambito": "Regimental",
+      "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II"
+    },
+    "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358605/autores",
+    "descricaoTipo": "Projeto de Lei",
+    "ementaDetalhada": "",
+    "keywords": "Regulamentação, Neurodireitos, diretrizes. _ Proteção, direitos fundamentais, pessoa, autonomia, cérebro, sistema nervoso, pensamento, garantia, integridade física, integridade mental, Integridade psicológica. _ Diretrizes, neuromodulação, cérebro.",
+    "uriPropPrincipal": null,
+    "uriPropAnterior": null,
+    "uriPropPosterior": null,
+    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2264479",
+    "urnFinal": null,
+    "texto": null,
+    "justificativa": null
+  },
+  "autores": [
+    {
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178887",
+      "nome": "Rubens Pereira Júnior",
+      "codTipo": 10000,
+      "tipo": "Deputado(a)",
+      "ordemAssinatura": 1,
+      "proponente": 1
+    }
+  ],
+  "relacionadas": []
+}

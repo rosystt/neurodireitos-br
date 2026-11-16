@@ -1,0 +1,22 @@
+id_documento,id_politica,fabricante,tipo,url,observacoes
+P01-1,P01,InteraXon Inc.,principal,https://choosemuse.com/pages/legal,"Página única com todos os documentos legais da Muse; a política de privacidade é uma das seções."
+P01-2,P01,InteraXon Inc.,complementar,https://choosemuse.com/policies/privacy-policy,Política da loja virtual.
+P02-1,P02,NeuroSky Inc.,principal,https://neurosky.com/privacy-policy/,
+P03-1,P03,Emotiv Inc.,principal,https://id.emotivcloud.com/eoidc/privacy/privacy_policy/,O texto vem embutido em um script da página.
+P03-2,P03,Emotiv Inc.,complementar,https://www.emotiv.com/consumer-health-data-privacy-policy,Política de dados de saúde do consumidor.
+P04-1,P04,"Hangzhou Enter Electronic Technology Co., Ltd. (Entertech)",principal,https://www.meetflowtime.com/policies/privacy-policy,
+P05-1,P05,BrainBit Inc.,principal,https://brainbit.com/privacy_policy/,
+P06-1,P06,Shenzhen Macrotellect Ltd.,principal,https://api.macrotellect.com/privacy/index,Texto apenas em chinês.
+P07-1,P07,Neurosity Inc.,principal,https://neurosity.co/privacy-policy,
+P07-2,P07,Neurosity Inc.,complementar,https://neurosity.co/privacy,Resumo de privacidade.
+P08-1,P08,Sens.ai Inc.,principal,https://sens.ai/privacy-policy,
+P08-2,P08,Sens.ai Inc.,complementar,https://sens.ai/privacy,Princípios de privacidade.
+P09-1,P09,PankhTech India Pvt. Ltd.,principal,https://www.neuphony.com/privacy-policy,
+P10-1,P10,BrainCo Inc.,principal,https://focuscalm.com/pages/privacy-policy,
+P11-1,P11,Neurable Inc.,principal,https://www.neurable.com/privacy-policy,
+P11-2,P11,Neurable Inc.,complementar,https://www.neurable.com/health-privacy,Política de dados de saúde.
+P12-1,P12,NextSense Inc.,principal,https://nextsense.io/policies/privacy-policy,
+P12-2,P12,NextSense Inc.,complementar,https://nextsense.io/pages/privacy,
+P13-1,P13,StimScience Inc.,principal,https://somneesleep.com/pages/privacy-policy-and-terms-of-use,Política de privacidade e termos de uso na mesma página.
+P14-1,P14,Earable Neuroscience,principal,https://frenzband.com/policies/privacy-policy,
+P15-1,P15,Elemind Technologies Inc.,principal,https://elemindtech.com/pages/privacy-policy,

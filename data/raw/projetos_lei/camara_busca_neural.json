@@ -1,0 +1,26 @@
+{
+  "termo": "neural",
+  "coletado_em_utc": "2026-11-15T04:48:56+00:00",
+  "dados": [
+    {
+      "id": 2303207,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2303207",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 3637,
+      "ano": 2021,
+      "ementa": "Dispõe sobre a utilização de células-tronco adultas como terapia para o tratamento das lesões medulares relacionadas com malformação congênita do tubo neural.",
+      "dataApresentacao": "2021-10-18T13:40"
+    },
+    {
+      "id": 2485846,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2485846",
+      "siglaTipo": "PL",
+      "codTipo": 139,
+      "numero": 735,
+      "ano": 2025,
+      "ementa": "Dispõe sobre a identificação precoce de defeitos do tubo neural em recém-nascidos, em especial a lipomielomeningocele.",
+      "dataApresentacao": "2025-02-28T14:16"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Sens.ai Data Principles
+# Introduction
+At Sens.ai we believe in using customer data only for customer good.
+Data is really important and helps us add value in three ways;
+Adapt our service in real-time.
+Guide future development so that we achieve our mission: to feel their best and live their best life, people need to train their brain and control their state. Sens.ai provides the technology and training that people need to make it happen, faster.
+Advance science and neurotechnology for the future so that collectively we leave a positive legacy.
+We take the privacy and security of your personal information very seriously. These principles set out how we use data to make the world a little better.
+# We practice minimum data collection.
+By this we mean to capture only the data necessary to deliver transformative benefits to our customers and to advance the science of neurotechnology.
+# Your data will never be used to cause you harm.
+No personally identifiable data will leave Sens.ai’s servers to be shared with third parties.
+# We believe in transparency and simplicity with respect to data privacy.
+We will constantly keep it under review and in a public place on our website to ensure that we achieve our goals and remain always accountable.
+# Your consent is an open, communicative and continuing process.
+We will always be clear on what you consent to and make it easy for you to understand. Should you ever wish to change, we make that easy also.
+# When we work with credentialled scientists and researchers to build for the future we only ever use aggregated anonymous or de-identified data.
+We never need to identify an individual. Scientific insights come from the aggregation of many users' data.
+The complete privacy policy is here.

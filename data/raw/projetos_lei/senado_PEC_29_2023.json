@@ -1,0 +1,109 @@
+{
+  "DetalheMateria": {
+    "noNamespaceSchemaLocation": "https://legis.senado.leg.br/dadosabertos/dados/DetalheMateriav7.xsd",
+    "Metadados": {
+      "Versao": "15/11/2026 01:25:15",
+      "VersaoServico": "7",
+      "DataVersaoServico": "2021-09-14",
+      "DescricaoDataSet": "Detalhes da matéria.",
+      "Descontinuacao": {
+        "DataDepreciacao": "2025-03-18",
+        "DataDesativacaoCompleta": "2026-02-01",
+        "UrlServicoSubstituto": "https://legis.senado.leg.br/dadosabertos/processo"
+      }
+    },
+    "Materia": {
+      "IdentificacaoMateria": {
+        "CodigoMateria": "158095",
+        "SiglaCasaIdentificacaoMateria": "SF",
+        "SiglaSubtipoMateria": "PEC",
+        "DescricaoSubtipoMateria": "Proposta de Emenda à Constituição",
+        "NumeroMateria": "00029",
+        "AnoMateria": "2023",
+        "DescricaoObjetivoProcesso": "Iniciadora",
+        "DescricaoIdentificacaoMateria": "PEC 29/2023",
+        "IndicadorTramitando": "Sim",
+        "IdentificacaoProcesso": "8472168"
+      },
+      "DadosBasicosMateria": {
+        "EmentaMateria": "Altera a Constituição Federal para incluir, entre os direitos e garantias fundamentais, a proteção à integridade mental e à transparência algorítmica.",
+        "IndexacaoMateria": " ALTERAÇÃO ,  CONSTITUIÇÃO FEDERAL ,  DIREITOS E GARANTIAS FUNDAMENTAIS ,  CIENCIA E TECNOLOGIA ,  GARANTIA ,  INTEGRIDADE ,  SAUDE MENTAL ,  DIREITO A INFORMAÇÃO ,  DADOS ,  SOFTWARE ,  INTEGRAÇÃO ,  CORPO HUMANO ,  AMBITO ,  DESENVOLVIMENTO CIENTIFICO ,  DESENVOLVIMENTO TECNOLOGICO ,  CORRELAÇÃO ,  UTILIZAÇÃO ,  INTELIGENCIA ARTIFICIAL .",
+        "Autor": "Senador Randolfe Rodrigues (REDE/AP), Senador Weverton (PDT/MA), Senador Styvenson Valentim (PODEMOS/RN), Senador Hamilton Mourão (REPUBLICANOS/RS), Senador Paulo Paim (PT/RS), Senador Beto Faro (PT/PA), Senadora Teresa Leitão (PT/PE), Senador Angelo Coronel (PSD/BA), Senador Fabiano Contarato (PT/ES), Senador Confúcio Moura (MDB/RO), Senador Alessandro Vieira (PSDB/SE), Senador Rogério Carvalho (PT/SE), Senadora Professora Dorinha Seabra (UNIÃO/TO), Senador Jaques Wagner (PT/BA), Senadora Eliziane Gama (PSD/MA), Senador Mecias de Jesus (REPUBLICANOS/RR), Senador Jorge Kajuru (PSB/GO), Senador Chico Rodrigues (PSB/RR), Senadora Mara Gabrilli (PSD/SP), Senador Humberto Costa (PT/PE), Senador Marcelo Castro (MDB/PI), Senador Omar Aziz (PSD/AM), Senadora Augusta Brito (PT/CE), Senadora Jussara Lima (PSD/PI), Senadora Daniella Ribeiro (PSD/PB), Senador Renan Calheiros (MDB/AL), Senadora Zenaide Maia (PSD/RN)",
+        "CasaIniciadoraNoLegislativo": "SF",
+        "IndicadorComplementar": "Não",
+        "DataApresentacao": "2023-06-13",
+        "NaturezaMateria": {
+          "CodigoNatureza": "11",
+          "NomeNatureza": "NORMA_GERAL",
+          "DescricaoNatureza": "Norma Geral"
+        }
+      },
+      "Classificacoes": {
+        "Classificacao": [
+          {
+            "CodigoClasse": "33805092",
+            "DescricaoClasse": "Ciência, Tecnologia e Informática",
+            "DescricaoClasseHierarquica": "Economia e Desenvolvimento / Ciência, Tecnologia e Informática"
+          },
+          {
+            "CodigoClasse": "33805632",
+            "DescricaoClasse": "Direitos e Garantias",
+            "DescricaoClasseHierarquica": "Jurídico / Direitos e Garantias"
+          }
+        ]
+      },
+      "OrigemMateria": {
+        "SiglaCasaOrigem": "SF"
+      },
+      "OutrasInformacoes": {
+        "Servico": [
+          {
+            "NomeServico": "AtualizacaoMateria",
+            "DescricaoServico": "Mostra as atualizações mais recentes da matéria.",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/atualizacoes/158095"
+          },
+          {
+            "NomeServico": "AutoriaMateria",
+            "DescricaoServico": "Lista o(s) autor(es) da matéria.",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/autoria/158095"
+          },
+          {
+            "NomeServico": "EmendaMateria",
+            "DescricaoServico": "Emendas da matéria",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/emendas/158095"
+          },
+          {
+            "NomeServico": "MovimentacaoMateria",
+            "DescricaoServico": "Informes legislativos, movimentações, despachos, prazos, ordens do dia em que constou, etc.",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/movimentacoes/158095"
+          },
+          {
+            "NomeServico": "RelatoriaMateria",
+            "DescricaoServico": "Relatoria atual e relatorias encerradas (histórico) da matéria",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/relatorias/158095"
+          },
+          {
+            "NomeServico": "SituacaoAtualMateria",
+            "DescricaoServico": "Traz a situação e a localização atuais de uma ou mais matérias",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/situacaoatual/158095"
+          },
+          {
+            "NomeServico": "TextoMateria",
+            "DescricaoServico": "Textos da matéria",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/textos/158095"
+          },
+          {
+            "NomeServico": "VotacaoMateria",
+            "DescricaoServico": "Votações da matéria.",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/materia/votacoes/158095"
+          },
+          {
+            "NomeServico": "VotacoesComissao",
+            "UrlServico": "https://legis.senado.leg.br/dadosabertos/votacaoComissao/materia/PEC/29/2023"
+          }
+        ]
+      }
+    }
+  },
+  "coletado_em_utc": "2026-11-15T04:49:01+00:00"
+}

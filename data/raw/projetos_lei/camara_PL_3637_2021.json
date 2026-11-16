@@ -1,0 +1,103 @@
+{
+  "coletado_em_utc": "2026-11-15T04:48:58+00:00",
+  "detalhes": {
+    "id": 2303207,
+    "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2303207",
+    "siglaTipo": "PL",
+    "codTipo": 139,
+    "numero": 3637,
+    "ano": 2021,
+    "ementa": "Dispõe sobre a utilização de células-tronco adultas como terapia para o tratamento das lesões medulares relacionadas com malformação congênita do tubo neural.",
+    "dataApresentacao": "2021-10-18T13:40",
+    "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+    "statusProposicao": {
+      "dataHora": "2024-11-28T11:53",
+      "sequencia": 33,
+      "siglaOrgao": "CSAUDE",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+      "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74374",
+      "regime": "Ordinário (Art. 151, III, RICD)",
+      "descricaoTramitacao": "Encerramento de Prazo",
+      "codTipoTramitacao": "600",
+      "descricaoSituacao": "Pronta para Pauta",
+      "codSituacao": 924,
+      "despacho": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 14/11/2024 a 28/11/2024). Não foram apresentadas emendas ao substitutivo.",
+      "url": null,
+      "ambito": "Regimental",
+      "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II"
+    },
+    "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2303207/autores",
+    "descricaoTipo": "Projeto de Lei",
+    "ementaDetalhada": "",
+    "keywords": "Utilização, Célula-tronco, adulto, tratamento, espinha bífida, Mielomeningocele, defeito, tubo neural, Doença congênita, tratamento experimental, dispensa, registro sanitário.",
+    "uriPropPrincipal": null,
+    "uriPropAnterior": null,
+    "uriPropPosterior": null,
+    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2090779",
+    "urnFinal": null,
+    "texto": null,
+    "justificativa": null
+  },
+  "autores": [
+    {
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204400",
+      "nome": "Aline Sleutjes",
+      "codTipo": 10000,
+      "tipo": "Deputado(a)",
+      "ordemAssinatura": 1,
+      "proponente": 1
+    }
+  ],
+  "relacionadas": [
+    {
+      "id": 2400100,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2400100",
+      "siglaTipo": "PRL",
+      "codTipo": "190",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Parecer do Relator, Dep. Diego Garcia (REPUBLIC-PR), pela aprovação.",
+      "dataApresentacao": "2023-10-30T11:19"
+    },
+    {
+      "id": 2469447,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2469447",
+      "siglaTipo": "PRL",
+      "codTipo": "190",
+      "numero": "2",
+      "ano": "0",
+      "ementa": "Parecer do Relator, Dep. Geraldo Resende (PSDB-MS), pela aprovação, com substitutivo.",
+      "dataApresentacao": "2024-11-13T19:45"
+    },
+    {
+      "id": 2469448,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2469448",
+      "siglaTipo": "SBT",
+      "codTipo": "255",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "",
+      "dataApresentacao": "2024-11-13T19:58"
+    },
+    {
+      "id": 2404848,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2404848",
+      "siglaTipo": "RPD",
+      "codTipo": "328",
+      "numero": "1",
+      "ano": "0",
+      "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3637/2021",
+      "dataApresentacao": "2023-11-21T13:02"
+    },
+    {
+      "id": 2404935,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2404935",
+      "siglaTipo": "RPD",
+      "codTipo": "328",
+      "numero": "2",
+      "ano": "0",
+      "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 3637/2021",
+      "dataApresentacao": "2023-11-21T13:58"
+    }
+  ]
+}
