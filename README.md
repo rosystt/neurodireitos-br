@@ -107,7 +107,7 @@ python -m src.validar_coleta
 - Poucos casos: 13 aparelhos de 9 fabricantes no grupo principal e 6 no de comparação. Os resultados são contagens descritivas, sem teste estatístico, e a comparação entre grupos indica tendência, não prova diferença.
 - O levantamento pode ter deixado de fora aparelhos vendidos no Brasil por canais não pesquisados.
 - Políticas de privacidade mudam; cada texto é registrado com a data de coleta e o hash do arquivo baixado. A análise vale para as versões coletadas em 15/11/2026.
-- A política de um dos fabricantes existe apenas em chinês.
+- A política de um dos fabricantes existe apenas em chinês. A tradução para o português foi feita por modelo de linguagem e não foi revisada por pessoa fluente em chinês.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
 ## Licença

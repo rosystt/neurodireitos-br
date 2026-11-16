@@ -16,6 +16,10 @@ from src.coleta import FONTES_POLITICAS, PASTA_POLITICAS, REGISTRO_POLITICAS
 from src.limpeza import PASTA_INTERIM, RESUMO
 
 INVENTARIO = "data/raw/inventario.csv"
+PASTA_TRADUCOES = PASTA_INTERIM.parent / "traducoes"
+TRADUCOES = PASTA_TRADUCOES / "traducoes.csv"
+# Idiomas lidos no original; documentos em outros idiomas precisam de tradução.
+IDIOMAS_SEM_TRADUCAO = {"en", "pt"}
 TIPOS = {"principal", "complementar"}
 # Abaixo disso o texto quase certamente não é uma política completa.
 MINIMO_DE_PALAVRAS_PRINCIPAL = 500
@@ -82,6 +86,27 @@ def validar() -> list[str]:
         if fonte.tipo == "principal" and palavras < MINIMO_DE_PALAVRAS_PRINCIPAL:
             erros.append(f"{id_documento}: texto principal curto demais ({palavras} palavras)")
 
+    erros.extend(_validar_traducoes(resumo))
+    return erros
+
+
+def _validar_traducoes(resumo: pd.DataFrame) -> list[str]:
+    """Todo documento em outro idioma tem tradução atual e alinhada linha a linha."""
+    erros = []
+    traducoes = _ler(TRADUCOES).set_index("id_documento")
+    for doc in resumo[~resumo["idioma"].isin(IDIOMAS_SEM_TRADUCAO)].itertuples():
+        if doc.id_documento not in traducoes.index:
+            erros.append(f"{doc.id_documento}: documento em '{doc.idioma}' sem tradução")
+            continue
+        registro = traducoes.loc[doc.id_documento]
+        original = PASTA_INTERIM / registro["arquivo_original"]
+        traducao = PASTA_TRADUCOES / registro["arquivo_traducao"]
+        if hashlib.sha256(original.read_bytes()).hexdigest() != registro["sha256_original"]:
+            erros.append(f"{doc.id_documento}: o original mudou depois da tradução")
+        linhas_original = original.read_text(encoding="utf-8").splitlines()
+        linhas_traducao = traducao.read_text(encoding="utf-8").splitlines()
+        if len(linhas_original) != len(linhas_traducao):
+            erros.append(f"{doc.id_documento}: tradução com número de linhas diferente do original")
     return erros
 
 

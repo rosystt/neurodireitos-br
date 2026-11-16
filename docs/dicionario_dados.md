@@ -92,6 +92,26 @@ Um arquivo `<id_documento>.txt` por documento, com o texto limpo (UTF-8, uma lin
 | `palavras` | inteiro | Número de palavras; em chinês, número de ideogramas. | Calculado na limpeza |
 | `recorte` | categoria | `sim` se só um trecho da página foi mantido (ver `RECORTES` em `src/limpeza.py`); `nao` caso contrário. | Gerado na limpeza |
 
+## `data/interim/traducoes/`
+
+Traduções para o português dos documentos que não estão em inglês nem em português, em arquivos `<id_documento>_pt.txt`. Cada tradução tem **o mesmo número de linhas do original**, de modo que a linha *n* da tradução corresponde à linha *n* do texto em `data/interim/politicas/`. O original continua sendo a fonte: todo trecho citado como evidência na avaliação deve ser conferido nele.
+
+O registro `traducoes.csv` tem uma linha por tradução:
+
+| Coluna | Tipo | Descrição | Origem |
+|---|---|---|---|
+| `id_documento` | texto | Documento traduzido. | `fontes_politicas.csv` |
+| `arquivo_original` | texto | Texto limpo de origem, em `data/interim/politicas/`. | Limpeza |
+| `sha256_original` | texto | Hash do texto de origem; se o original mudar, a tradução precisa ser refeita. | Calculado |
+| `idioma_original` | texto | Idioma de origem, em código ISO 639-1. | Limpeza |
+| `arquivo_traducao` | texto | Arquivo da tradução. | Registro do projeto |
+| `idioma_traducao` | texto | Idioma de destino. | Registro do projeto |
+| `metodo` | categoria | Como a tradução foi feita: `traducao_automatica_llm` ou `traducao_humana`. | Registro do projeto |
+| `modelo` | texto | Modelo de linguagem usado, quando a tradução é automática. | Registro do projeto |
+| `data_traducao` | data | Data da tradução (`AAAA-MM-DD`). | Registro do projeto |
+| `revisao_humana` | categoria | `sim` se alguém fluente no idioma de origem revisou a tradução; `nao` caso contrário. | Registro do projeto |
+| `observacoes` | texto | Decisões de tradução que merecem registro. | Registro do projeto |
+
 ## `data/interim/projetos_lei.csv`
 
 Uma linha por proposição encontrada nas buscas, inclusive as que não tratam do tema.
