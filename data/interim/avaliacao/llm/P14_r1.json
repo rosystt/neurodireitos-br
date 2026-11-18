@@ -1,0 +1,357 @@
+{
+  "id_politica": "P14",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "b161e235ab737509b27a872d368640166272d6e7fca405837b46bd78d83bea76",
+  "avaliado_em_utc": "2026-11-17T23:54:32+00:00",
+  "duracao_ms": 66521,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 17657,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 8012,
+    "output_tokens_details": {
+      "thinking_tokens": 3906
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 17657,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8012,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 17657,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 17657
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não usa nenhum termo como EEG, brain data ou neural data. Ela lista \"facial muscle data\" como categoria e cita \"other biosignals\", mas sem contexto que indique EEG."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política chama de sensíveis dados de saúde, biométricos e de músculos faciais, mas não dá nenhum tratamento diferenciado ao dado neural, que ela não cita."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "O consentimento é citado para dados sensíveis em geral (\"with your consent or as otherwise permitted by applicable law\"), sem um consentimento próprio para o dado neural."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Só os dados de músculos faciais e os \"other biosignals\" têm finalidade declarada (sleep scoring), mas nada indica que esses dados sejam EEG. Para os dados pessoais em geral, a política lista finalidades genéricas."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política cita a pontuação de sono gerada a partir dos dados faciais, mas não nomeia inferências feitas a partir de um dado neural."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "To deliver targeted advertising to you. We may process your information to develop and display personalized content and advertising tailored to your interests, location, and more.",
+        "id_documento": "P14-1",
+        "justificativa": "A política afasta a venda, mas admite usar as informações do usuário em publicidade direcionada e permitir cookies de publicidade de terceiros, sem excluir o dado neural."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Os terceiros aparecem só para dados pessoais em geral (prestadores de serviço, processadores de pagamento) e para os dados de músculos faciais em pesquisa. Nenhum é indicado como destinatário do dado neural."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não diz onde os dados ficam armazenados nem com que garantias são transferidos. Só a tabela de cookies cita os países dos provedores (Canadá e Estados Unidos)."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao_menciona",
+        "evidencia": "Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it.",
+        "id_documento": "P14-1",
+        "justificativa": "A exclusão depende das leis do país do usuário ou fica restrita a moradores da Califórnia. Para os demais, a política diz apenas \"deactivate or delete\" a conta, sem garantir a exclusão."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "sim",
+        "evidencia": "No purpose in this notice will require us to keep your personal information for longer than the period of time in which users have an account with us.",
+        "id_documento": "P14-1",
+        "justificativa": "A política dá um critério verificável que vale para todos os dados pessoais: guardá-los no máximo enquanto a conta existir, salvo exigência legal. Não há regra própria para o dado neural."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be \"selling\" your personal information.",
+        "id_documento": "P14-1",
+        "justificativa": "A política reserva o uso dos dados pessoais em pesquisa interna e desenvolvimento tecnológico sem adesão separada e sem anonimização. O consentimento explícito para pesquisa vale só para os dados de músculos faciais."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil. Ela descreve direitos para regiões como EEE, Reino Unido, Canadá e Califórnia, sem dizer que valem para usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Names",
+          "inferido": false,
+          "evidencia": "Names",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Phone numbers",
+          "inferido": false,
+          "evidencia": "Phone numbers",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Email addresses",
+          "inferido": false,
+          "evidencia": "Email addresses",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Mailing addresses",
+          "inferido": false,
+          "evidencia": "Mailing addresses",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Debit/credit card numbers",
+          "inferido": false,
+          "evidencia": "Debit/credit card numbers",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Billing addresses",
+          "inferido": false,
+          "evidencia": "Billing addresses",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Usernames",
+          "inferido": false,
+          "evidencia": "Usernames",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Passwords",
+          "inferido": false,
+          "evidencia": "Passwords",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact preferences",
+          "inferido": false,
+          "evidencia": "Contact preferences",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Facial muscle data",
+          "inferido": false,
+          "evidencia": "We also collect facial muscle data as part of the sleep monitoring features in our app.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "other biosignals",
+          "inferido": false,
+          "evidencia": "We also process facial muscle data and other biosignals for sleep scoring and other analytics within the app features. This data is processed locally on your mobile phone.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "final sleep score",
+          "inferido": true,
+          "evidencia": "The raw facial data used for sleep scoring is stored temporarily within the signal processing system in your mobile phone. Once processed, only the final sleep score is saved on your phone.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Health data",
+          "inferido": false,
+          "evidencia": "Health data",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Biometric data",
+          "inferido": false,
+          "evidencia": "Biometric data",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Financial data",
+          "inferido": false,
+          "evidencia": "Financial data",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "payment instrument number, and the security code associated with your payment instrument",
+          "inferido": false,
+          "evidencia": "We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Social Media Login Data",
+          "inferido": false,
+          "evidencia": "The profile information we receive may vary depending on the social media provider concerned, but will often include your name, email address, friends list, and profile picture, as well as other information you choose to make public on such a social media platform.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Facebook basic account information",
+          "inferido": false,
+          "evidencia": "We by default access your Facebook basic account information, including our name, email, gender, birthday, current city, and profile picture URL, as well as other information that you choose to make public.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Mobile Device Access",
+          "inferido": false,
+          "evidencia": "We may request access or permission to certain features from your mobile device, including your mobile device's bluetooth, camera, microphone, social media accounts, storage, and other features.",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Identifiers (unique personal identifier, online identifier, Internet Protocol address)",
+          "inferido": false,
+          "evidencia": "Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name",
+          "id_documento": "P14-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "cookies and similar tracking technologies",
+          "inferido": false,
+          "evidencia": "We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information.",
+          "id_documento": "P14-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Authorize.net",
+          "categoria": "pagamento",
+          "evidencia": "All payment data is stored by Authorize.net and paypal.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "paypal",
+          "categoria": "pagamento",
+          "evidencia": "All payment data is stored by Authorize.net and paypal.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "service providers",
+          "categoria": "outros",
+          "evidencia": "We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "another company (Business Transfers)",
+          "categoria": "outros",
+          "evidencia": "We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "third parties involved in research data sharing",
+          "categoria": "pesquisa",
+          "evidencia": "In the case of B2B and research services, with the user's explicit consent, facial data may be shared for research purposes only.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "law enforcement body or regulatory agency",
+          "categoria": "autoridades",
+          "evidencia": "We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "Shopify",
+          "categoria": "analise_de_uso",
+          "evidencia": "Shopify analytics.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "Termly",
+          "categoria": "outros",
+          "evidencia": "Used to record unique visitor views of the consent banner.",
+          "id_documento": "P14-1"
+        },
+        {
+          "nome": "Third parties serving advertising cookies",
+          "categoria": "publicidade",
+          "evidencia": "Third parties may serve cookies on your computer or mobile device to serve advertising through our Website.",
+          "id_documento": "P14-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Canadá",
+          "papel": "transferencia",
+          "evidencia": "Shopify View Service Privacy Policy\nCountry:\nCanada",
+          "id_documento": "P14-1"
+        },
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "Termly View Service Privacy Policy\nCountry:\nUnited States",
+          "id_documento": "P14-1"
+        }
+      ]
+    }
+  }
+}

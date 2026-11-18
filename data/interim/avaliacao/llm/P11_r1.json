@@ -1,0 +1,329 @@
+{
+  "id_politica": "P11",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "26ab167347fd967abc96ebafed343943ddcf156d626fbb9adf8f97983d5474d9",
+  "avaliado_em_utc": "2026-11-17T23:51:32+00:00",
+  "duracao_ms": 113101,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11454,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 13610,
+    "output_tokens_details": {
+      "thinking_tokens": 8866
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 11454,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 13610,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 11454,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 11454
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "Brainwave data, such as raw EEG data and data derived from raw EEG data to measure focus levels.",
+        "id_documento": "P11-2",
+        "justificativa": "A política põe os dados de ondas cerebrais (EEG bruto e derivados) numa categoria própria, com nome próprio, entre os dados coletados."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "This Consumer Health Data Privacy Policy applies to the extent US state consumer health data-specific privacy laws to which we are subject (e.g., the Washington My Health My Data Act) (“Consumer Health Data Privacy Laws”) apply to our processing of certain health status-related data",
+        "id_documento": "P11-2",
+        "justificativa": "O EEG só é tratado como dado de saúde num documento que vale apenas quando se aplicam leis estaduais dos EUA, o que não alcança o usuário no Brasil. Fora isso, a política assume não reidentificar dados cerebrais, mas não descreve regras mais rígidas de acesso, armazenamento ou criptografia para eles."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "This Consumer Health Data Privacy Policy applies to the extent US state consumer health data-specific privacy laws to which we are subject (e.g., the Washington My Health My Data Act) (“Consumer Health Data Privacy Laws”) apply to our processing of certain health status-related data",
+        "id_documento": "P11-2",
+        "justificativa": "A adesão específica (opt-in) para coletar EEG bruto aparece só no documento limitado às leis estaduais dos EUA sobre dados de saúde. Por isso, não vale como garantia para o usuário no Brasil."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "Brainwave data, such as raw EEG data and data derived from raw EEG data to measure focus levels.",
+        "id_documento": "P11-2",
+        "justificativa": "A política liga o dado de EEG à medição dos níveis de foco. Sua tabela de finalidades também associa expressamente os 'Brainwave data' a finalidades determinadas, como a prestação e a personalização do serviço."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "Brainwave data, such as raw EEG data and data derived from raw EEG data to measure focus levels.",
+        "id_documento": "P11-2",
+        "justificativa": "A política separa o EEG bruto dos dados derivados dele e nomeia a inferência produzida: o nível de foco. Os 'Focus data' incluem ainda Focus Points e insights gerados."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não afasta a venda nem o uso publicitário do dado neural ou dos dados pessoais em geral. A única exclusão de uso para marketing trata de informações de celular/SMS."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "For example, we may share your Consumer Health Data with the following categories of third parties:",
+        "id_documento": "P11-2",
+        "justificativa": "Para os dados de saúde, que incluem expressamente os dados de ondas cerebrais, a política indica as categorias de quem os recebe: terceiros designados pelo usuário, autoridades, adquirentes em operações societárias e assessores profissionais."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao",
+        "evidencia": "We are headquartered in the United States and may use service providers that operate in other countries. Your personal information may be transferred to the United States or other locations where privacy laws may not be as protective as those in your state, province, or country.",
+        "id_documento": "P11-1",
+        "justificativa": "A política admite enviar os dados aos EUA ou a outros locais não especificados, com proteção possivelmente menor, e não cita nenhum mecanismo de transferência ou garantia."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao_menciona",
+        "evidencia": "If a Consumer Health Data Privacy Law applies to you and your Consumer Health Data and you wish to exercise your rights above, please email us at privacy@neurable.com.",
+        "id_documento": "P11-2",
+        "justificativa": "O direito de exclusão só é oferecido a quem está coberto por leis estaduais dos EUA sobre dados de saúde. A política geral prevê apenas a atualização de informações."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não informa prazo nem critério de retenção para o dado neural ou para os dados em geral."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "Service improvement and analytics Profile data, Focus data, Responses to surveys and questionnaires, Communications data, Feedback data, Device and App interaction data, Brainwave data, Device usage data",
+        "id_documento": "P11-2",
+        "justificativa": "Os dados de ondas cerebrais são reservados para melhoria do serviço e análises sem adesão separada e sem anonimização. A menção a dados 'de-identified' usados no treino de modelos não explica o que isso significa."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao",
+        "evidencia": "If a Consumer Health Data Privacy Law applies to you and your Consumer Health Data and you wish to exercise your rights above, please email us at privacy@neurable.com.",
+        "id_documento": "P11-2",
+        "justificativa": "Os direitos de acesso, exclusão e recurso ficam expressamente condicionados à aplicação de leis estaduais dos EUA. A política não cita o Brasil nem a LGPD."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact and demographic information",
+          "inferido": false,
+          "evidencia": "Contact and demographic information, including your name, postal address, email address, phone number, fax number, demographic information (such as your gender and occupation), job title and employer as well as other information you directly provide us on our Site.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Marketing data",
+          "inferido": false,
+          "evidencia": "Marketing data, such as your preferences for receiving our marketing communications and details about your engagement with them.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Payment data",
+          "inferido": false,
+          "evidencia": "Payment data needed to complete transactions, such as your payment card information or bank account number.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Information Automatically Collected (sistema operacional, navegador, páginas vistas)",
+          "inferido": false,
+          "evidencia": "we log your computer operating system type, browser type, browser language, the website you visited before browsing to our Site, pages you viewed, how long you spent on a page, access times and information about your use of and actions on our Site.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Cookies",
+          "inferido": false,
+          "evidencia": "We may log information using “cookies.”",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "sinal_neural",
+          "descricao": "biometric data, including EEG",
+          "inferido": false,
+          "evidencia": "Our Technology can be used to collect, store and use biometric data, including EEG and ocular motor data, from individuals wearing or using AR/VR headsets or similar technology.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "ocular motor data",
+          "inferido": false,
+          "evidencia": "Our Technology can be used to collect, store and use biometric data, including EEG and ocular motor data, from individuals wearing or using AR/VR headsets or similar technology.",
+          "id_documento": "P11-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Profile data (lateralidade, condições de saúde informadas)",
+          "inferido": false,
+          "evidencia": "Profile data, such as whether you are left-handed or right-handed, your health conditions that you may choose to disclose to us (e.g., ADHD), and your preferences and characteristics, which we may generate from the Consumer Health Data we collect.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "preferences and characteristics generated from Consumer Health Data",
+          "inferido": true,
+          "evidencia": "your preferences and characteristics, which we may generate from the Consumer Health Data we collect.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Focus data (Focus Points, generated insights)",
+          "inferido": true,
+          "evidencia": "Focus data, such as your Focus Points, Focus Data for your Sessions, generated insights (such as your best time of day for focus or when to take “Brain Breaks”), activity names, and Focus Session notes that you create in the App.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Responses to surveys and questionnaires",
+          "inferido": false,
+          "evidencia": "Responses to surveys and questionnaires, such as your voluntary responses regarding your work habits, user goals, or focus.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Communications data",
+          "inferido": false,
+          "evidencia": "Communications data based on our exchanges with you, including when you contact us through the App in relation to your use of the Services.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Feedback data",
+          "inferido": false,
+          "evidencia": "Feedback data, including information you voluntarily share and upload to us when you complete our product feedback form or request support.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Device and App interaction data",
+          "inferido": false,
+          "evidencia": "Device and App interaction data, such as information about Session duration and frequency of use.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "sinal_neural",
+          "descricao": "Brainwave data (raw EEG data)",
+          "inferido": false,
+          "evidencia": "Brainwave data, such as raw EEG data and data derived from raw EEG data to measure focus levels.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "data derived from raw EEG data to measure focus levels",
+          "inferido": true,
+          "evidencia": "Brainwave data, such as raw EEG data and data derived from raw EEG data to measure focus levels.",
+          "id_documento": "P11-2"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Device usage data (acelerômetro, calibração, qualidade do sinal)",
+          "inferido": false,
+          "evidencia": "Device usage data, such as accelerometer data that measures vibration, calibration data, and data about sensor signal quality.",
+          "id_documento": "P11-2"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "third parties that provide services on our behalf (hosting, information technology, customer support, email delivery, consumer research, marketing, and website analytics)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "We may share your personal information with third parties that provide services on our behalf or help us operate the Site or our business (such as hosting, information technology, customer support, email delivery, consumer research, marketing, and website analytics).",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "Stripe",
+          "categoria": "pagamento",
+          "evidencia": "For example, we use Stripe as our payment processor.",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "business deal participants",
+          "categoria": "outros",
+          "evidencia": "We may share personal information when we do a business deal, or negotiate a business deal, involving the sale or transfer of all or a part ofour business or assets.",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "professional advisors",
+          "categoria": "outros",
+          "evidencia": "We may share information with our professional advisors, such as lawyers, auditors, bankers and insurers, where necessary in the course of the professional services that they render to us.",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "lawful requests and legal processes",
+          "categoria": "autoridades",
+          "evidencia": "We may share information to respond to lawful requests and legal processes.",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "others (aggregated and/or anonymized data)",
+          "categoria": "outros",
+          "evidencia": "We may also share aggregated and/or anonymized data with others for their own uses.",
+          "id_documento": "P11-1"
+        },
+        {
+          "nome": "Third parties designated by you",
+          "categoria": "outros",
+          "evidencia": "Third parties designated by you. We may share your Consumer Health Data with third parties where you have instructed us or provided your consent to do so.",
+          "id_documento": "P11-2"
+        },
+        {
+          "nome": "Authorities and others",
+          "categoria": "autoridades",
+          "evidencia": "We will access, share, and preserve Consumer Health Data when we believe that doing so is necessary to comply with applicable law or respond to valid legal process, including from law enforcement or other government agencies.",
+          "id_documento": "P11-2"
+        },
+        {
+          "nome": "Business transferees",
+          "categoria": "outros",
+          "evidencia": "Business transferees. We may disclose Consumer Health Data to acquirers and/or other relevant participants in corporate events",
+          "id_documento": "P11-2"
+        },
+        {
+          "nome": "Professional advisors",
+          "categoria": "outros",
+          "evidencia": "Professional advisors. We may disclose Consumer Health Data to professional advisors, such as lawyers, auditors, bankers, and insurers, where necessary in the course of the professional services that they render to us.",
+          "id_documento": "P11-2"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "Your personal information may be transferred to the United States or other locations where privacy laws may not be as protective as those in your state, province, or country.",
+          "id_documento": "P11-1"
+        }
+      ]
+    }
+  }
+}

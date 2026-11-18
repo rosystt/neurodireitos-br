@@ -1,0 +1,334 @@
+{
+  "id_politica": "P03",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "31c737e31b459e8ad0b22fba60a26e54cda63fd212e82f01eb3f020f63e33249",
+  "avaliado_em_utc": "2026-11-17T23:42:27+00:00",
+  "duracao_ms": 108395,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 20203,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 13687,
+    "output_tokens_details": {
+      "thinking_tokens": 8038
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 20203,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 13687,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 20203,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 20203
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "EEG Data and Neural Data. Consists of electrical biosignals, sensor telemetry, and motion sensor outputs collected when you use EMOTIV devices.",
+        "id_documento": "P03-1",
+        "justificativa": "A política lista \"EEG Data and Neural Data\" com nome próprio entre as categorias de dados coletados."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "sim",
+        "evidencia": "EEG Data is information we collect from your brain and constitutes Sensitive Personal Information and Neural Data under applicable state privacy laws. We recognize that access to BOTH your Personal Information and your EEG Data or Experiment Data should only be available to you, the owner of the data, and to a limited number of EMOTIV staff for the exclusive purpose of maintaining security and providing the Services.",
+        "id_documento": "P03-1",
+        "justificativa": "A política classifica o dado de EEG como dado pessoal sensível e descreve acesso restrito a ele. Também o guarda pseudonimizado, ligado a um OwnerID separado da identidade."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao",
+        "evidencia": "By (i) clicking “I accept EMOTIV’s Privacy Policy” or its equivalent, or (ii) using or accessing the Services on or after the effective date in any way, except for the sole purpose of reviewing this Privacy Policy, you are agreeing to the processing of your Personal Information and non-personal information under the terms of this Privacy Policy.",
+        "id_documento": "P03-1",
+        "justificativa": "A política diz que aceitar a política ou usar os Serviços já equivale a concordar com o tratamento. O consentimento explícito do art. 9(2)(a) do GDPR vale só para quem está no EEE ou no Reino Unido, e o opt-in cobre apenas usos específicos, como o treino do LBM."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "The purposes for which we process your Neural Data under Emotiv-IQ are: estimating cognitive states, load and performance; inferring emotional and affective states; decoding brain-computer interface intent and mental commands; detecting biometric, motion and signal artifacts; calibrating population and cohort baselines;",
+        "id_documento": "P03-1",
+        "justificativa": "A política associa finalidades determinadas ao tratamento do dado neural. Ela também se compromete a avisar antes de usá-lo para finalidades fora dessas categorias."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "For the purposes of this Privacy Policy, we also use the term “EEG Data” to include information derived directly from EEG biosignals, motion and other hardware signals such as mental commands, performance metrics and facial expressions.",
+        "id_documento": "P03-1",
+        "justificativa": "A política separa o sinal bruto das informações derivadas dele e nomeia inferências como comandos mentais, métricas de desempenho e expressões faciais. Em outros trechos cita também foco, estresse, carga cognitiva e estados emocionais."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao_menciona",
+        "evidencia": "EMOTIV does not sell raw Neural Data or Personal Information to third parties.",
+        "id_documento": "P03-1",
+        "justificativa": "A política nega a venda apenas do dado neural bruto (\"raw\") e permite licenciar parâmetros e saídas do LBM. Não afasta expressamente o uso do dado neural para publicidade."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "We may share pseudonymized EEG Data and pseudonymized Experiment Data with third parties, with your explicit, case by case consent, in connection with your voluntary participation in an Experiment. We may also share aggregated EEG Data and aggregated Experiment Data with third parties for scientific and historical research purposes and to improve the Services.",
+        "id_documento": "P03-1",
+        "justificativa": "A política identifica por categoria quem recebe o dado de EEG: terceiros de Experimentos, aplicativos de terceiros autorizados e parceiros de pesquisa. O documento P03-2 cita ainda as afiliadas na Austrália e no Vietnã."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "sim",
+        "evidencia": "Personal Information we collect about you is stored only in your User Account, managed through limited access servers located in the United States and other countries where EMOTIV has facilities.",
+        "id_documento": "P03-1",
+        "justificativa": "A política indica os Estados Unidos como local de armazenamento. Em outro trecho cita como mecanismo de transferência as \"2021 EU Standard Contractual Clauses and the UK Transfer Addendum\"."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "(iii) Removal/Deletion. Upon receipt of a valid, authenticated Data Subject Request, EMOTIV shall securely delete Personal Information and Neural Data in its possession or control, except to the extent: (a) retention is required by applicable statutory, tax, or regulatory obligations;",
+        "id_documento": "P03-1",
+        "justificativa": "A política oferece a qualquer usuário a exclusão do dado neural, a pedido pelo e-mail privacy@emotiv.com. As exceções são obrigação legal, backups sobrescritos na rotação e dados desidentificados; a política diz também que não consegue apagar cópias já entregues a terceiros de Experimentos."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "sim",
+        "evidencia": "Upon account deletion or consent withdrawal, EMOTIV destroys the link between your personal identity (EmotivID) and your raw telemetry (OwnerID). EMOTIV retains neural datasets post-deletion solely where such data has been genuinely de-identified or aggregated in compliance with statutory de-identification standards",
+        "id_documento": "P03-1",
+        "justificativa": "A política liga a retenção do dado neural identificável a um critério verificável: a exclusão da conta ou a retirada do consentimento. Depois disso, só ficam guardados conjuntos desidentificados ou agregados."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "When you explicitly request Emotiv-IQ, processing your pseudonymized Neural Data and aggregating and pooling it into our Large Brain Model (LBM) is necessary to generate and deliver your personalized cognitive metrics. Pooled data is also used to develop new features and metrics of the kinds described below.",
+        "id_documento": "P03-1",
+        "justificativa": "Pedir o recurso Emotiv-IQ já leva o dado neural pseudonimizado, e não anonimizado, para o LBM e para o desenvolvimento de novos recursos, sem adesão separada. Além disso, o item (ix) prevê o desenvolvimento de algoritmos com mero direito de opt-out, embora outros trechos exijam opt-in."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita o Brasil nem a LGPD e não indica canal para titulares brasileiros. Também não declara expressamente que os direitos valem para usuários de qualquer país; só menciona reclamação à autoridade supervisora \"of your country\"."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "EEG Data and Neural Data (electrical biosignals, sensor telemetry, motion sensor outputs)",
+          "inferido": false,
+          "evidencia": "EEG Data and Neural Data. Consists of electrical biosignals, sensor telemetry, and motion sensor outputs collected when you use EMOTIV devices.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Information derived from EEG biosignals (mental commands, performance metrics, facial expressions)",
+          "inferido": true,
+          "evidencia": "we also use the term “EEG Data” to include information derived directly from EEG biosignals, motion and other hardware signals such as mental commands, performance metrics and facial expressions.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Derived cognitive performance metrics (Focus, Attention, Cognitive Stress, Cognitive Load, Fatigue, Readiness, Brain Age)",
+          "inferido": true,
+          "evidencia": "Derived cognitive performance metrics (e.g., Focus, Attention, Cognitive Stress, Cognitive Load, Fatigue, Readiness, and Brain Age).",
+          "id_documento": "P03-2"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Emotional or mental state inferences",
+          "inferido": true,
+          "evidencia": "Consumer Health Data (CHD) includes non-HIPAA health and wellness information, cognitive performance metrics, facial expression telemetry, and emotional or mental state inferences derived from natural persons.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Facial expression artifacts and eye movement telemetry",
+          "inferido": false,
+          "evidencia": "Facial expression artifacts and eye movement telemetry.",
+          "id_documento": "P03-2"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Experiment Data & Cognitive Telemetry",
+          "inferido": false,
+          "evidencia": "Experiment Data & Cognitive Telemetry. Information collected during voluntary participation in research, experiments, studies or programs, or your use of the Services, such as performance metrics, cognitive load, focus/fatigue trendlines, your EEG Data, Demographic Data,",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Demographic Data",
+          "inferido": false,
+          "evidencia": "Demographic Data means general information relevant to brain science such as your age, gender, country of residence and birth, handedness, education, number of languages spoken and musical ability.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Voluntary health-related survey responses",
+          "inferido": false,
+          "evidencia": "Voluntary health-related survey responses provided during research experiments.",
+          "id_documento": "P03-2"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact Information",
+          "inferido": false,
+          "evidencia": "Contact Information. This is information we collect to identify or contact you, such as your first and last name, physical address, email address, or telephone number.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "User Account Information",
+          "inferido": false,
+          "evidencia": "User Account Information. This is information that identifies you to the Services, such as your user name, email address, password, and IP address.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Financial Account Information",
+          "inferido": false,
+          "evidencia": "Financial Account Information. This is information that you provide to purchase Services, including credit card number, credit card expiration date, credit card verification code, bank account number, bank account title, bank name, branch location, and routing number.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Log Data",
+          "inferido": false,
+          "evidencia": "Log Data. This is information recorded about how you use the Services, such as IP addresses, cookies, device and browser type, geographic location, web beacons, operating system,",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "IP addresses, cookies, device and browser type, operating system",
+          "inferido": false,
+          "evidencia": "such as IP addresses, cookies, device and browser type, geographic location, web beacons, operating system",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "Geographic location",
+          "inferido": false,
+          "evidencia": "device and browser type, geographic location, web beacons",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "User Content",
+          "inferido": false,
+          "evidencia": "User Content. You may choose to input Personal Information as part of content, images, comments, information, and materials that you post to or through the Services.",
+          "id_documento": "P03-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Partner Information",
+          "inferido": false,
+          "evidencia": "Partner Information. This is information that our business partners, such as our content-providing partners, share with us.",
+          "id_documento": "P03-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "third-party service providers (hosting, database management, maintenance, support, marketing)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "(i) third parties who act for us or provide services for us, such as billing and credit card payment processing, maintenance, sales, marketing, administration, support, data enrichment, hosting, and database management services;",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "third-party PCI-compliant service providers",
+          "categoria": "pagamento",
+          "evidencia": "If the Services require you to provide any Financial Account Information, such as when you purchase subscriptions to the Services, that information will be collected and processed by third-party PCI-compliant service providers.",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "outside professional advisors (lawyers and accountants)",
+          "categoria": "outros",
+          "evidencia": "(ii) outside professional advisors (such as lawyers and accountants) for purposes related to the operation of our business such as auditing, compliance, and corporate governance.",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "law enforcement or other government agencies",
+          "categoria": "autoridades",
+          "evidencia": "(i) comply with applicable law or respond to valid legal process, including from law enforcement or other government agencies;",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "third party applications",
+          "categoria": "outros",
+          "evidencia": "With your explicit consent the third party will be provided with a de-identified copy of the EEG Data collected only during your use of the application.",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "third party researchers (Experiments)",
+          "categoria": "pesquisa",
+          "evidencia": "With your explicit consent, the third party will be provided with a de-identified copy of the EEG Data collected only during the course of the Experiment.",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "commercial, enterprise, and research partners (LBM licensing)",
+          "categoria": "outros",
+          "evidencia": "EMOTIV may license trained Large Brain Model (LBM) parameters, weights, or API outputs to commercial, enterprise, and research partners",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "Emotiv Research Pty Ltd (Australia) e Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam)",
+          "categoria": "empresas_do_grupo",
+          "evidencia": "(iii) with our affiliates Emotiv Research Pty Ltd (Australia) and Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam), solely to support the operation of our Services;",
+          "id_documento": "P03-2"
+        },
+        {
+          "nome": "acquirer or successor in corporate transaction",
+          "categoria": "outros",
+          "evidencia": "If EMOTIV is involved in a merger, consolidation, acquisition, reorganization, sale of assets or other corporate transaction, EMOTIV may transfer your Personal Information as part of that transaction.",
+          "id_documento": "P03-1"
+        },
+        {
+          "nome": "third-party social media services",
+          "categoria": "outros",
+          "evidencia": "some information, including Personal Information, may be shared with the third-party services, and that information is therefore governed by their privacy policies.",
+          "id_documento": "P03-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "armazenamento",
+          "evidencia": "managed through limited access servers located in the United States and other countries where EMOTIV has facilities.",
+          "id_documento": "P03-1"
+        },
+        {
+          "pais": "Austrália",
+          "papel": "transferencia",
+          "evidencia": "(iii) with our affiliates Emotiv Research Pty Ltd (Australia) and Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam), solely to support the operation of our Services;",
+          "id_documento": "P03-2"
+        },
+        {
+          "pais": "Vietnã",
+          "papel": "transferencia",
+          "evidencia": "(iii) with our affiliates Emotiv Research Pty Ltd (Australia) and Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam), solely to support the operation of our Services;",
+          "id_documento": "P03-2"
+        }
+      ]
+    }
+  }
+}
