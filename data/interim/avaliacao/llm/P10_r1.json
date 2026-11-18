@@ -1,0 +1,212 @@
+{
+  "id_politica": "P10",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "18d1f40260acbb8aa02384e6dd80f51424f11fc0582c120e8767dc975852b02e",
+  "avaliado_em_utc": "2026-11-16T01:55:34+00:00",
+  "duracao_ms": 38815,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8953,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4849,
+    "output_tokens_details": {
+      "thinking_tokens": 2170
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8953,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 4849,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 8953,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 8953
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "The FocusCalm device collects EEG and IMU signals during use.",
+        "id_documento": "P10-1",
+        "justificativa": "A política diz que o aparelho coleta sinais de EEG e lista \"EEG and IMU Data\" como uma categoria própria na tabela de dados tratados. Ela não nega a coleta; diz apenas que o sinal bruto não é enviado aos servidores."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "sim",
+        "evidencia": "All EEG data remains strictly within the FocusCalm application on the user’s smart device. This data is not transmitted to BrainCo’s servers or outside the device. All raw EEG and IMU data is automatically purged from the application at the conclusion of each session.",
+        "id_documento": "P10-1",
+        "justificativa": "A política descreve regras mais rígidas que valem só para o EEG: ele fica restrito ao aparelho, não é enviado aos servidores e é apagado ao fim de cada sessão. Os demais dados, ao contrário, ficam nos servidores da BrainCo."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao",
+        "evidencia": "By using the FocusCalm application, the user is agreeing to the processing of their personal data by BrainCo on their behalf in order for the user to interact with the application.",
+        "id_documento": "P10-1",
+        "justificativa": "A política diz que usar o aplicativo já equivale a concordar com o tratamento dos dados. Não há consentimento próprio para o dado neural."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "EEG data is used within the FocusCalm application to assign metrics that indicate levels of calmness in the application.",
+        "id_documento": "P10-1",
+        "justificativa": "A política liga o dado de EEG a uma finalidade determinada: gerar métricas de nível de calma no aplicativo."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "The FocusCalm application uses data retrieved through the BrainCo headband to calculate the levels of calmness an individual has to help improve their ability to concentrate, increase productivity and enhance skills that aid relaxation.",
+        "id_documento": "P10-1",
+        "justificativa": "A política nomeia as inferências tiradas do sinal: níveis de calma, pontuações de meditação, atenção e nível de relaxamento. Ela também separa o sinal bruto das pontuações calculadas a partir dele."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao_menciona",
+        "evidencia": "BrainCo does not sell data to any individual or entity.",
+        "id_documento": "P10-1",
+        "justificativa": "A política afasta a venda de dados, mas não fala de publicidade. O critério exige que as duas coisas sejam afastadas e, na dúvida, a régua manda responder nao_menciona."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "This data is not transmitted to BrainCo’s servers or outside the device.",
+        "id_documento": "P10-1",
+        "justificativa": "A política afirma que o dado de EEG não sai do aparelho do usuário. Na régua, isso conta como declarar que ele não é compartilhado com ninguém."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política fala em \"BrainCo’s cloud-based servers\", mas não diz em que país os dados ficam nem qual mecanismo de transferência internacional é usado. O endereço da empresa nos EUA aparece só como contato."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "Right to be Forgotten: Should a user of our website no longer wish to have data previously submitted through the application to be stored by BrainCo, please contact us as outlined in number seven below.",
+        "id_documento": "P10-1",
+        "justificativa": "O direito de exclusão é oferecido a qualquer usuário, sem limite geográfico, e a política indica como pedi-lo (privacy@brainco.tech). O EEG bruto, além disso, é apagado automaticamente."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "sim",
+        "evidencia": "All raw EEG and IMU data is automatically purged from the application at the conclusion of each session.",
+        "id_documento": "P10-1",
+        "justificativa": "A política dá um critério verificável para o EEG bruto: ele é apagado ao fim de cada sessão."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não fala do uso do dado neural em pesquisa nem no treinamento de algoritmos."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil. Também não indica canal para titulares brasileiros nem declara expressamente que os direitos valem para usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "EEG signals",
+          "inferido": false,
+          "evidencia": "The FocusCalm device collects EEG and IMU signals during use.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "IMU signals",
+          "inferido": false,
+          "evidencia": "All raw EEG and IMU data is automatically purged from the application at the conclusion of each session.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Meditation Scores",
+          "inferido": true,
+          "evidencia": "Only the computed Meditation Scores and Training History are transmitted, solely for the purpose of helping you visualize and evaluate your meditation training.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "levels of calmness",
+          "inferido": true,
+          "evidencia": "EEG data is used within the FocusCalm application to assign metrics that indicate levels of calmness in the application.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "relaxation level / attentiveness (Brain Games)",
+          "inferido": true,
+          "evidencia": "Information is collected as the user plays the games to obtain the attentiveness and after the user is done playing the game you see a score with the number of questions answered correctly and your relaxation level as measured by the headband.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Training History",
+          "inferido": false,
+          "evidencia": "Only the computed Meditation Scores and Training History are transmitted, solely for the purpose of helping you visualize and evaluate your meditation training.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Brain Games: memory tests and focus test",
+          "inferido": false,
+          "evidencia": "Brain Games: These include memory tests and focus test",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "nickname, gender, date of birth, and email address",
+          "inferido": false,
+          "evidencia": "We collect information about the individual using the application such as a nickname the user assigns themselves, gender, date of birth, and email address.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "userID",
+          "inferido": false,
+          "evidencia": "The application will assign a userID that connects to an email address entered.",
+          "id_documento": "P10-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "optional picture",
+          "inferido": false,
+          "evidencia": "Users also have the option of uploading an optional picture to the app.",
+          "id_documento": "P10-1"
+        }
+      ],
+      "terceiros": [],
+      "paises": []
+    }
+  }
+}

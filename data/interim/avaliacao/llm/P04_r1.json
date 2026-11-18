@@ -1,0 +1,332 @@
+{
+  "id_politica": "P04",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "b90c6e8c204d8c3cf92203bf424742317a36b126215e31a3178a99838ab0ea03",
+  "avaliado_em_utc": "2026-11-17T23:43:41+00:00",
+  "duracao_ms": 72137,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9128,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 8878,
+    "output_tokens_details": {
+      "thinking_tokens": 4256
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9128,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8878,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 9128,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9128
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "nao_menciona",
+        "evidencia": "Your device collects data to estimate various metrics like the heart rate and brainwaves while you are using our Services.",
+        "id_documento": "P04-1",
+        "justificativa": "As ondas cerebrais aparecem só como uma métrica dentro da seção \"Device information\", ao lado da frequência cardíaca. A política não cria uma categoria própria para o dado neural."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "To the extent that the information we collect is health data or another special category of personal data subject to the European Union’s General Data Protection Regulation (“GDPR”), we ask for your explicit consent to process the data.",
+        "id_documento": "P04-1",
+        "justificativa": "A política não classifica o dado neural como sensível nem dá a ele regras próprias. O regime de categorias especiais é condicional e vale apenas para dados sujeitos ao GDPR."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "To the extent that the information we collect is health data or another special category of personal data subject to the European Union’s General Data Protection Regulation (“GDPR”), we ask for your explicit consent to process the data.",
+        "id_documento": "P04-1",
+        "justificativa": "O consentimento separado só é previsto para dados sujeitos ao GDPR, o que é uma restrição territorial, e não cita o dado neural de forma expressa. Por isso não alcança o usuário no Brasil."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "nao_menciona",
+        "evidencia": "For example, we need to use your information to provide you with your Flowtime headband tracking your brainwaves and heart rate; and to give you customer support.",
+        "id_documento": "P04-1",
+        "justificativa": "As finalidades são listadas para as informações coletadas em geral, inclusive pesquisa e desenvolvimento. O rastreamento das ondas cerebrais aparece só como exemplo do serviço, sem finalidades reservadas ao dado neural."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "Based on your meditation data, we may provide you with customized insights to improve your meditation.",
+        "id_documento": "P04-1",
+        "justificativa": "A política diz que faz inferências a partir de dados de meditação e de sono, mas não nomeia inferências tiradas do sinal de EEG, como foco ou estresse. Também não separa o sinal bruto dos dados derivados."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "With third parties, such as Facebook, in order to serve Entertech advertisements on such third-party platforms, to the extent that you have consented to such practices under applicable law.",
+        "id_documento": "P04-1",
+        "justificativa": "A política admite compartilhar informações pessoais com terceiros, como o Facebook, para veicular publicidade, sem excluir o dado neural."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Os terceiros (empresas do grupo, prestadores de hospedagem, análise e pagamento, Facebook) são identificados apenas para dados pessoais em geral, sem indicar quem recebe o dado neural."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não informa o país de armazenamento nem o mecanismo de transferência internacional; diz apenas que os parceiros prestam serviços \"globally\"."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "To erase all your data, go to the Flowtime app, choose \"Me,\" and then select \"Delete Account.\" This will delete your account and all associated data permanently.",
+        "id_documento": "P04-1",
+        "justificativa": "A política oferece a qualquer usuário a exclusão permanente de todos os dados associados à conta e explica como pedir, pelo app ou pelo e-mail customer@entertech.cn."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "sim",
+        "evidencia": "Furthermore, we store other personal information, like your sleep and meditation data, which remains until you decide to delete it through your account settings or by utilizing specific deletion tools within the Services, to provide personalized statistics and other tailored services.",
+        "id_documento": "P04-1",
+        "justificativa": "Os dados de sono e meditação gerados pelas sessões ficam guardados até o usuário excluí-los, o que é um critério verificável."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "We use the information we collect to improve and personalize the Services and to develop new ones. For example, we use the information to troubleshoot and protect against errors; perform data analysis and testing; conduct research and surveys, and develop new features and Services.",
+        "id_documento": "P04-1",
+        "justificativa": "A política reserva o uso das informações coletadas para pesquisa e desenvolvimento de produtos sem adesão separada e sem descrever anonimização. A menção a dados \"de-identified\" não é explicada."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil e não indica canal para titulares brasileiros. A única lei de privacidade citada é o GDPR."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "brainwaves",
+          "inferido": false,
+          "evidencia": "Your device collects data to estimate various metrics like the heart rate and brainwaves while you are using our Services.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "heart rate",
+          "inferido": false,
+          "evidencia": "Your device collects data to estimate various metrics like the heart rate and brainwaves while you are using our Services.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Account information (name, email address, password, date of birth, gender, height, weight, mobile telephone number)",
+          "inferido": false,
+          "evidencia": "Some information is required to create an account on our Services, such as your name, email address, password, date of birth, gender, height, weight, and in some cases, your mobile telephone number.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "profile photo, biography, country information, and community username",
+          "inferido": false,
+          "evidencia": "You may also choose to provide other types of information, such as a profile photo, biography, country information, and community username.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Additional information (name, contact information, and message)",
+          "inferido": false,
+          "evidencia": "If you contact us or participate in a survey, contest, or promotion, we collect the information you submit, such as your name, contact information, and message.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Payment and card information",
+          "inferido": false,
+          "evidencia": "If you activate this feature, you must provide certain information for identification and verification, such as your name, credit, debit, or another card number, card expiration date, and CVV code.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "precise location data",
+          "inferido": false,
+          "evidencia": "The Services include features that use precise location data, including GPS signals, device sensors, Wi-Fi access points, and cell tower IDs.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "approximate location from IP address",
+          "inferido": true,
+          "evidencia": "We may also derive your approximate location from your IP address.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Usage information",
+          "inferido": false,
+          "evidencia": "This includes information about your interaction with the Services, for example, when you create or log into your account or pair your device to your account.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "data about the devices and computers you use to access the Services",
+          "inferido": false,
+          "evidencia": "We also collect data about the devices and computers you use to access the Services, including IP addresses, browser type, language, operating system, mobile device information (including device and application identifiers), the referring web page, pages visited, location (depending on the permissions you have granted us), and cookie information.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "information from other services (name, profile picture, age range, language, email address, and friend list)",
+          "inferido": false,
+          "evidencia": "For example, if you connect to Facebook or Google, we may receive information like your name, profile picture, age range, language, email address, and friend list.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "exercise or activity data from another service",
+          "inferido": false,
+          "evidencia": "You may also choose to grant us access to your exercise or activity data from another service.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "sleep and meditation data",
+          "inferido": false,
+          "evidencia": "Furthermore, we store other personal information, like your sleep and meditation data, which remains until you decide to delete it",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "customized insights to improve your meditation",
+          "inferido": true,
+          "evidencia": "Based on your meditation data, we may provide you with customized insights to improve your meditation.",
+          "id_documento": "P04-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "number of minutes meditated",
+          "inferido": false,
+          "evidencia": "Apple iOS users may opt-in to allow the Service to provide data regarding the number of minutes meditated to the Apple iOS “Health” application for display.",
+          "id_documento": "P04-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "member of our group",
+          "categoria": "empresas_do_grupo",
+          "evidencia": "We may disclose your personal information to any member of our group, which means our subsidiaries, our ultimate holding company, and its subsidiaries.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "SMS Service",
+          "categoria": "outros",
+          "evidencia": "An example of this is the SMS Service.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "third party that offers and/or provides goods or services complementary to our own",
+          "categoria": "outros",
+          "evidencia": "In some circumstances, we may disclose the personal information that you have provided to Entertech to a third party that offers and/or provides goods or services complementary to our own",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "hosting service providers",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "market analytics service providers",
+          "categoria": "analise_de_uso",
+          "evidencia": "Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "payment service providers",
+          "categoria": "pagamento",
+          "evidencia": "Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "card network",
+          "categoria": "pagamento",
+          "evidencia": "This information is encrypted and sent to your card network, which upon approval, sends back to your device a token",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "prospective seller or buyer of such business or assets",
+          "categoria": "outros",
+          "evidencia": "In the event that we sell or buy any business or assets, in which case we may disclose your personal information to the prospective seller or buyer of such business or assets.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "other companies and organizations for the purposes of fraud protection and credit risk reduction",
+          "categoria": "outros",
+          "evidencia": "This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "Facebook",
+          "categoria": "publicidade",
+          "evidencia": "With third parties, such as Facebook, in order to serve Entertech advertisements on such third-party platforms, to the extent that you have consented to such practices under applicable law.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "corporate affiliates, service providers, and other partners",
+          "categoria": "outros",
+          "evidencia": "We transfer information to our corporate affiliates, service providers, and other partners who process it for us, based on our instructions and in compliance with this policy and any other appropriate confidentiality and security measures.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "autoridades (governmental request / legal process)",
+          "categoria": "autoridades",
+          "evidencia": "We may preserve or disclose information about you to comply with a law, regulation, legal process, or governmental request",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "partners under agreement with us",
+          "categoria": "outros",
+          "evidencia": "We may publicly disclose such information to third parties, for example, in public reports about sleep and meditation, to partners under agreement with us.",
+          "id_documento": "P04-1"
+        },
+        {
+          "nome": "Apple iOS “Health” application",
+          "categoria": "outros",
+          "evidencia": "Apple iOS users may opt-in to allow the Service to provide data regarding the number of minutes meditated to the Apple iOS “Health” application for display.",
+          "id_documento": "P04-1"
+        }
+      ],
+      "paises": []
+    }
+  }
+}

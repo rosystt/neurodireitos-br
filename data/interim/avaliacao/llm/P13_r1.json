@@ -1,0 +1,261 @@
+{
+  "id_politica": "P13",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "ba350c5ea1f2df95851eb1ff09255abf843c95208e20e19afe91ff341bcda99c",
+  "avaliado_em_utc": "2026-11-17T23:53:24+00:00",
+  "duracao_ms": 52188,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8602,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 6678,
+    "output_tokens_details": {
+      "thinking_tokens": 3060
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 8602,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 6678,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 8602,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 8602
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "Biometric Information. StimScience collects biometric data. The data we collect includes passive brain measurements and motion data collected with the Somnee headband.",
+        "id_documento": "P13-1",
+        "justificativa": "A política lista nominalmente as medições cerebrais (\"passive brain measurements\") entre os dados coletados, dentro da categoria de dados biométricos."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "sim",
+        "evidencia": "Biometric data is pseudonymized (linked to age, time zone, and a customer identifier, but separated from your PII). That data is stored in a password protected system that can only be accessed by members of our neuroscience team, as designated by our CTO.",
+        "id_documento": "P13-1",
+        "justificativa": "Para os dados biométricos, que incluem as medições cerebrais, a política descreve regras próprias: pseudonimização, armazenamento separado das informações pessoais identificáveis e acesso restrito à equipe de neurociência."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao",
+        "evidencia": "By using our Services, you are acknowledging the terms of this Privacy Notice and consenting to our processing of your information as set forth in this Privacy Notice now and as amended by us from time to time.",
+        "id_documento": "P13-1",
+        "justificativa": "Pela política, o simples uso dos serviços já vale como consentimento para o tratamento das informações, sem um consentimento separado para o dado neural."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "This biometric data may be used to track the duration of your sleep each night, your brain activity before and during sleep, and your motion before and during sleep.",
+        "id_documento": "P13-1",
+        "justificativa": "A política liga finalidades determinadas aos dados biométricos, que incluem as medições cerebrais: acompanhar a duração do sono e a atividade cerebral antes e durante o sono. Em outro trecho, cita também desenvolvimento de produto, fins regulatórios e publicação científica."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política fala em acompanhar a duração do sono e a atividade cerebral, mas não separa o sinal bruto das informações derivadas dele. Também não nomeia inferências como estágios do sono, foco ou estresse."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "We may disclose certain information to third parties (such as advertising partners) to help measure performance and deliver relevant ads. Under some state privacy laws, these disclosures may be considered a \"sale\" or \"sharing.\"",
+        "id_documento": "P13-1",
+        "justificativa": "No começo, a política diz que não vende informações nem as usa em publicidade. Depois, admite repassar informações a parceiros de publicidade, repasse que pode ser considerado \"venda\", sem excluir o dado neural. Por isso a resposta é não."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política só identifica terceiros por categoria (prestadores de hospedagem e banco de dados, autoridades, adquirentes) para dados pessoais em geral. A frase de que os dados biométricos vão para \"a cloud service\" não diz se é um terceiro nem quem é."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "“Processing” means using or handling information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information and transferring it within the United States and internationally.",
+        "id_documento": "P13-1",
+        "justificativa": "A política só cita transferências dentro dos Estados Unidos e para o exterior. Não diz em que país os dados ficam armazenados nem descreve garantias para a transferência internacional."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao",
+        "evidencia": "If you want to know the PII or Biometric information we hold about you, or to modify your PII, or to have us delete such information, please contact us via our Contact page with your request. We’ll take steps to honor your request as soon we can, but some information may remain in archived/backup copies for our records or as otherwise required by law.",
+        "id_documento": "P13-1",
+        "justificativa": "A política oferece a exclusão dos dados biométricos, mas avisa que cópias podem ficar em arquivos e backups \"for our records\", ou seja, além do que a lei exige."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política diz apenas que guarda os dados \"for so long as it is useful to us\". É uma fórmula genérica, sem prazo nem critério verificável."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "Biometric data may be used for future product development, regulatory purposes, and scientific journal submission.",
+        "id_documento": "P13-1",
+        "justificativa": "A política reserva o uso dos dados biométricos para desenvolvimento de produto e publicação científica sem pedir adesão separada. Ela fala só em pseudonimização, que não é anonimização."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil, não indica canal para titulares brasileiros e não diz que os direitos valem para usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "passive brain measurements",
+          "inferido": false,
+          "evidencia": "The data we collect includes passive brain measurements and motion data collected with the Somnee headband.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "motion data",
+          "inferido": false,
+          "evidencia": "The data we collect includes passive brain measurements and motion data collected with the Somnee headband.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "duration of your sleep each night",
+          "inferido": true,
+          "evidencia": "This biometric data may be used to track the duration of your sleep each night, your brain activity before and during sleep, and your motion before and during sleep.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "subjective or behavioral information about your sleep and your usage of the Somnee headband",
+          "inferido": false,
+          "evidencia": "In addition, we may ask you to provide subjective or behavioral information about your sleep and your usage of the Somnee headband.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "name, email address, age, mailing address, telephone number",
+          "inferido": false,
+          "evidencia": "In connection with the use of our Services, PII that we may collect includes your name, email address, age, mailing address, telephone number, credit card data and IP address.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "credit card data",
+          "inferido": false,
+          "evidencia": "In connection with the use of our Services, PII that we may collect includes your name, email address, age, mailing address, telephone number, credit card data and IP address.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "IP address",
+          "inferido": false,
+          "evidencia": "Our online applications collect IP addresses from your devices.",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "contact information and correspondence",
+          "inferido": false,
+          "evidencia": "If you contact us by email through the Websites, we may keep a record of your contact information and correspondence",
+          "id_documento": "P13-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "anonymous data on how visitors interact with the website (analytics cookies)",
+          "inferido": false,
+          "evidencia": "By collecting anonymous data, these cookies help us understand how visitors interact with the website, allowing us to improve performance and user experience.",
+          "id_documento": "P13-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "cloud service",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "For example, when you use the Somnee headband, biometric data is automatically transmitted to a cloud service.",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "third party companies and individuals (hosting and maintenance services, database management)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "StimScience may employ third party companies and individuals to facilitate the provision of Services via the Websites or otherwise, or to perform certain Website-related services (e.g., hosting and maintenance services, database management and improvement of the Websites’ features).",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "advertising partners",
+          "categoria": "publicidade",
+          "evidencia": "We may disclose certain information to third parties (such as advertising partners) to help measure performance and deliver relevant ads.",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "government or law enforcement officials or private parties",
+          "categoria": "autoridades",
+          "evidencia": "We may disclose any information about you, including PII, to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims or legal process (including subpoenas)",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "entity acquiring or merging with StimScience",
+          "categoria": "outros",
+          "evidencia": "If any or all of the assets of StimScience are acquired by, or merged with, another entity, we will share some or all of your information with such entity.",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "third party systems (billing data)",
+          "categoria": "pagamento",
+          "evidencia": "Billing data is stored in password protected third party systems.",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "partners (cookies)",
+          "categoria": "analise_de_uso",
+          "evidencia": "We and our partners use cookies and similar technologies on our services, including our websites and mobile applications (the “Services”) to deliver the best possible experience.",
+          "id_documento": "P13-1"
+        },
+        {
+          "nome": "scientific journal submission",
+          "categoria": "pesquisa",
+          "evidencia": "Biometric data may be used for future product development, regulatory purposes, and scientific journal submission.",
+          "id_documento": "P13-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "collecting, storing, deleting, using, combining and disclosing information and transferring it within the United States and internationally.",
+          "id_documento": "P13-1"
+        }
+      ]
+    }
+  }
+}

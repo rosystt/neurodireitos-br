@@ -1,0 +1,273 @@
+{
+  "id_politica": "P05",
+  "rodada": 2,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "ab45e057a2affb1f8a1c4a84f209aff937d6bfc828d5b80f2fa4338c650a206f",
+  "avaliado_em_utc": "2026-11-17T23:59:07+00:00",
+  "duracao_ms": 52965,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 386,
+    "cache_read_input_tokens": 10606,
+    "output_tokens": 6735,
+    "output_tokens_details": {
+      "thinking_tokens": 3377
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 386,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 6735,
+        "cache_read_input_tokens": 10606,
+        "cache_creation_input_tokens": 386,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 386
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "Biosignal and session information: Depending on the product or application, EEG, EMG, ECG, and other supported physiological signals, calculated measurements, training results, and session history.",
+        "id_documento": "P05-1",
+        "justificativa": "A política lista o EEG, com nome próprio, numa categoria específica de dados coletados (\"Biosignal and session information\")."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "We do not sell customer contact lists or sensitive biosignal information to third parties for their independent marketing purposes.",
+        "id_documento": "P05-1",
+        "justificativa": "A política usa a expressão \"sensitive biosignal information\", mas não diz claramente que o dado neural é sensível nem descreve regras mais rígidas só para ele. Na dúvida, a régua manda responder nao_menciona."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "Consent: Where required for marketing communications, certain cookies, sensitive information, or other specific purposes.",
+        "id_documento": "P05-1",
+        "justificativa": "O consentimento só aparece de forma condicional (\"where required\") e numa seção ligada ao GDPR. Não há um consentimento próprio e destacado para o dado neural."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "Recording, displaying, or analyzing EEG and other biosignals;",
+        "id_documento": "P05-1",
+        "justificativa": "A seção sobre aplicativos liga o EEG a finalidades determinadas: gravar, exibir e analisar os sinais, oferecer neurofeedback e salvar os resultados das sessões."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política fala de forma genérica em \"calculated measurements\" e \"training results\", mas não nomeia nenhuma inferência, como foco, estresse ou estágios do sono."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao_menciona",
+        "evidencia": "We do not use sensitive biosignal or health-related information for advertising or marketing profiling without an appropriate legal basis and any required explicit consent.",
+        "id_documento": "P05-1",
+        "justificativa": "O uso publicitário do biossinal só é afastado com ressalvas (se houver base legal e consentimento), e a recusa de venda vale só para \"independent marketing purposes\". Não há uma negativa expressa e completa de venda e de publicidade."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Os terceiros (hospedagem, CRM, pagamento, análise etc.) são citados só para dados pessoais em geral. A política não diz quem recebe o dado neural."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "Personal information may be processed in the United States or other countries where we or our service providers operate.",
+        "id_documento": "P05-1",
+        "justificativa": "A política cita os Estados Unidos, mas deixa em aberto \"other countries\". O mecanismo de transferência aparece apenas como \"recognized contractual or other lawful transfer mechanisms\" e só \"where required\", o que é vago demais para um sim."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao_menciona",
+        "evidencia": "Depending on your location and applicable law, you may have the right to:",
+        "id_documento": "P05-1",
+        "justificativa": "O direito de pedir a exclusão depende do lugar onde o usuário mora e da lei aplicável, então não é garantido a todos os usuários."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Sobre retenção, a política usa só a fórmula genérica \"for as long as reasonably necessary\", sem prazo nem critério verificável para o dado neural."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política menciona melhorar produtos e serviços só para dados pessoais em geral. Não trata especificamente do uso do dado neural em pesquisa ou no treinamento de algoritmos."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "Depending on your location and applicable law, you may have the right to:",
+        "id_documento": "P05-1",
+        "justificativa": "A política não cita a LGPD nem o Brasil, e os direitos dependem do lugar onde o usuário mora, sem valer expressamente para usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact and professional information",
+          "inferido": false,
+          "evidencia": "Contact and professional information: Name, email address, telephone number, company, job title, country, and other information you provide.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Business and communication information",
+          "inferido": false,
+          "evidencia": "Business and communication information: Product inquiries, requests for quotations or demonstrations, correspondence, meeting details, professional interests, purchase intentions, and customer relationship history.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Purchase information",
+          "inferido": false,
+          "evidencia": "Purchase information: Orders, billing and shipping addresses, transaction details, payment status, and customer support requests.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Account and application information",
+          "inferido": false,
+          "evidencia": "Account and application information: Account identifiers, login information, preferences, application settings, and usage history.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Device and technical information",
+          "inferido": false,
+          "evidencia": "Device and technical information: Device identifiers, operating system, software versions, Bluetooth connection information, IP address, diagnostic logs, and application performance data.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "sinal_neural",
+          "descricao": "EEG (Biosignal and session information)",
+          "inferido": false,
+          "evidencia": "Biosignal and session information: Depending on the product or application, EEG, EMG, ECG, and other supported physiological signals, calculated measurements, training results, and session history.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "EMG, ECG, and other supported physiological signals",
+          "inferido": false,
+          "evidencia": "Biosignal and session information: Depending on the product or application, EEG, EMG, ECG, and other supported physiological signals, calculated measurements, training results, and session history.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "calculated measurements, training results",
+          "inferido": true,
+          "evidencia": "Biosignal and session information: Depending on the product or application, EEG, EMG, ECG, and other supported physiological signals, calculated measurements, training results, and session history.",
+          "id_documento": "P05-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Website usage information",
+          "inferido": false,
+          "evidencia": "Website usage information: Pages visited, interactions, cookies, analytics identifiers, and similar technical information.",
+          "id_documento": "P05-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Website hosting and technical infrastructure",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "Website hosting and technical infrastructure;",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "Customer relationship management and business communications",
+          "categoria": "outros",
+          "evidencia": "Customer relationship management and business communications;",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "Email and SMS delivery",
+          "categoria": "outros",
+          "evidencia": "Email and SMS delivery;",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "Payment processing, e-commerce, and shipping",
+          "categoria": "pagamento",
+          "evidencia": "Payment processing, e-commerce, and shipping;",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "payment service providers",
+          "categoria": "pagamento",
+          "evidencia": "Payment card information may be processed directly by payment service providers.",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "Analytics, security, and customer support",
+          "categoria": "analise_de_uso",
+          "evidencia": "Analytics, security, and customer support.",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "authorized distributors or business partners",
+          "categoria": "outros",
+          "evidencia": "We may also share relevant information with authorized distributors or business partners when necessary to respond to your request, fulfill an order, or provide a requested service.",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "telecommunications carriers",
+          "categoria": "outros",
+          "evidencia": "Information may be shared with service providers and telecommunications carriers as necessary to deliver messages.",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "disclosure when required by law",
+          "categoria": "autoridades",
+          "evidencia": "We may disclose information when required by law, to protect our legal rights, or in connection with a corporate transaction.",
+          "id_documento": "P05-1"
+        },
+        {
+          "nome": "advertising technologies",
+          "categoria": "publicidade",
+          "evidencia": "Certain advertising technologies may constitute a “sale,” “sharing,” or “targeted advertising” under applicable privacy laws.",
+          "id_documento": "P05-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "Personal information may be processed in the United States or other countries where we or our service providers operate.",
+          "id_documento": "P05-1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "id_politica": "P08",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "c3190955421471241ce39ac4247c8b1d066b3a7ed1168e0ab1ec2c05adf35ebd",
+  "avaliado_em_utc": "2026-11-17T23:48:42+00:00",
+  "duracao_ms": 68474,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10984,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 8596,
+    "output_tokens_details": {
+      "thinking_tokens": 3894
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 10984,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8596,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 10984,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 10984
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+        "id_documento": "P08-1",
+        "justificativa": "A política nomeia a atividade cerebral (\"brain activity/engagement\") entre os dados que o headset coleta. Por isso o dado neural aparece como categoria com nome próprio."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "O dado neural é chamado de \"health or behavioural information\", mas a política não o classifica como sensível. Também não descreve regras de acesso, armazenamento ou criptografia próprias para ele."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política pede consentimento para localização e notificações, mas não diz em que base o dado neural é tratado. Não há consentimento específico para ele."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "Our headset’s sensors read your brain and heart signals while the App’s software translates these into light stimulation boosts and audiovisual cues. The neurofeedback (real-time audiovisual cues) trains your brain to learn healthy brain states.",
+        "id_documento": "P08-1",
+        "justificativa": "A política liga os sinais cerebrais a uma finalidade determinada: transformá-los em estímulos luminosos e sinais audiovisuais de neurofeedback. Em outro trecho, acrescenta o treino cerebral adaptativo."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+        "id_documento": "P08-1",
+        "justificativa": "A política nomeia inferências tiradas da atividade cerebral, como \"levels of focus and distraction\" e \"response to stimuli\", separadas do sinal em si."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "We may use services provided by third-party platforms (such as social media and other websites) to serve targeted advertisements on such platforms to you or others, and we may provide a hashed version of your email address or other information to the platform provider for such purposes.",
+        "id_documento": "P08-1",
+        "justificativa": "A política admite entregar \"other information\" a plataformas para publicidade direcionada e trabalhar com redes de anúncios, sem excluir o dado neural. A frase sobre não vender vale só \"without your consent\" e tem exceções."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política identifica terceiros (prestadores de serviço, publicidade, Google Analytics) apenas para dados pessoais em geral. Não diz quem recebe o dado neural identificável."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "Our service providers may be located in the US., Canada or EU.",
+        "id_documento": "P08-1",
+        "justificativa": "A política diz onde os prestadores de serviço podem estar (EUA, Canadá ou UE), mas não informa o mecanismo de transferência internacional. Só uma das duas informações aparece."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "You may request deletion of your account and associated personal data directly within the App. Upon receiving a deletion request, we will deactivate your account and delete or anonymize your personal information in accordance with the retention practices described in the \"Safeguards and Retention\" section above.",
+        "id_documento": "P08-1",
+        "justificativa": "A exclusão da conta e dos dados associados é oferecida a qualquer usuário, sem restrição geográfica, e a política diz como pedi-la: pelo próprio app."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política usa só a fórmula genérica \"no longer than necessary\" e cita exigências legais ou de negócio. Não indica prazo nem critério verificável."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "sim",
+        "evidencia": "We may share non-personal information that is aggregated or de-identified or anonymized so that it cannot reasonably be used to identify an individual. We may disclose such information publicly and to third parties, for example, to clinicians and researchers who are working on neurofeedback and brain health,",
+        "id_documento": "P08-1",
+        "justificativa": "Para pesquisa em neurofeedback, a política só admite dados anonimizados e explica o que isso significa: dados que não podem razoavelmente identificar a pessoa. O documento P08-2 reforça que só são usados dados anônimos ou desidentificados."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil e não oferece canal para titulares brasileiros. Os direitos ficam condicionados à \"applicable law\", sem valer expressamente para usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "brain activity/engagement",
+          "inferido": false,
+          "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "levels of focus and distraction",
+          "inferido": true,
+          "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "response to stimuli",
+          "inferido": true,
+          "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "heart rate",
+          "inferido": false,
+          "evidencia": "When you use our products, such as our headsets, we will collect certain health or behavioural information such as your brain activity/engagement, levels of focus and distraction, response to stimuli and heart rate, which our software will analyze.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "position, orientation, and movement of the device",
+          "inferido": false,
+          "evidencia": "We will also collect information about the position, orientation, and movement of the device while it is in operation.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "email address, password, telephone number, and demographic information including date of birth, sex, and gender",
+          "inferido": false,
+          "evidencia": "When you use our services, including our App and hardware devices, we will collect your email address, password, telephone number, and demographic information including date of birth, sex, and gender.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "respostas a questionários sobre sono, memória, meditação, névoa mental, atenção, estresse, agitação e adaptação à mudança",
+          "inferido": false,
+          "evidencia": "We will ask questions and record response on topics including sleep, memory, meditation experience, brain fog, attention, word, stress, agitation, and adaption to change.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "device’s GPS coordinates",
+          "inferido": false,
+          "evidencia": "With your consent, we may also collect your location information by accessing your device’s GPS coordinates so that we can personalize your experience with Sens.ai.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "payment information (including billing address, credit card number, expiry date and CVV/CVC code)",
+          "inferido": false,
+          "evidencia": "we (or an authorized third-party payment processor) will collect information such as your first and last name, email address, phone number, mailing address, delivery address, and your payment information (including billing address, credit card number, expiry date and CVV/CVC code)",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "first and last name, address, postal code, and email address (marketing)",
+          "inferido": false,
+          "evidencia": "If you sign up to receive email marketing communications, we will collect your first and last name, address, postal code, and email address on an optional basis",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "type of device hardware and operating system, unique device identifier, IP address, language settings",
+          "inferido": false,
+          "evidencia": "This data includes the type of device hardware and operating system, unique device identiﬁer, IP address, language settings, and the date and time the App accesses our servers.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "App features used and time spent on the App",
+          "inferido": false,
+          "evidencia": "we may use third party service providers to collect analytical information about your use of the App, such as the App features used and time spent on the App",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "IP addresses, page requests, browser type, operating system and average time spent on our Website",
+          "inferido": false,
+          "evidencia": "we collect the IP (Internet protocol) addresses of all visitors to our Website and other related information such as page requests, browser type, operating system and average time spent on our Website.",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "employment-related materials (resume, cover letter)",
+          "inferido": false,
+          "evidencia": "you may provide us with certain personal information about yourself (such as that contained in a resume, cover letter, or similar employment-related materials).",
+          "id_documento": "P08-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "social media handle, profile picture and public posts or comments (contests)",
+          "inferido": false,
+          "evidencia": "including your social media handle, profile picture and public posts or comments you make about our contest on social media networks.",
+          "id_documento": "P08-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "service providers (hosting the Website, processing payments, advertising and marketing services)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "We use service providers to provide services such as hosting the Website, processing payments, and providing advertising and marketing services.",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "authorized third-party payment processor",
+          "categoria": "pagamento",
+          "evidencia": "If you subscribe to our services, we (or an authorized third-party payment processor) will collect information such as your first and last name",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "third-party platforms (such as social media and other websites)",
+          "categoria": "publicidade",
+          "evidencia": "We may use services provided by third-party platforms (such as social media and other websites) to serve targeted advertisements on such platforms to you or others, and we may provide a hashed version of your email address or other information to the platform provider for such purposes.",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "ad networks and other advertising companies",
+          "categoria": "publicidade",
+          "evidencia": "We work with third parties such as ad networks and other advertising companies that use their own tracking technologies (including cookies and pixel tags) on our App and Website in order to provide you with tailored advertisements across the Internet.",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "Google Analytics",
+          "categoria": "analise_de_uso",
+          "evidencia": "We may use a third-party such as Google Analytics to help us gather and analyze information about the areas visited on the Website",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "third party service providers (app analytics)",
+          "categoria": "analise_de_uso",
+          "evidencia": "we may use third party service providers to collect analytical information about your use of the App, such as the App features used and time spent on the App",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "US or foreign courts, law enforcement or other government authorities",
+          "categoria": "autoridades",
+          "evidencia": "which may include lawful access by US or foreign courts, law enforcement or other government authorities.",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "clinicians and researchers who are working on neurofeedback and brain health",
+          "categoria": "pesquisa",
+          "evidencia": "We may disclose such information publicly and to third parties, for example, to clinicians and researchers who are working on neurofeedback and brain health, in scientific articles or reports we produce",
+          "id_documento": "P08-1"
+        },
+        {
+          "nome": "parties to a merger, acquisition or sale",
+          "categoria": "outros",
+          "evidencia": "We may transfer any information we have about you as an asset in connection with a proposed or completed merger, acquisition or sale",
+          "id_documento": "P08-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "Our service providers may be located in the US., Canada or EU.",
+          "id_documento": "P08-1"
+        },
+        {
+          "pais": "Canadá",
+          "papel": "transferencia",
+          "evidencia": "Our service providers may be located in the US., Canada or EU.",
+          "id_documento": "P08-1"
+        },
+        {
+          "pais": "União Europeia",
+          "papel": "transferencia",
+          "evidencia": "Our service providers may be located in the US., Canada or EU.",
+          "id_documento": "P08-1"
+        }
+      ]
+    }
+  }
+}
