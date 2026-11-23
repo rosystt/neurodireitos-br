@@ -1,5 +1,7 @@
 # Neurodireitos BR
 
+[![Validação dos dados](https://github.com/rosystt/neurodireitos-br/actions/workflows/validacao.yml/badge.svg)](https://github.com/rosystt/neurodireitos-br/actions/workflows/validacao.yml)
+
 **Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) concluída: [régua com 12 critérios](docs/criterios.md) congelada na versão 1.0, com revisão jurídica prevista para o fim do projeto. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado. Fase 4 (avaliação) em curso: as 15 políticas foram avaliadas por modelo de linguagem; a validação contra avaliação manual está prevista para o fim do projeto. Fase 5 (grafo) concluída: o [grafo completo](docs/modelo_grafo.md) — empresas, aparelhos, leis, critérios, respostas das políticas, tipos de dado, terceiros e países dos dados — está no Neo4j, com as consultas das hipóteses conferidas contra os CSVs.
 
 ## Pergunta de pesquisa
@@ -103,6 +105,8 @@ python -m src.validar_coleta
 python -m src.validar_criterios
 python -m src.validar_avaliacao
 ```
+
+Esses quatro validadores, mais a reprodução das tabelas do grafo, rodam automaticamente no GitHub Actions a cada push e pull request (`.github/workflows/validacao.yml`).
 
 Para montar as tabelas do grafo e carregá-las no Neo4j:
 
