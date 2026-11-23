@@ -1,0 +1,49 @@
+# Confere os dados do projeto a cada push e pull request.
+# Roda só o que não depende do Neo4j nem de rede: os validadores das tabelas
+# e a reprodução das tabelas do grafo (que precisam bater com as commitadas).
+# A checagem do grafo em si (python -m src.validar_grafo) exige o .env e é
+# feita localmente.
+name: Validação dos dados
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Validar inventário
+        run: python -m src.validar_inventario
+
+      - name: Validar régua de critérios
+        run: python -m src.validar_criterios
+
+      - name: Validar coleta e limpeza
+        run: python -m src.validar_coleta
+
+      - name: Validar avaliação
+        run: python -m src.validar_avaliacao
+
+      - name: Reproduzir as tabelas do grafo
+        run: |
+          python -m src.preparar_grafo
+          git diff --exit-code -- data/processed/grafo/ || {
+            echo "::error::As tabelas de data/processed/grafo/ não batem com o que preparar_grafo gera. Rode python -m src.preparar_grafo e commite o resultado."
+            exit 1
+          }
