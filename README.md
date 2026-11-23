@@ -101,6 +101,7 @@ Para conferir os dados depois de cada etapa:
 python -m src.validar_inventario
 python -m src.validar_coleta
 python -m src.validar_criterios
+python -m src.validar_avaliacao
 ```
 
 Para montar as tabelas do grafo e carregá-las no Neo4j:
