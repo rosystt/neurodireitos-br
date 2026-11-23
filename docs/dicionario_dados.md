@@ -168,16 +168,36 @@ Uma linha por norma de referência da régua, preenchida à mão a partir das fo
 
 ## `data/processed/grafo/`
 
-Tabelas de nós e de relações do grafo, geradas por `python -m src.preparar_grafo` a partir do inventário, da lista de políticas, das leis e da régua. Nenhuma é editada à mão. O significado de cada rótulo e relação está em [`modelo_grafo.md`](modelo_grafo.md).
+Tabelas de nós e de relações do grafo, geradas por `python -m src.preparar_grafo` a partir do inventário, da lista de políticas, das leis, da régua e das tabelas da avaliação (Fase 4). Nenhuma é editada à mão. O significado de cada rótulo e relação está em [`modelo_grafo.md`](modelo_grafo.md).
 
 | Arquivo | Uma linha por | Colunas | Origem |
 |---|---|---|---|
-| `paises.csv` | país | `nome` | Sedes das empresas, países das leis e Brasil |
+| `paises.csv` | país ou região | `nome`, `tipo` (`pais` ou `regiao`) | Sedes das empresas, países das leis, países dos dados e Brasil |
 | `empresas.csv` | fabricante incluído | `id_empresa` (igual a `id_politica`), `nome`, `pais_sede`, `grupo`, `url_politica` | `inventario.csv` e `fontes_politicas.csv` |
 | `aparelhos.csv` | aparelho incluído | `id`, `nome`, `tipo`, `id_empresa`, `grupo`, `canal_venda_br`, `url_evidencia_venda`, `preco_referencia`, `moeda`, `data_coleta` | `inventario.csv` |
 | `leis.csv` | norma ou proposição | as colunas de `leis_referencia.csv`; para proposições, `status` vale `em_tramitacao` ou `retirado` | `leis_referencia.csv` e `projetos_lei.csv` (só as que tratam do tema) |
 | `criterios.csv` | critério | `id`, `criterio`, `pergunta`, `peso`, `hipotese` | `data/processed/criterios.csv` |
 | `lei_criterio.csv` | norma que fundamenta um critério | `id_lei`, `id_criterio`, `dispositivo` | Colunas `fonte_*` de `criterios.csv` |
+| `respostas.csv` | política e critério | `id_empresa`, `id_criterio`, `resposta`, `evidencia`, `id_documento`, `justificativa`, `modelo`, `versao_prompt`, `versao_regua` | `avaliacoes.csv` |
+| `notas.csv` | política | `id_empresa`, `nota_ponderada`, `nota_maxima` | `pontuacao.csv` |
+| `dados_coletados.csv` | tipo de dado citado | `id_empresa`, `categoria`, `descricao`, `inferido` (`sim` ou `nao`), `evidencia`, `id_documento` | `data/processed/dados_coletados.csv` |
+| `terceiros.csv` | terceiro citado | `id_empresa`, `categoria`, `nome_citado`, `evidencia`, `id_documento` | `data/processed/terceiros.csv` |
+| `paises_dos_dados.csv` | país de destino dos dados | `id_empresa`, `pais`, `relacao` (`ARMAZENA_EM` ou `TRANSFERE_PARA`), `evidencia`, `id_documento` | `data/processed/paises_dos_dados.csv` |
+| `protecao.csv` | norma com efeito que protege um tipo de dado | `id_lei`, `categoria` (hoje só `sinal_neural`), `nivel` (`especifica` ou `generica`) | `leis.csv` (normas vigentes ou julgadas; `cita_dado_neural` define o nível) |
+
+## `data/processed/resultados/`
+
+Resultado de cada consulta de `cypher/consultas/`, gerado por `python -m src.consultas` com o grafo carregado: um CSV por consulta, com o mesmo nome. Listas (por exemplo, os identificadores das empresas) ficam separadas por ponto e vírgula. `python -m src.validar_grafo` recalcula as consultas das hipóteses com pandas e confere se o grafo devolve o mesmo resultado.
+
+| Arquivo | Pergunta |
+|---|---|
+| `h1_categoria_especifica.csv` | Respostas a C01 e C02, por grupo. |
+| `h2_terceiros_e_paises.csv` | Quantas políticas de cada grupo citam terceiros (com e sem autoridades), publicidade, países fora do Brasil, ou nenhum país. |
+| `h2_criterios.csv` | Respostas a C06, C07 e C08, por grupo. |
+| `h3_criterios.csv` | Proporção de `sim` em cada critério de H3, por grupo. |
+| `h3_lacunas_por_lei.csv` | Para cada norma de proteção específica, quantas respostas do grupo brasil ficam abaixo dos critérios que ela fundamenta. |
+| `complementar_notas.csv` | Mínimo, mediana, média e máximo da nota, por grupo. |
+| `fluxo_sinal_neural.csv` | Destinos dos dados das empresas do grupo brasil que coletam sinal neural, com as normas específicas em vigor no destino. |
 
 ## `data/interim/avaliacao/`
 

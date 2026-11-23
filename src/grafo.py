@@ -28,6 +28,13 @@ CARGAS = [
     ("04_leis.cypher", "leis.csv"),
     ("05_criterios.cypher", "criterios.csv"),
     ("06_lei_criterio.cypher", "lei_criterio.csv"),
+    # Parte avaliada (Fase 4)
+    ("07_respostas.cypher", "respostas.csv"),
+    ("08_notas.cypher", "notas.csv"),
+    ("09_dados_coletados.cypher", "dados_coletados.csv"),
+    ("10_terceiros.cypher", "terceiros.csv"),
+    ("11_paises_dos_dados.cypher", "paises_dos_dados.csv"),
+    ("12_protecao.cypher", "protecao.csv"),
 ]
 
 

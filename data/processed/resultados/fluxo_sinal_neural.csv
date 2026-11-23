@@ -1,0 +1,7 @@
+destino,tipo,empresas,ids,relacoes,normas_especificas
+Estados Unidos,pais,5,P01;P03;P05;P07;P08,ARMAZENA_EM;TRANSFERE_PARA,CA-SB-1223 (Califórnia);CO-HB-24-1058 (Colorado)
+Canadá,pais,3,P01;P07;P08,ARMAZENA_EM;TRANSFERE_PARA,
+Espaço Econômico Europeu,regiao,2,P01;P07,ARMAZENA_EM;TRANSFERE_PARA,
+Austrália,pais,1,P03,TRANSFERE_PARA,
+União Europeia,regiao,1,P08,TRANSFERE_PARA,
+Vietnã,pais,1,P03,TRANSFERE_PARA,

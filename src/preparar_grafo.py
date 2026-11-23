@@ -1,8 +1,11 @@
 """Monta as tabelas de nós e de relações do grafo em data/processed/grafo/.
 
-Cada tabela corresponde a um script de carga em cypher/. Esta etapa cobre a
-parte fixa do grafo — empresas, aparelhos, países, leis e critérios. As
-respostas das políticas aos critérios entram depois da avaliação.
+Cada tabela corresponde a um script de carga em cypher/. São duas partes:
+
+- fixa: empresas, aparelhos, países, leis e critérios;
+- avaliada: as respostas de cada política aos critérios, as notas e os fatos
+  extraídos das políticas (tipos de dado, terceiros e países dos dados), vindos
+  da Fase 4 (data/processed/).
 
 Uso (na raiz do projeto, com o venv ativo):
 
@@ -24,6 +27,15 @@ LEI_POR_COLUNA = {
     "fonte_california": "CA-SB-1223",
 }
 LEI_CHILE_POR_PREFIXO = {"Constituição": "CL-LEY-21383", "Corte Suprema": "CL-ROL-105065-2023"}
+
+# Regiões citadas pelas políticas como destino dos dados. Viram nós :Pais com
+# tipo 'regiao', para que nenhuma linha da avaliação seja descartada.
+REGIOES = {"União Europeia", "Espaço Econômico Europeu"}
+
+# Só normas que já produzem efeito protegem um dado; proposições ficam de fora.
+STATUS_COM_EFEITO = {"vigente", "julgado"}
+
+PAPEL_PARA_RELACAO = {"armazenamento": "ARMAZENA_EM", "transferencia": "TRANSFERE_PARA"}
 
 
 def _ler(caminho: str) -> pd.DataFrame:
@@ -87,6 +99,73 @@ def montar_lei_criterio(criterios: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(linhas, columns=["id_lei", "id_criterio", "dispositivo"])
 
 
+def montar_respostas() -> pd.DataFrame:
+    """Uma linha por política e critério, com a resposta do modelo e a evidência."""
+    avaliacoes = _ler("data/processed/avaliacoes.csv")
+    return avaliacoes[[
+        "id_politica", "id_criterio", "resposta", "evidencia", "id_documento",
+        "justificativa", "modelo", "versao_prompt", "versao_regua",
+    ]].rename(columns={"id_politica": "id_empresa"})
+
+
+def montar_notas() -> pd.DataFrame:
+    """Nota de cada política, gravada como propriedade do nó :Empresa."""
+    pontuacao = _ler("data/processed/pontuacao.csv")
+    return pontuacao[["id_politica", "nota_ponderada", "nota_maxima"]].rename(
+        columns={"id_politica": "id_empresa"}
+    )
+
+
+def montar_dados_coletados() -> pd.DataFrame:
+    """Uma linha por tipo de dado citado; a categoria vira o nó :Dado."""
+    dados = _ler("data/processed/dados_coletados.csv")
+    dados["inferido"] = dados["inferido"].map({"True": "sim", "False": "nao"})
+    return dados[["id_politica", "categoria", "descricao", "inferido", "evidencia", "id_documento"]].rename(
+        columns={"id_politica": "id_empresa"}
+    )
+
+
+def montar_terceiros() -> pd.DataFrame:
+    """Uma linha por terceiro citado; a categoria vira o nó :Terceiro.
+
+    O nome fica na relação: quase todos os nomes são descrições genéricas
+    ("parceiros de publicidade"), que não se repetem entre políticas.
+    """
+    terceiros = _ler("data/processed/terceiros.csv")
+    return terceiros[["id_politica", "categoria", "nome", "evidencia", "id_documento"]].rename(
+        columns={"id_politica": "id_empresa", "nome": "nome_citado"}
+    )
+
+
+def montar_paises_dos_dados() -> pd.DataFrame:
+    """Países de armazenamento e de transferência, com o tipo de relação."""
+    paises = _ler("data/processed/paises_dos_dados.csv")
+    desconhecidos = set(paises["papel"]) - set(PAPEL_PARA_RELACAO)
+    if desconhecidos:
+        raise ValueError(f"Papel de país sem relação definida: {sorted(desconhecidos)}")
+    paises["relacao"] = paises["papel"].map(PAPEL_PARA_RELACAO)
+    return paises[["id_politica", "pais", "relacao", "evidencia", "id_documento"]].rename(
+        columns={"id_politica": "id_empresa"}
+    )
+
+
+def montar_protecao(leis: pd.DataFrame) -> pd.DataFrame:
+    """Normas com efeito que protegem o sinal neural, e com que nível.
+
+    Derivada só da tabela de leis, sem juízo jurídico novo: norma que cita
+    dado neural protege de forma específica; a LGPD, que não cita, protege de
+    forma genérica (por analogia com dado sensível — ver docs/criterios.md).
+    Fica restrita ao sinal neural porque a cobertura das inferências varia
+    entre as leis e depende da revisão jurídica (issue #6).
+    """
+    com_efeito = leis[leis["status"].isin(STATUS_COM_EFEITO)]
+    return pd.DataFrame({
+        "id_lei": com_efeito["id"],
+        "categoria": "sinal_neural",
+        "nivel": com_efeito["cita_dado_neural"].map({"sim": "especifica", "nao": "generica"}),
+    })
+
+
 def main() -> None:
     PASTA.mkdir(parents=True, exist_ok=True)
     empresas, aparelhos = montar_empresas_e_aparelhos()
@@ -98,11 +177,26 @@ def main() -> None:
     if faltantes:
         raise ValueError(f"Critérios citam leis ausentes da tabela de leis: {sorted(faltantes)}")
 
-    paises = pd.DataFrame({"nome": sorted({"Brasil", *empresas["pais_sede"], *leis["pais"]})})
+    respostas = montar_respostas()
+    notas = montar_notas()
+    dados = montar_dados_coletados()
+    terceiros = montar_terceiros()
+    paises_dados = montar_paises_dos_dados()
+    protecao = montar_protecao(leis)
+
+    sem_empresa = set().union(*(set(t["id_empresa"]) for t in (respostas, notas, dados, terceiros, paises_dados)))
+    if faltantes := sem_empresa - set(empresas["id_empresa"]):
+        raise ValueError(f"Avaliação cita políticas sem empresa no grafo: {sorted(faltantes)}")
+
+    nomes = {"Brasil", *empresas["pais_sede"], *leis["pais"], *paises_dados["pais"]}
+    paises = pd.DataFrame({"nome": sorted(nomes)})
+    paises["tipo"] = paises["nome"].map(lambda nome: "regiao" if nome in REGIOES else "pais")
     tabelas = {
         "paises": paises, "empresas": empresas, "aparelhos": aparelhos,
         "leis": leis, "criterios": criterios[["id", "criterio", "pergunta", "peso", "hipotese"]],
         "lei_criterio": lei_criterio,
+        "respostas": respostas, "notas": notas, "dados_coletados": dados,
+        "terceiros": terceiros, "paises_dos_dados": paises_dados, "protecao": protecao,
     }
     for nome, tabela in tabelas.items():
         tabela.to_csv(PASTA / f"{nome}.csv", index=False, encoding="utf-8", lineterminator="\n")

@@ -1,6 +1,6 @@
 # Neurodireitos BR
 
-**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) concluída: [régua com 12 critérios](docs/criterios.md) congelada na versão 1.0, com revisão jurídica prevista para o fim do projeto. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado. Fase 5 (grafo) iniciada: a [parte fixa do grafo](docs/modelo_grafo.md) — empresas, aparelhos, países, leis e critérios — está carregada no Neo4j. Fase 4 (avaliação) em curso: as 15 políticas foram avaliadas por modelo de linguagem; a validação contra avaliação manual está prevista para o fim do projeto.
+**Status: em andamento** — Fase 1 (inventário de aparelhos) concluída: de 24 candidatos avaliados, 13 aparelhos formam o grupo principal (chegam ao Brasil), 6 formam o grupo de comparação e 5 foram excluídos. Fase 2 (régua de critérios) concluída: [régua com 12 critérios](docs/criterios.md) congelada na versão 1.0, com revisão jurídica prevista para o fim do projeto. Fase 3 (coleta e limpeza) concluída: 21 documentos de 15 políticas coletados e limpos, e 6 proposições sobre dados neurais levantadas na Câmara e no Senado. Fase 4 (avaliação) em curso: as 15 políticas foram avaliadas por modelo de linguagem; a validação contra avaliação manual está prevista para o fim do projeto. Fase 5 (grafo) concluída: o [grafo completo](docs/modelo_grafo.md) — empresas, aparelhos, leis, critérios, respostas das políticas, tipos de dado, terceiros e países dos dados — está no Neo4j, com as consultas das hipóteses conferidas contra os CSVs.
 
 ## Pergunta de pesquisa
 
@@ -109,7 +109,18 @@ Para montar as tabelas do grafo e carregá-las no Neo4j:
 ```bash
 python -m src.preparar_grafo
 python -m src.grafo
+python -m src.validar_grafo   # confere o grafo e as consultas contra os CSVs
+python -m src.consultas       # grava os resultados em data/processed/resultados/
 ```
+
+## Achados preliminares
+
+**Ainda não validados:** vêm da avaliação por modelo de linguagem, antes da comparação com a avaliação manual. Detalhes e consultas no notebook [`04_grafo`](notebooks/04_grafo.ipynb).
+
+- **H1, em parte.** 6 das 9 políticas do grupo brasil citam o dado neural com nome próprio, mas só 2 dão a ele proteção reforçada. Nomear o dado não costuma vir com proteção diferente.
+- **H2 se sustenta.** As 9 políticas preveem compartilhamento com terceiros além das autoridades; 7 citam parceiros de publicidade, e nenhuma garante não vender nem usar os dados para publicidade. 6 citam países fora do Brasil como destino dos dados, e nenhuma cita o Brasil.
+- **H3 se sustenta.** Nenhuma política do grupo brasil pede consentimento específico para o dado neural nem garante os direitos a quem mora no Brasil. Frente às leis de Colorado e Califórnia, mais de 60% das respostas ficam abaixo do que elas fundamentam.
+- **Comparação entre grupos.** Nota mediana de 5 no grupo brasil e de 11 no de comparação (máximo 25): tendência na direção esperada, com grupos pequenos demais para mais que isso.
 
 ## Limitações
 
@@ -119,6 +130,7 @@ python -m src.grafo
 - A política de um dos fabricantes existe apenas em chinês. A tradução para o português foi feita por modelo de linguagem e não foi revisada por pessoa fluente em chinês.
 - A régua de critérios (versão 1.0) foi congelada antes da leitura das políticas, mas ainda não passou por revisão de profissional de Direito digital. A revisão está prevista para o fim do projeto; se ela alterar a régua, todas as políticas serão reavaliadas.
 - As políticas foram avaliadas por um modelo de linguagem (Claude Opus 5.5), com o mesmo prompt para todas. Cada trecho citado como evidência foi conferido automaticamente no texto da política, e a repetição da avaliação em 3 políticas concordou em 35 de 36 respostas. A comparação com a avaliação manual de 3 políticas está prevista para o fim do projeto; até lá, as notas são a leitura do modelo, não um resultado validado.
+- No grafo, terceiros e tipos de dado são agrupados em categorias atribuídas pelo modelo; o nome citado por cada política fica guardado, mas a categoria `outros` reúne casos diversos. A ligação entre leis e o dado que elas protegem cobre só o sinal neural e não traz juízo jurídico novo: vem da tabela de leis de referência.
 - A avaliação é feita por quem não é jurista. Os achados descrevem o que as políticas dizem ou deixam de dizer — não são parecer jurídico nem afirmam descumprimento de lei por qualquer empresa.
 
 ## Licença

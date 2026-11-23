@@ -1,0 +1,7 @@
+criterio,nome,grupo,politicas,sim,nao,nao_menciona
+C06,Sem venda nem publicidade,brasil,9,0,6,3
+C06,Sem venda nem publicidade,comparacao,6,2,2,2
+C07,Terceiros identificados,brasil,9,3,0,6
+C07,Terceiros identificados,comparacao,6,4,0,2
+C08,Local de armazenamento,brasil,9,2,0,7
+C08,Local de armazenamento,comparacao,6,0,1,5
