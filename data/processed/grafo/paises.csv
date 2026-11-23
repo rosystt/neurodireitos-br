@@ -1,7 +1,11 @@
-nome
-Brasil
-Canadá
-Chile
-China
-Estados Unidos
-Índia
+nome,tipo
+Austrália,pais
+Brasil,pais
+Canadá,pais
+Chile,pais
+China,pais
+Espaço Econômico Europeu,regiao
+Estados Unidos,pais
+União Europeia,regiao
+Vietnã,pais
+Índia,pais

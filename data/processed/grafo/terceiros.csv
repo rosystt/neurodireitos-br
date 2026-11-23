@@ -1,0 +1,176 @@
+id_empresa,categoria,nome_citado,evidencia,id_documento
+P01,outros,"Observer (coach, wellness professional or employer)","we share the Participant’s Activity Data, Processed Data, Email, Name and Profile picture with only that Observer.",P01-1
+P01,pesquisa,third parties involved in research,you are consenting to the sharing of your Muse Data on a de-identified basis with third parties involved in research related to improving the scientific understanding of the brain/body,P01-1
+P01,pesquisa,researchers,may also provide de-identified and/or aggregated data to researchers in connection with research programs.,P01-1
+P01,outros,Apple Health,"we will transfer certain data to such applications, including Muse Data, session reminders, and your meditation goals",P01-1
+P01,outros,Google Fit,We may provide you with the option of integrating our Products with applications such Apple Health or Google Fit in order to help you track your progress.,P01-1
+P01,empresas_do_grupo,affiliates,We will transfer (or otherwise make available) personal information to our affiliates for the above purposes and to third parties who provide services on our behalf.,P01-1
+P01,nuvem_e_infraestrutura,service providers who store information on our behalf in the cloud,This includes service providers who: (a) store information on our behalf in the cloud; (b) host our websites;,P01-1
+P01,pagamento,third-party payment processor,While payments made through or for our Products are processed through a third-party payment processor,P01-1
+P01,analise_de_uso,Google Analytics,"We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",P01-1
+P01,analise_de_uso,Firebase Analytics,"We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",P01-1
+P01,publicidade,advertisers and/or advertising platforms,"Information collected from Personal Devices may be shared with organizations outside of our company, such as advertisers and/or advertising platforms to deliver the advertising",P01-1
+P01,publicidade,advertising networks and data analytics companies,we may allow some third parties to (such as advertising networks and data analytics companies) collect information about your online activities over time and across different websites and apps,P01-1
+P01,autoridades,"Canadian, US, or other foreign governmental authorities, courts, or law enforcement agencies","which may include lawful access by Canadian, US, or other foreign governmental authorities, courts, or law enforcement agencies",P01-1
+P01,outros,third party mobile network providers,Text Messages/SMS are distributed via third party mobile network providers,P01-1
+P01,nuvem_e_infraestrutura,Shopify,"The Services are hosted by Shopify, which collects and processes personal information about your access to and use of the Services in order to provide and improve the Services for you.",P01-2
+P01,publicidade,business and marketing partners,With business and marketing partners to provide marketing services and advertise to you.,P01-2
+P02,pagamento,Authorize.net,"As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",P02-1
+P02,pagamento,DCL,"As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",P02-1
+P02,pagamento,jadedPixel Inc. (shopify.com),"As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",P02-1
+P02,pagamento,PayPal,"As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",P02-1
+P02,publicidade,companies to serve advertisements,We may use your information or allow companies access to your information to determine which advertisements you will see and what communications you will receive.,P02-1
+P02,publicidade,"partners, advertisers, sponsors, and other companies with which we do business","We may also provide statistical information about how our customers collectively use our web site to partners, advertisers, sponsors, and other companies with which we do business.",P02-1
+P02,outros,third parties who send e-mails on our behalf,"In addition, if you opt-out, we may share that information with third parties who send e-mails on our behalf so that they do not e-mail you.",P02-1
+P02,autoridades,"legal process, such as a court order or subpoena","we may indeed disclose personal information if required to do so in response to legal process, such as a court order or subpoena",P02-1
+P02,outros,third-party acquiring NeuroSky' assets,"we reserve the right to transfer our user databases together with any personally identifiable information contained therein, to a third-party acquiring NeuroSky’ assets.",P02-1
+P03,nuvem_e_infraestrutura,"third-party service providers (hosting, database management, maintenance, support, marketing)","(i) third parties who act for us or provide services for us, such as billing and credit card payment processing, maintenance, sales, marketing, administration, support, data enrichment, hosting, and database management services;",P03-1
+P03,pagamento,third-party PCI-compliant service providers,"If the Services require you to provide any Financial Account Information, such as when you purchase subscriptions to the Services, that information will be collected and processed by third-party PCI-compliant service providers.",P03-1
+P03,outros,outside professional advisors (lawyers and accountants),"(ii) outside professional advisors (such as lawyers and accountants) for purposes related to the operation of our business such as auditing, compliance, and corporate governance.",P03-1
+P03,autoridades,law enforcement or other government agencies,"(i) comply with applicable law or respond to valid legal process, including from law enforcement or other government agencies;",P03-1
+P03,outros,third party applications,With your explicit consent the third party will be provided with a de-identified copy of the EEG Data collected only during your use of the application.,P03-1
+P03,pesquisa,third party researchers (Experiments),"With your explicit consent, the third party will be provided with a de-identified copy of the EEG Data collected only during the course of the Experiment.",P03-1
+P03,outros,"commercial, enterprise, and research partners (LBM licensing)","EMOTIV may license trained Large Brain Model (LBM) parameters, weights, or API outputs to commercial, enterprise, and research partners",P03-1
+P03,empresas_do_grupo,Emotiv Research Pty Ltd (Australia) e Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam),"(iii) with our affiliates Emotiv Research Pty Ltd (Australia) and Emotiv Technology Viet Nam One Member Limited Liability Company (Vietnam), solely to support the operation of our Services;",P03-2
+P03,outros,acquirer or successor in corporate transaction,"If EMOTIV is involved in a merger, consolidation, acquisition, reorganization, sale of assets or other corporate transaction, EMOTIV may transfer your Personal Information as part of that transaction.",P03-1
+P03,outros,third-party social media services,"some information, including Personal Information, may be shared with the third-party services, and that information is therefore governed by their privacy policies.",P03-1
+P04,empresas_do_grupo,member of our group,"We may disclose your personal information to any member of our group, which means our subsidiaries, our ultimate holding company, and its subsidiaries.",P04-1
+P04,outros,SMS Service,An example of this is the SMS Service.,P04-1
+P04,outros,third party that offers and/or provides goods or services complementary to our own,"In some circumstances, we may disclose the personal information that you have provided to Entertech to a third party that offers and/or provides goods or services complementary to our own",P04-1
+P04,nuvem_e_infraestrutura,hosting service providers,"Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",P04-1
+P04,analise_de_uso,market analytics service providers,"Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",P04-1
+P04,pagamento,payment service providers,"Suppose Entertech’s service providers (like hosting, market analytics, and payment service providers) require this information to provide services to Entertech.",P04-1
+P04,pagamento,card network,"This information is encrypted and sent to your card network, which upon approval, sends back to your device a token",P04-1
+P04,outros,prospective seller or buyer of such business or assets,"In the event that we sell or buy any business or assets, in which case we may disclose your personal information to the prospective seller or buyer of such business or assets.",P04-1
+P04,outros,other companies and organizations for the purposes of fraud protection and credit risk reduction,This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.,P04-1
+P04,publicidade,Facebook,"With third parties, such as Facebook, in order to serve Entertech advertisements on such third-party platforms, to the extent that you have consented to such practices under applicable law.",P04-1
+P04,outros,"corporate affiliates, service providers, and other partners","We transfer information to our corporate affiliates, service providers, and other partners who process it for us, based on our instructions and in compliance with this policy and any other appropriate confidentiality and security measures.",P04-1
+P04,autoridades,autoridades (governmental request / legal process),"We may preserve or disclose information about you to comply with a law, regulation, legal process, or governmental request",P04-1
+P04,outros,partners under agreement with us,"We may publicly disclose such information to third parties, for example, in public reports about sleep and meditation, to partners under agreement with us.",P04-1
+P04,outros,Apple iOS “Health” application,Apple iOS users may opt-in to allow the Service to provide data regarding the number of minutes meditated to the Apple iOS “Health” application for display.,P04-1
+P05,pagamento,payment service providers,Payment card information may be processed directly by payment service providers.,P05-1
+P05,nuvem_e_infraestrutura,Website hosting and technical infrastructure,• Website hosting and technical infrastructure;,P05-1
+P05,outros,Customer relationship management and business communications,• Customer relationship management and business communications;,P05-1
+P05,outros,Email and SMS delivery,• Email and SMS delivery;,P05-1
+P05,pagamento,"Payment processing, e-commerce, and shipping","• Payment processing, e-commerce, and shipping;",P05-1
+P05,analise_de_uso,"Analytics, security, and customer support","• Analytics, security, and customer support.",P05-1
+P05,outros,telecommunications carriers,Information may be shared with service providers and telecommunications carriers as necessary to deliver messages.,P05-1
+P05,outros,authorized distributors or business partners,"We may also share relevant information with authorized distributors or business partners when necessary to respond to your request, fulfill an order, or provide a requested service.",P05-1
+P05,autoridades,disclosure when required by law,"We may disclose information when required by law, to protect our legal rights, or in connection with a corporate transaction.",P05-1
+P05,publicidade,advertising technologies,"Certain advertising technologies may constitute a “sale,” “sharing,” or “targeted advertising” under applicable privacy laws.",P05-1
+P06,autoridades,国家机关,我们可能向合作伙伴和受托人（包括国家机关、科研机构、院校、具备合法资质的医疗机构、健身场所、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商，下同）披露,P06-1
+P06,pesquisa,科研机构、院校,我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。我们可以在必要的情况下与上述第三方共享您的个人信息，使其能够为我们服务。,P06-1
+P06,analise_de_uso,数据分析商,我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。我们可以在必要的情况下与上述第三方共享您的个人信息，使其能够为我们服务。,P06-1
+P06,analise_de_uso,第三方分析软件/分析公司,您确认并同意我们使用的分析公司可以将通过我们的服务收集的信息与它们独立从其他产品或服务收集的有关于您的活动的其他信息结合起来。,P06-1
+P06,outros,邮件服务提供商,我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。,P06-1
+P06,outros,运输代理,我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。,P06-1
+P06,outros,商业信息提供商,我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。,P06-1
+P06,outros,具备合法资质的医疗机构、健身场所,我们可能向合作伙伴和受托人（包括国家机关、科研机构、院校、具备合法资质的医疗机构、健身场所、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商，下同）披露,P06-1
+P06,empresas_do_grupo,关联公司/关联人,我们可能根据法律和本政策规定保存和/或向海外的关联人和合作伙伴披露您的个人信息。,P06-1
+P06,outros,商业伙伴,或者共享给第三方服务提供者、商业伙伴用于联合向您提供服务、调研和分析。,P06-1
+P06,autoridades,执法部门或政府官员,我们可能为满足执法部门或政府官员在调查欺诈、知识产权侵权或其他违法或可能使我们承担法律责任的活动时按其要求向第三方披露您的个人信息。,P06-1
+P06,outros,企业并购、重组等交易中的第三方,我们可能在与企业并购、重组、出售全部或部分股票和/或资产等重大变化相关的情况下，包括但不限于尽职调查过程中，向第三方披露您的个人信息，但本政策将继续适用于这些个人信息。,P06-1
+P07,empresas_do_grupo,affiliates,We will transfer (or otherwise make available) personal information to our affiliates for the above purposes and to third parties who provide services on our behalf.,P07-1
+P07,nuvem_e_infraestrutura,service providers who store information on our behalf in the cloud,This includes service providers who: (a) store information on our behalf in the cloud; (b) host our websites; (c) operate certain of our Product features;,P07-1
+P07,pagamento,"service providers who administer order and payment processing, shipping, and customer service","(d) administer services such as order and payment processing, shipping, and customer service;",P07-1
+P07,pagamento,third-party payment processor,"While payments made through or for our Products are processed through a third-party payment processor, we collect and use information about the purchase or transaction.",P07-1
+P07,outros,service providers who send emails or other communications,(e) send emails or other communications;,P07-1
+P07,analise_de_uso,service providers who manage and analyze data and/or our advertising effectiveness,(f) manage and analyze data and/or our advertising effectiveness;,P07-1
+P07,outros,"providers of financial, insurance, legal, accounting, or other professional services","(g) provide us with financial, insurance, legal, accounting, or other professional services, as the case may be.",P07-1
+P07,analise_de_uso,Google Analytics,"We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",P07-1
+P07,analise_de_uso,Firebase Analytics,"We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",P07-1
+P07,publicidade,advertising networks and data analytics companies,we may allow some third parties to (such as advertising networks and data analytics companies) collect information about your online activities over time and across different websites and apps,P07-1
+P07,pesquisa,third parties involved in research,"When you choose to participate in our third-party research program, you are consenting to the sharing of your data on a de-identified basis with third parties involved in research related to improving the scientific understanding of the brain/body",P07-1
+P07,pesquisa,researchers,may also provide de-identified and/or aggregated data to researchers in connection with research programs.,P07-1
+P07,autoridades,"US, or other foreign governmental authorities, courts, or law enforcement agencies","We and our US, or other service providers may provide personal information in response to a search warrant or other legally valid inquiry or order (which may include lawful access by US, or other foreign governmental authorities, courts, or law enforcement agencies)",P07-1
+P07,outros,"parties to a merger, sale or corporate reorganization",We may transfer personal information as an asset in connection with a proposed or completed merger or sale (including transfers made as part of insolvency or bankruptcy proceeding) involving all or part of our group of companies,P07-1
+P07,outros,Facebook or Twitter (compartilhamento feito pelo usuário),"For example, in the Notion app, you can share data from a session on Facebook or Twitter.",P07-1
+P08,nuvem_e_infraestrutura,"service providers (hosting the Website, processing payments, advertising and marketing services)","We use service providers to provide services such as hosting the Website, processing payments, and providing advertising and marketing services.",P08-1
+P08,pagamento,authorized third-party payment processor,"If you subscribe to our services, we (or an authorized third-party payment processor) will collect information such as your first and last name",P08-1
+P08,publicidade,third-party platforms (such as social media and other websites),"We may use services provided by third-party platforms (such as social media and other websites) to serve targeted advertisements on such platforms to you or others, and we may provide a hashed version of your email address or other information to the platform provider for such purposes.",P08-1
+P08,publicidade,ad networks and other advertising companies,We work with third parties such as ad networks and other advertising companies that use their own tracking technologies (including cookies and pixel tags) on our App and Website in order to provide you with tailored advertisements across the Internet.,P08-1
+P08,analise_de_uso,Google Analytics,We may use a third-party such as Google Analytics to help us gather and analyze information about the areas visited on the Website,P08-1
+P08,analise_de_uso,third party service providers (app analytics),"we may use third party service providers to collect analytical information about your use of the App, such as the App features used and time spent on the App",P08-1
+P08,autoridades,"US or foreign courts, law enforcement or other government authorities","which may include lawful access by US or foreign courts, law enforcement or other government authorities.",P08-1
+P08,pesquisa,clinicians and researchers who are working on neurofeedback and brain health,"We may disclose such information publicly and to third parties, for example, to clinicians and researchers who are working on neurofeedback and brain health, in scientific articles or reports we produce",P08-1
+P08,outros,"parties to a merger, acquisition or sale","We may transfer any information we have about you as an asset in connection with a proposed or completed merger, acquisition or sale",P08-1
+P09,analise_de_uso,Google (Google Analytics),"The information generated by the cookie about your use of the Platform, including your IP address, may be transmitted to and stored by Google on servers in the United States.",P09-1
+P09,analise_de_uso,"third-party analytics, tracking, optimization, and targeting tools","We also use third-party analytics, tracking, optimization, and targeting tools to understand how Users engage with our Platform so that we can improve it and cater personalised content/ads according to their preferences.",P09-1
+P09,publicidade,Google (Google AdSense) e third-party vendors,"third-party vendors, including Google, use cookies to serve ads based on your prior visits to our Platform or other website and mobile Platforms;",P09-1
+P09,publicidade,third parties (targeting cookies),We may also share this information with third parties for this purpose.,P09-1
+P09,autoridades,appropriate authorities,"Your information is regarded as confidential and, therefore, will not be divulged to any third party unless legally required to do so to the appropriate authorities.",P09-1
+P09,outros,others who act under our instructions,We will not share your personal information with others unless they act under our instructions or we are required to do so by law.,P09-1
+P09,outros,survey creators,Anything you expressly disclose in your responses will be disclosed to survey creators.,P09-1
+P11,nuvem_e_infraestrutura,"third parties that provide services on our behalf (hosting, information technology, customer support, email delivery, consumer research, marketing, and website analytics)","We may share your personal information with third parties that provide services on our behalf or help us operate the Site or our business (such as hosting, information technology, customer support, email delivery, consumer research, marketing, and website analytics).",P11-1
+P11,pagamento,Stripe,"For example, we use Stripe as our payment processor.",P11-1
+P11,outros,business deal participants,"We may share personal information when we do a business deal, or negotiate a business deal, involving the sale or transfer of all or a part ofour business or assets.",P11-1
+P11,outros,professional advisors,"We may share information with our professional advisors, such as lawyers, auditors, bankers and insurers, where necessary in the course of the professional services that they render to us.",P11-1
+P11,autoridades,lawful requests and legal processes,We may share information to respond to lawful requests and legal processes.,P11-1
+P11,outros,others (aggregated and/or anonymized data),We may also share aggregated and/or anonymized data with others for their own uses.,P11-1
+P11,outros,Third parties designated by you,Third parties designated by you. We may share your Consumer Health Data with third parties where you have instructed us or provided your consent to do so.,P11-2
+P11,autoridades,Authorities and others,"We will access, share, and preserve Consumer Health Data when we believe that doing so is necessary to comply with applicable law or respond to valid legal process, including from law enforcement or other government agencies.",P11-2
+P11,outros,Business transferees,Business transferees. We may disclose Consumer Health Data to acquirers and/or other relevant participants in corporate events,P11-2
+P11,outros,Professional advisors,"Professional advisors. We may disclose Consumer Health Data to professional advisors, such as lawyers, auditors, bankers, and insurers, where necessary in the course of the professional services that they render to us.",P11-2
+P12,outros,Shopify,We may also enhance your shopping experience by enabling Shopify to match your account with other Shopify services that you may choose to use.,P12-1
+P12,nuvem_e_infraestrutura,"Vendors (cloud storage, IT management)","Vendors or other third parties that perform services on our behalf (e.g., IT management, payment processing, data analytics, customer support, cloud storage, fulfillment and shipping).",P12-1
+P12,pagamento,Payment processors,"Vendors and third parties who perform services on our behalf (such as Internet service providers, payment processors, fulfillment partners, customer support partners and data analytics providers)",P12-1
+P12,analise_de_uso,Data analytics providers,"Vendors and third parties who perform services on our behalf (such as Internet service providers, payment processors, fulfillment partners, customer support partners and data analytics providers)",P12-1
+P12,publicidade,Business and marketing partners,Business and marketing partners to provide Services and advertise to you. Our business and marketing partners may use your information in accordance with their own privacy notices.,P12-1
+P12,publicidade,Third parties and service providers using Cookies,"We may also permit third parties and services providers to use Cookies on our website to better tailor the services, products and advertising on our website and other websites.",P12-1
+P12,pesquisa,Research organizations,"Other third parties, at your direction, such as research organizations when you choose to participate in a study, or social media companies when you use social media widgets or login integrations.",P12-1
+P12,outros,Social media companies,"Other third parties, at your direction, such as research organizations when you choose to participate in a study, or social media companies when you use social media widgets or login integrations.",P12-1
+P12,autoridades,Public and governmental authorities,Public and governmental authorities; and,P12-1
+P12,outros,Parties to a business transaction (merger or bankruptcy),We may also disclose your information in connection with a business transaction such as a merger or bankruptcy,P12-1
+P13,nuvem_e_infraestrutura,cloud service,"For example, when you use the Somnee headband, biometric data is automatically transmitted to a cloud service.",P13-1
+P13,nuvem_e_infraestrutura,"third party companies and individuals (hosting and maintenance services, database management)","StimScience may employ third party companies and individuals to facilitate the provision of Services via the Websites or otherwise, or to perform certain Website-related services (e.g., hosting and maintenance services, database management and improvement of the Websites’ features).",P13-1
+P13,publicidade,advertising partners,We may disclose certain information to third parties (such as advertising partners) to help measure performance and deliver relevant ads.,P13-1
+P13,autoridades,government or law enforcement officials or private parties,"We may disclose any information about you, including PII, to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims or legal process (including subpoenas)",P13-1
+P13,outros,entity acquiring or merging with StimScience,"If any or all of the assets of StimScience are acquired by, or merged with, another entity, we will share some or all of your information with such entity.",P13-1
+P13,pagamento,third party systems (billing data),Billing data is stored in password protected third party systems.,P13-1
+P13,analise_de_uso,partners (cookies),"We and our partners use cookies and similar technologies on our services, including our websites and mobile applications (the “Services”) to deliver the best possible experience.",P13-1
+P13,pesquisa,scientific journal submission,"Biometric data may be used for future product development, regulatory purposes, and scientific journal submission.",P13-1
+P14,pagamento,Authorize.net,All payment data is stored by Authorize.net and paypal.,P14-1
+P14,pagamento,paypal,All payment data is stored by Authorize.net and paypal.,P14-1
+P14,outros,service providers,We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider.,P14-1
+P14,outros,another company (Business Transfers),"We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.",P14-1
+P14,pesquisa,third parties involved in research data sharing,"In the case of B2B and research services, with the user's explicit consent, facial data may be shared for research purposes only.",P14-1
+P14,autoridades,law enforcement body or regulatory agency,"We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.",P14-1
+P14,analise_de_uso,Shopify,Shopify analytics.,P14-1
+P14,outros,Termly,Used to record unique visitor views of the consent banner.,P14-1
+P14,publicidade,Third parties serving advertising cookies,Third parties may serve cookies on your computer or mobile device to serve advertising through our Website.,P14-1
+P15,pagamento,Shopify,"Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",P15-1
+P15,pagamento,Skio,"Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",P15-1
+P15,pagamento,Replo,"Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",P15-1
+P15,pagamento,Flex,"Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",P15-1
+P15,analise_de_uso,Google Analytics,"Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",P15-1
+P15,analise_de_uso,Statsig,"Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",P15-1
+P15,analise_de_uso,Lucky Orange,"Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",P15-1
+P15,analise_de_uso,Triple Whale,"Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",P15-1
+P15,publicidade,Google,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Meta,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,TikTok,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Pinterest,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Reddit,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,X,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Taboola,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Vibe,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,TVSquared,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,publicidade,Triple Whale,"Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",P15-1
+P15,outros,Klaviyo,"Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",P15-1
+P15,outros,Okendo,"Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",P15-1
+P15,outros,Zigpoll,"Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",P15-1
+P15,outros,UpPromote,"Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",P15-1
+P15,outros,Notify Me,"Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",P15-1
+P15,outros,Zendesk,"Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",P15-1
+P15,outros,accessiBe,"Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",P15-1
+P15,outros,Sentry,"Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",P15-1
+P15,outros,Pandectes,"Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",P15-1
+P15,nuvem_e_infraestrutura,"third-party service providers (web hosting, translation or data storage)","Sharing personal information with third-party service providers that perform services on behalf of Elemind (i.e., for web hosting, translation or data storage).",P15-1
+P15,publicidade,third parties offering additional products,Sharing personal information with third parties for purposes of offering additional products that we believe you may find useful.,P15-1
+P15,publicidade,advertising or analytics recipients,Advertising and analytics purposes. We may disclose to or allow access to certain information about you for purposes of advertising or analytics.,P15-1
+P15,outros,"parties to a merger, sale, acquisition or other change of control","If Elemind is involved in a merger, sale, acquisition, divestiture, restructuring, reorganization, dissolution, bankruptcy or other change of ownership or control (in whole or in part), we may share your personal information, but it will at all times remain protected as described herein.",P15-1
+P15,autoridades,government or law enforcement,"Only as we are required to do so, to comply with valid requests from government or law enforcement.",P15-1
+P15,outros,Apple Health,"we will transfer certain data to such applications, including processed data, in-app survey data, usage data, and demographic information.",P15-1
+P15,outros,Google Fit,"we will transfer certain data to such applications, including processed data, in-app survey data, usage data, and demographic information.",P15-1
+P15,nuvem_e_infraestrutura,Google LLC (Gemini API),"When you tap ""Visualize this dream"" in the Dream Journal, the text you wrote for that dream entry is sent to Google LLC (""Google"") and processed by Google's Gemini API to generate an illustrative image.",P15-1
+P15,outros,third parties receiving de-identified or aggregated data,"We may provide de-identified or aggregated data to third parties – but that data will not be linked to you, nor could you be re-identified from that data.",P15-1
