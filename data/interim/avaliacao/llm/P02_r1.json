@@ -1,0 +1,267 @@
+{
+  "id_politica": "P02",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "b25a9f62e6d287caf5dfa154485082c72eff114a3fe81dcb1510f45e1468e45c",
+  "avaliado_em_utc": "2026-11-17T15:31:38+00:00",
+  "duracao_ms": 34455,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9957,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 4532,
+    "output_tokens_details": {
+      "thinking_tokens": 1370
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9957,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 4532,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 9957,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9957
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita dado neural, EEG ou termo equivalente. Lista apenas dados pessoais como nome, e-mail, endereço, telefone e cartão de crédito."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Como o dado neural não é mencionado, não há nenhuma proteção diferenciada para ele. A política trata todos os dados pessoais da mesma forma."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não informa a base de tratamento do dado neural nem descreve um consentimento específico para ele."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "As finalidades descritas (atendimento, comunicações de marketing, pedidos, pesquisa) referem-se apenas a dados pessoais em geral, sem ligação com o dado neural."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não distingue o sinal bruto das informações derivadas dele e não nomeia inferências como foco ou estresse."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "We may use your information or allow companies access to your information to determine which advertisements you will see and what communications you will receive.",
+        "id_documento": "P02-1",
+        "justificativa": "A política admite dar a empresas acesso às informações do usuário para direcionar publicidade, sem excluir o dado neural. A promessa de não vender é condicionada ao aviso e à concordância do usuário."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Os terceiros (processadores de pagamento, anunciantes, autoridades) aparecem apenas em relação aos dados pessoais em geral, sem referência ao dado neural."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não informa o país de armazenamento dos dados nem algum mecanismo de transferência internacional."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não oferece exclusão de dados a pedido. Menciona apenas a possibilidade de alterar preferências de privacidade em caso de venda da empresa."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não traz prazo de retenção nem critério para definir por quanto tempo os dados são guardados."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política só prevê, de forma genérica, o uso de informações pessoais para pesquisa e análise com o fim de melhorar produtos, sem tratar do dado neural. Também não descreve adesão separada nem anonimização."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita a LGPD nem o Brasil, não indica encarregado ou canal para titulares brasileiros e não estende direitos a usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "name, email address, billing address, phone number, birth date",
+          "inferido": false,
+          "evidencia": "Personal information is information about you that is personally identifiable, including your name, email address, billing address, phone number, credit card information, birth date, and other information, that is not otherwise publicly available.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "credit card information",
+          "inferido": false,
+          "evidencia": "your credit card information and information about the products you own; and information relating to a support or service issue.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "information about the products you own; information relating to a support or service issue",
+          "inferido": false,
+          "evidencia": "your credit card information and information about the products you own; and information relating to a support or service issue.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "generic information with respect to your use of the Site",
+          "inferido": false,
+          "evidencia": "NeuroSky gathers certain generic information with respect to your use of the Site, such as the frequency with which you visit the Site, the applications and the services you use, and the areas on the web site that you favor.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "cookies with a unique identification number",
+          "inferido": false,
+          "evidencia": "A cookie is a small text file containing a unique identification number that is transferred from a Web site to the hard drive of your computer so that the site administrator may identify your computer and passively track its activities on the website.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "information describing your computer system",
+          "inferido": false,
+          "evidencia": "The applications may also contain DRMS produced by us which allow for communication between the applications you use or download and our systems and which collect information describing your computer system in order to prevent illegal or unauthorized use of the applications.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "web logs (e-mail addresses entered, pages viewed at a particular IP address)",
+          "inferido": false,
+          "evidencia": "Web logs automatically record anything a web server sees, which may include e-mail addresses you enter into a form or pages viewed by a user at a particular IP address.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "geographic location",
+          "inferido": false,
+          "evidencia": "This information may include your demographic information, geographic location, what content you access on our site, how you rate such content, language contained in your comments and other information.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "demographic information (age, education level, household income)",
+          "inferido": false,
+          "evidencia": "We may request demographic information from you (for example, your age, education level or household income) from time to time.",
+          "id_documento": "P02-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "information about you from third party sources",
+          "inferido": false,
+          "evidencia": "we may receive information about you from third party sources and our web logs and add it to the information that we have received from you.",
+          "id_documento": "P02-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Authorize.net",
+          "categoria": "pagamento",
+          "evidencia": "As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "DCL",
+          "categoria": "pagamento",
+          "evidencia": "As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "jadedPixel Inc. (shopify.com)",
+          "categoria": "pagamento",
+          "evidencia": "As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "PayPal",
+          "categoria": "pagamento",
+          "evidencia": "As of the date of this privacy policy, these companies are Authorize.net, DCL, jadedPixel Inc. (shopify.com) and PayPal.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "companies to serve advertisements",
+          "categoria": "publicidade",
+          "evidencia": "We may use your information or allow companies access to your information to determine which advertisements you will see and what communications you will receive.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "partners, advertisers, sponsors, and other companies with which we do business",
+          "categoria": "publicidade",
+          "evidencia": "We may also provide statistical information about how our customers collectively use our web site to partners, advertisers, sponsors, and other companies with which we do business.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "third parties who send e-mails on our behalf",
+          "categoria": "outros",
+          "evidencia": "In addition, if you opt-out, we may share that information with third parties who send e-mails on our behalf so that they do not e-mail you.",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "legal process, such as a court order or subpoena",
+          "categoria": "autoridades",
+          "evidencia": "we may indeed disclose personal information if required to do so in response to legal process, such as a court order or subpoena",
+          "id_documento": "P02-1"
+        },
+        {
+          "nome": "third-party acquiring NeuroSky' assets",
+          "categoria": "outros",
+          "evidencia": "we reserve the right to transfer our user databases together with any personally identifiable information contained therein, to a third-party acquiring NeuroSky’ assets.",
+          "id_documento": "P02-1"
+        }
+      ],
+      "paises": []
+    }
+  }
+}

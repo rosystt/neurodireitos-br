@@ -1,0 +1,16 @@
+id_politica,fabricante,grupo,nota_ponderada,nota_maxima,respostas_sim,respostas_nao,respostas_nao_menciona,respostas_para_revisao
+P01,InteraXon Inc.,brasil,13,25,7,1,4,0
+P02,NeuroSky Inc.,brasil,0,25,0,1,11,0
+P03,Emotiv Inc.,brasil,16,25,8,2,2,0
+P04,"Hangzhou Enter Electronic Technology Co., Ltd. (Entertech)",brasil,3,25,2,2,8,0
+P05,BrainBit Inc.,brasil,5,25,2,0,10,0
+P06,Shenzhen Macrotellect Ltd.,brasil,3,25,1,4,7,0
+P07,Neurosity Inc.,brasil,16,25,8,1,3,0
+P08,Sens.ai Inc.,brasil,11,25,5,1,6,0
+P09,PankhTech India Pvt. Ltd.,brasil,2,25,1,1,10,0
+P10,BrainCo Inc.,comparacao,14,25,7,1,4,0
+P11,Neurable Inc.,comparacao,8,25,4,3,5,0
+P12,NextSense Inc.,comparacao,21,25,9,0,3,0
+P13,StimScience Inc.,comparacao,8,25,3,4,5,0
+P14,Earable Neuroscience,comparacao,1,25,1,2,9,0
+P15,Elemind Technologies Inc.,comparacao,16,25,7,2,3,0

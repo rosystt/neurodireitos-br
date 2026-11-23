@@ -1,0 +1,278 @@
+{
+  "id_politica": "P06",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "5c729974b6f54ade4bda27b72fa383bfc438dc4fa18804014a98a1114376eea5",
+  "avaliado_em_utc": "2026-11-17T23:45:51+00:00",
+  "duracao_ms": 71886,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10481,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 8348,
+    "output_tokens_details": {
+      "thinking_tokens": 4043
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 10481,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8348,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 10481,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 10481
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "指我们通过旗下的硬件设备采集到的能够反映你大脑状态的脑电波数据。该数据目前无法作为能够有效识别个人身份的识别信息，但是我们不排除今后可以通过技术升级能够达成对个人身份信息的识别，因此单独列出。",
+        "id_documento": "P06-1",
+        "justificativa": "A política lista as \"informações de ondas cerebrais\" (脑电波信息) como uma categoria própria, com nome e definição. Também diz expressamente que as lista separadamente (单独列出)."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao",
+        "evidencia": "对于脑电波信息目前国家没有相关的法律法规提供的管理规范，因此本协议将脑电波信息等同于个人信息进行管理。",
+        "id_documento": "P06-1",
+        "justificativa": "A política afirma que as informações de ondas cerebrais são geridas da mesma forma que as demais informações pessoais. Ou seja, declara tratamento igual, e não proteção reforçada."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao",
+        "evidencia": "一旦您安装、使用、注册或以其他方式访问我们的服务，那就意味着您已经接受本政策，并且在知情的基础上明确同意按本政策的规定处理、使用和披露您的个人信息。",
+        "id_documento": "P06-1",
+        "justificativa": "Instalar, usar ou acessar o serviço já equivale a aceitar a política e consentir com o tratamento das informações pessoais. A política submete expressamente o dado neural a esse mesmo regime."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "As finalidades aparecem apenas para informações pessoais e não pessoais em geral. Nenhuma finalidade específica é ligada aos dados de ondas cerebrais."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política diz apenas que os dados de ondas cerebrais \"refletem o estado do cérebro\", sem nomear inferências como foco, estresse ou sono. Também não separa o sinal bruto das informações derivadas dele."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "为了分析我们的服务的使用情况、提供客户支持和技术支持、管理和提供我们的服务（包括管理广告投放）、个性化我们的通讯、改进我们的服务、开发我们其他的产品和服务，我们可能单独或整合地使用您的个人信息和非个人信息。",
+        "id_documento": "P06-1",
+        "justificativa": "A política admite usar informações pessoais, regime em que inclui o dado neural, na gestão de anúncios, e compartilhar dados com parceiros para veicular anúncios. A promessa de não venda cobre só e-mail, telefone e endereço, sem excluir o dado neural."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Os terceiros (instituições de pesquisa, provedores de e-mail, analistas de dados etc.) são identificados por categoria apenas para informações pessoais ou não pessoais em geral. Não se diz quem recebe o dado neural."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política menciona transferência internacional (跨境转移) e divulgação a coligadas e parceiros no exterior (海外), exigindo apenas que sigam a política. Não indica o país de armazenamento nem um mecanismo definido de transferência."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "O canal por e-mail é oferecido só para consultar, atualizar ou corrigir dados, e a exclusão não é garantida expressamente. Há apenas uma ressalva geral de que alguns dados podem ser mantidos após mudança ou exclusão, sem menção específica ao dado neural."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política só diz que os dados ficam guardados até que as finalidades da política sejam atingidas. É uma fórmula genérica, sem prazo nem critério verificável."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "nao",
+        "evidencia": "我们可能会将您的个人信息跨境转移用于关联公司的调研和分析，或者共享给第三方服务提供者、商业伙伴用于联合向您提供服务、调研和分析。",
+        "id_documento": "P06-1",
+        "justificativa": "A política se reserva o uso e o compartilhamento de informações pessoais, regime em que inclui o dado neural, para pesquisa e análise. Não exige adesão separada nem descreve anonimização."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não cita o Brasil nem a LGPD e não estende os direitos a usuários de qualquer país. Ela se submete à lei do domicílio da empresa."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "脑电波信息（脑电波数据）",
+          "inferido": false,
+          "evidencia": "指我们通过旗下的硬件设备采集到的能够反映你大脑状态的脑电波数据。",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "设备属性（IP地址、MAC地址、设备标识符、广告识别符）、设备软件平台和固件、手机运营商",
+          "inferido": false,
+          "evidencia": "（1）设备属性，包括但不限于IP地址、网卡（MAC）地址、开放性独特设备标识符和广告识别符 或其他永久性或非永久性设备标识符（“设备标识符”）；（2）设备软件平台和固件；（3）手机运营商；",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "邮政编码、地域码、粗略定位等地理数据",
+          "inferido": false,
+          "evidencia": "（4）邮政编码、地域码、粗略定位等地理数据；",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "定位数据（GPS、Wi-Fi、IP地址）",
+          "inferido": false,
+          "evidencia": "如果您所使用的我们的服务支持定位，我们就可能收集并处理您的定位数据，以提供与您位置相关的服务和广告。",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "游戏进程、游戏时间、得分和成绩",
+          "inferido": false,
+          "evidencia": "（5）游戏进程、游戏时间、得分和成绩；",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "姓名、昵称、账户名称、电子邮件地址、电话号码、照片、性别、地址、亲友关系、头像、运输信息",
+          "inferido": false,
+          "evidencia": "我们收集、处理、使用的个人信息可能包括但不限于您的姓名、昵称、在我们的服务或第三方服务中的账户名称、电子邮件地址、电话号码、照片或其他图像、性别、地址、亲友关系、头像、信用卡信息、运输信息和能直接识别您的位置的信息",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "信用卡信息",
+          "inferido": false,
+          "evidencia": "头像、信用卡信息、运输信息和能直接识别您的位置的信息",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "社交网站账户内的信息",
+          "inferido": false,
+          "evidencia": "如果您的社交网站允许并经您许可，我们可能收集您社交网站账户内的信息。",
+          "id_documento": "P06-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "从使用情况推断的数据",
+          "inferido": true,
+          "evidencia": "但我们将用户输入或从使用情况推断的数据整合起来，在不会识别个人的前提下自己利用或向第三方提供整合数据。",
+          "id_documento": "P06-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "国家机关",
+          "categoria": "autoridades",
+          "evidencia": "我们可能向合作伙伴和受托人（包括国家机关、科研机构、院校、具备合法资质的医疗机构、健身场所、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商，下同）披露",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "科研机构、院校",
+          "categoria": "pesquisa",
+          "evidencia": "我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。我们可以在必要的情况下与上述第三方共享您的个人信息，使其能够为我们服务。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "数据分析商",
+          "categoria": "analise_de_uso",
+          "evidencia": "我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。我们可以在必要的情况下与上述第三方共享您的个人信息，使其能够为我们服务。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "第三方分析软件/分析公司",
+          "categoria": "analise_de_uso",
+          "evidencia": "您确认并同意我们使用的分析公司可以将通过我们的服务收集的信息与它们独立从其他产品或服务收集的有关于您的活动的其他信息结合起来。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "邮件服务提供商",
+          "categoria": "outros",
+          "evidencia": "我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "运输代理",
+          "categoria": "outros",
+          "evidencia": "我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "商业信息提供商",
+          "categoria": "outros",
+          "evidencia": "我们可能聘用科研机构、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "具备合法资质的医疗机构、健身场所",
+          "categoria": "outros",
+          "evidencia": "我们可能向合作伙伴和受托人（包括国家机关、科研机构、院校、具备合法资质的医疗机构、健身场所、邮件服务提供商、运输代理、数据分析商和商业信息提供商等第三方服务提供商，下同）披露",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "关联公司/关联人",
+          "categoria": "empresas_do_grupo",
+          "evidencia": "我们可能根据法律和本政策规定保存和/或向海外的关联人和合作伙伴披露您的个人信息。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "商业伙伴",
+          "categoria": "outros",
+          "evidencia": "或者共享给第三方服务提供者、商业伙伴用于联合向您提供服务、调研和分析。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "执法部门或政府官员",
+          "categoria": "autoridades",
+          "evidencia": "我们可能为满足执法部门或政府官员在调查欺诈、知识产权侵权或其他违法或可能使我们承担法律责任的活动时按其要求向第三方披露您的个人信息。",
+          "id_documento": "P06-1"
+        },
+        {
+          "nome": "企业并购、重组等交易中的第三方",
+          "categoria": "outros",
+          "evidencia": "我们可能在与企业并购、重组、出售全部或部分股票和/或资产等重大变化相关的情况下，包括但不限于尽职调查过程中，向第三方披露您的个人信息，但本政策将继续适用于这些个人信息。",
+          "id_documento": "P06-1"
+        }
+      ],
+      "paises": []
+    }
+  }
+}

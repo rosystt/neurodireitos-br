@@ -1,0 +1,389 @@
+{
+  "id_politica": "P01",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "e04e1ce1318d0c1d924298b3970cec539eb59e6d701b40dcbb4a443edc7224ed",
+  "avaliado_em_utc": "2026-11-17T23:40:36+00:00",
+  "duracao_ms": 103779,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24069,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 12905,
+    "output_tokens_details": {
+      "thinking_tokens": 7012
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 24069,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 12905,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 24069,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 24069
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "“\nSensor Data\n” means data such as brainwave patterns (through electroencephalogram or EEG), heartbeat patterns (photoplethysmogram (PPG)), movement data, UV data, battery status data, temperature data, and pressure data collected through the sensors on the Muse device.",
+        "id_documento": "P01-1",
+        "justificativa": "A política nomeia expressamente os padrões de ondas cerebrais (EEG) na definição de \"Sensor Data\", uma categoria de dado coletado. O dado neural aparece com nome próprio e não diluído em expressões genéricas."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política não classifica o dado de EEG como sensível. Também não descreve regras de segurança, acesso ou armazenamento próprias para ele: as salvaguardas citadas valem para dados pessoais em geral."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "Não há consentimento próprio para coletar e usar o dado neural. O consentimento separado descrito vale só para o programa de pesquisa com terceiros e para o compartilhamento com o Observer, e a política não informa a base em que o EEG é tratado no uso comum."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "When you use the Muse application with the Muse device, we record, process and store your Activity Data, Sensor Data, Preference Data, Processed Data and Transmission Data. We use the data referenced in the preceding sentence to provide you with real-time feedback during a Muse session, reports after Muse sessions",
+        "id_documento": "P01-1",
+        "justificativa": "A política liga finalidades determinadas ao conjunto que inclui o Sensor Data, como feedback em tempo real durante a sessão e relatórios depois dela. Na Muse Direct, diz ainda que o Sensor Data fica na nuvem só para facilitar o acesso do usuário."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "the improvement of our own algorithms and machine-learning models, including foundation models, that power Muse features such as sleep staging and brain-health metrics",
+        "id_documento": "P01-1",
+        "justificativa": "A política separa o sinal bruto (Sensor Data) dos dados gerados a partir dele (Processed Data). Também nomeia inferências produzidas pelos seus modelos, como estágios do sono e métricas de saúde cerebral."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "nao",
+        "evidencia": "Information collected from Personal Devices may be shared with organizations outside of our company, such as advertisers and/or advertising platforms to deliver the advertising, and to help measure the effectiveness of an advertising campaign.",
+        "id_documento": "P01-1",
+        "justificativa": "A política admite compartilhar informações com anunciantes e plataformas de publicidade sem excluir o dado neural. A promessa de não vender dados tem ressalvas (\"without consent, except as otherwise set out herein\") e não afasta esse uso."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "we will transfer certain data to such applications, including Muse Data, session reminders, and your meditation goals",
+        "id_documento": "P01-1",
+        "justificativa": "A política diz quem recebe o Muse Data, que inclui o EEG: Apple Health e Google Fit por nome, e terceiros de pesquisa por categoria, dentro do programa voluntário. Os prestadores de serviço também aparecem por categoria."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "Your personal information may be collected, used, processed, transferred, and retained by us, our affiliates and our service providers in multiple countries (including Canada, the United States, and the European Economic Area (“EEA”))",
+        "id_documento": "P01-1",
+        "justificativa": "A política informa os países de armazenamento (Canadá, Estados Unidos e EEE). Já os mecanismos de transferência (adequação, Data Privacy Framework, cláusulas-padrão) só são descritos para dados que saem do EEE, Suíça ou Reino Unido, sem alcançar o usuário no Brasil."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "We will delete your personal information from our Products if your account becomes inactive, i.e., there has been no user log-in to the account for a period set by us from time-to time (such period of non-activity will not exceed 10 years) or if you withdraw your consent to the processing of your personal information (e.g., if you delete your account).",
+        "id_documento": "P01-1",
+        "justificativa": "A política garante a exclusão dos dados pessoais a qualquer usuário que apague a conta ou retire o consentimento, e indica o canal de contato. Ressalva: os backups podem durar até 30 dias, e dados desidentificados continuam sendo usados."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "sim",
+        "evidencia": "Typically, we will retain your Muse account personal information for as long as you have an account on one or more of our Products. We will delete your personal information from our Products if your account becomes inactive, i.e., there has been no user log-in to the account for a period set by us from time-to time (such period of non-activity will not exceed 10 years)",
+        "id_documento": "P01-1",
+        "justificativa": "A política dá um critério verificável: os dados ficam guardados enquanto a conta existir. Também fixa um teto de 10 anos de inatividade para a exclusão."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "sim",
+        "evidencia": "the improvement of our own algorithms and machine-learning models, including foundation models, that power Muse features such as sleep staging and brain-health metrics. Data used for this purpose is first de-identified.",
+        "id_documento": "P01-1",
+        "justificativa": "Para pesquisa e treino de algoritmos, a política exige desidentificação prévia e explica, em outra seção, que isso significa remover identificadores pessoais. O compartilhamento com terceiros para pesquisa depende de adesão voluntária no aplicativo."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "Depending on where you live, you may have some or all of the rights listed below in relation to your personal information.",
+        "id_documento": "P01-2",
+        "justificativa": "A política não cita o Brasil nem a LGPD e não indica canal para titulares brasileiros. Os direitos dependem da lei aplicável e do local de residência, e só a UE e a Califórnia têm canais ou direitos específicos."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "brainwave patterns (through electroencephalogram or EEG)",
+          "inferido": false,
+          "evidencia": "brainwave patterns (through electroencephalogram or EEG)",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "heartbeat patterns (photoplethysmogram (PPG)), movement data, temperature data",
+          "inferido": false,
+          "evidencia": "heartbeat patterns (photoplethysmogram (PPG)), movement data, UV data, battery status data, temperature data, and pressure data collected through the sensors on the Muse device",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Processed Data (heart rate, heart rate variability, breath rate)",
+          "inferido": true,
+          "evidencia": "means data such as heart rate, heart rate variability (HRV), and breath rate which is generated by us by processing Sensor Data.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "sleep staging and brain-health metrics",
+          "inferido": true,
+          "evidencia": "that power Muse features such as sleep staging and brain-health metrics",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Activity Data",
+          "inferido": false,
+          "evidencia": "“Activity Data” means data such as progress, trends, achievements over time, and session start and end times collected by us based on your activity.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Preference Data",
+          "inferido": false,
+          "evidencia": "means data you provide regarding your preferences, such as session reminders, and any other data you choose to input; for example, notes you record in the application after a Muse session.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Transmission Data (log data, IP address)",
+          "inferido": false,
+          "evidencia": "means your log data such as the date and time of syncing of your Personal Device with our servers, duration of the time spent using our applications on your Personal Device, and the Internet Protocol (",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "Location Data",
+          "inferido": false,
+          "evidencia": "means your location features when using our android mobile applications to enable use of Bluetooth functionality.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Conversational Data",
+          "inferido": false,
+          "evidencia": "means the conversational inputs and messages you share with Muse AI Coach (“AI Coach”), including text or voice transcripts and related metadata (e.g., timestamps and session identifiers).",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "login credentials (email address, name, password)",
+          "inferido": false,
+          "evidencia": "you will need to provide us with information such as your login credentials (e.g. your email address, name, and/or password) and payment information, when applicable.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "geographic region/country, handedness, gender, year of birth",
+          "inferido": false,
+          "evidencia": "Additional information we will ask you for when you are creating your Muse mobile application account is your geographic region and/or country, whether you are right or left handed, your gender, and year of birth.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "payment information (credit or debit card number and other card information)",
+          "inferido": false,
+          "evidencia": "This includes payment information, such as your credit or debit card number and other card information; other account and authentication information; and billing, shipping and contact details.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "details about the Personal Device (browser type, device type, operating system, IP address)",
+          "inferido": false,
+          "evidencia": "The information we collect in this manner may include details about the Personal Device used to access the Products (such as browser type, device type, operating system and version, and IP address)",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Observer information (telephone number, business type, entity name, professional designation)",
+          "inferido": false,
+          "evidencia": "we require the Observer to provide us with information such as a telephone number, business type, entity name, and professional designation.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "profession and how you heard about us",
+          "inferido": false,
+          "evidencia": "When you create an account for Muse Direct, we require that you provide your profession and how you heard about us.",
+          "id_documento": "P01-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Usage information",
+          "inferido": false,
+          "evidencia": "Usage information including information regarding your interaction with the Services, including how and when you interact with or navigate the Services.",
+          "id_documento": "P01-2"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Transaction information",
+          "inferido": false,
+          "evidencia": "Transaction information including the items you view, put in your cart, add to your wishlist, or purchase, return, exchange or cancel and your past transactions.",
+          "id_documento": "P01-2"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Observer (coach, wellness professional or employer)",
+          "categoria": "outros",
+          "evidencia": "we share the Participant’s Activity Data, Processed Data, Email, Name and Profile picture with only that Observer.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "third parties involved in research",
+          "categoria": "pesquisa",
+          "evidencia": "you are consenting to the sharing of your Muse Data on a de-identified basis with third parties involved in research related to improving the scientific understanding of the brain/body",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "researchers",
+          "categoria": "pesquisa",
+          "evidencia": "may also provide de-identified and/or aggregated data to researchers in connection with research programs.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Apple Health",
+          "categoria": "outros",
+          "evidencia": "we will transfer certain data to such applications, including Muse Data, session reminders, and your meditation goals",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Google Fit",
+          "categoria": "outros",
+          "evidencia": "We may provide you with the option of integrating our Products with applications such Apple Health or Google Fit in order to help you track your progress.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "affiliates",
+          "categoria": "empresas_do_grupo",
+          "evidencia": "We will transfer (or otherwise make available) personal information to our affiliates for the above purposes and to third parties who provide services on our behalf.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "service providers who store information on our behalf in the cloud",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "This includes service providers who: (a) store information on our behalf in the cloud; (b) host our websites;",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "third-party payment processor",
+          "categoria": "pagamento",
+          "evidencia": "While payments made through or for our Products are processed through a third-party payment processor",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Google Analytics",
+          "categoria": "analise_de_uso",
+          "evidencia": "We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Firebase Analytics",
+          "categoria": "analise_de_uso",
+          "evidencia": "We use third party web and mobile analytics services such as Google Analytics and Firebase Analytics, to help us analyze how visitors use the Products.",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "advertisers and/or advertising platforms",
+          "categoria": "publicidade",
+          "evidencia": "Information collected from Personal Devices may be shared with organizations outside of our company, such as advertisers and/or advertising platforms to deliver the advertising",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "advertising networks and data analytics companies",
+          "categoria": "publicidade",
+          "evidencia": "we may allow some third parties to (such as advertising networks and data analytics companies) collect information about your online activities over time and across different websites and apps",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Canadian, US, or other foreign governmental authorities, courts, or law enforcement agencies",
+          "categoria": "autoridades",
+          "evidencia": "which may include lawful access by Canadian, US, or other foreign governmental authorities, courts, or law enforcement agencies",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "third party mobile network providers",
+          "categoria": "outros",
+          "evidencia": "Text Messages/SMS are distributed via third party mobile network providers",
+          "id_documento": "P01-1"
+        },
+        {
+          "nome": "Shopify",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "The Services are hosted by Shopify, which collects and processes personal information about your access to and use of the Services in order to provide and improve the Services for you.",
+          "id_documento": "P01-2"
+        },
+        {
+          "nome": "business and marketing partners",
+          "categoria": "publicidade",
+          "evidencia": "With business and marketing partners to provide marketing services and advertise to you.",
+          "id_documento": "P01-2"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Canadá",
+          "papel": "armazenamento",
+          "evidencia": "Personal information may be maintained and processed by third party service providers in the US, Canada, or other jurisdictions.",
+          "id_documento": "P01-1"
+        },
+        {
+          "pais": "Estados Unidos",
+          "papel": "armazenamento",
+          "evidencia": "Personal information may be maintained and processed by third party service providers in the US, Canada, or other jurisdictions.",
+          "id_documento": "P01-1"
+        },
+        {
+          "pais": "Espaço Econômico Europeu",
+          "papel": "armazenamento",
+          "evidencia": "Your personal information may be collected, used, processed, transferred, and retained by us, our affiliates and our service providers in multiple countries (including Canada, the United States, and the European Economic Area (“EEA”))",
+          "id_documento": "P01-1"
+        },
+        {
+          "pais": "Canadá",
+          "papel": "transferencia",
+          "evidencia": "If you are located in the EEA, Canada has been recognized by the European Commission as providing an adequate level of protection for the personal information transferred from the EEA",
+          "id_documento": "P01-1"
+        },
+        {
+          "pais": "Estados Unidos",
+          "papel": "transferencia",
+          "evidencia": "including by selecting U.S. service providers that are certified to the EU-U.S. Data Privacy Framework and the Swiss-U.S. Data Privacy Framework",
+          "id_documento": "P01-1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "id_politica": "P15",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "084fd92eb037b439c7c375e2753d1a777855fc0a51a6e94259b33fc6320c21d2",
+  "avaliado_em_utc": "2026-11-17T23:56:20+00:00",
+  "duracao_ms": 106118,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 13194,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 13330,
+    "output_tokens_details": {
+      "thinking_tokens": 5671
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 13194,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 13330,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 13194,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 13194
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "Sensor-derived data (i.e., biometric data), including movement information derived from accelerometry, and neural activity measured through electroencephalogram (EEG), and device battery level.",
+        "id_documento": "P15-1",
+        "justificativa": "A política lista pelo nome, entre os dados coletados, a atividade neural medida por EEG."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "sim",
+        "evidencia": "Sensitive Personal Information includes information that can identify you and includes data such as health information, sensor or biometric information, subjective information that you may enter into the Elemind App, etc.",
+        "id_documento": "P15-1",
+        "justificativa": "A política chama o EEG de 'sensor-derived data (i.e., biometric data)' e classifica dados de sensores e biométricos como informação pessoal sensível, sujeita a restrições próprias de compartilhamento."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "nao",
+        "evidencia": "Elemind does not collect or process your personal information unless you grant us permission to do so after having an opportunity to review this Privacy Statement and by continuing to use the Services.",
+        "id_documento": "P15-1",
+        "justificativa": "A permissão para coletar e tratar os dados vem de continuar usando os Serviços depois de ter acesso à política. Não há consentimento separado para o dado neural."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "This data allows us to provide targeted stimulation that tracks features of your brainwaves. In addition, these types of data are used to provide you feedback about your health, including the quantity and quality of your sleep.",
+        "id_documento": "P15-1",
+        "justificativa": "A política liga os dados de EEG a finalidades definidas: estimulação direcionada conforme as ondas cerebrais e retorno sobre a quantidade e a qualidade do sono."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "Processed data, including data derived from sensor data, such as ballistocardiogram, sleep stage estimations, EEG features such as sleep spindles or slow waves, or other health information. Sensor data and other data types may be processed together to measure stress levels, sleep quality, or other health metrics.",
+        "id_documento": "P15-1",
+        "justificativa": "A política separa o sinal bruto dos dados processados e nomeia as inferências: estágios do sono, fusos do sono, ondas lentas, níveis de estresse e qualidade do sono."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "sim",
+        "evidencia": "Elemind does not share, trade, rent, sell or otherwise disclose your sensitive information except as may be required by law or with your express consent.",
+        "id_documento": "P15-1",
+        "justificativa": "A política exclui a venda e qualquer divulgação dos dados sensíveis, que incluem os dados biométricos e de sensores como o EEG, ressalvados a exigência legal e o consentimento expresso. Isso afasta o dado neural do compartilhamento para publicidade, que a política admite só para outros dados pessoais."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "Elemind does not share your sensitive personal information with any third party.",
+        "id_documento": "P15-1",
+        "justificativa": "A política diz que os dados sensíveis, entre eles os biométricos e de sensores, não são compartilhados com nenhum terceiro. Ainda assim, o texto prevê, por escolha do usuário, o envio de dados processados ao Apple Health e ao Google Fit, e admite divulgação a prestadores de serviço, como os de armazenamento em nuvem."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "The personal information we collect is stored solely in the United States.",
+        "id_documento": "P15-1",
+        "justificativa": "A política informa o país de armazenamento (Estados Unidos), mas não descreve nenhum mecanismo ou garantia para a transferência internacional."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "nao",
+        "evidencia": "Please note that we often need to retain certain data for reasons such as recordkeeping and/or to complete any transaction that you began prior to requesting a change or deletion. Our databases and other records may have residual data which will not be removed.",
+        "id_documento": "P15-1",
+        "justificativa": "A política só oferece a exclusão 'se esses direitos estiverem disponíveis pela lei aplicável' e afirma que dados residuais, que incluem o dado neural, não serão removidos, sem ligar essa retenção a uma obrigação legal."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política só diz que guarda os dados 'pelo tempo necessário', com critérios abertos e genéricos. Não há prazo nem critério verificável para o dado neural."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "sim",
+        "evidencia": "This data may be used (anonymously) to improve Elemind’s products and services or to develop new ones.",
+        "id_documento": "P15-1",
+        "justificativa": "O uso dos dados de EEG para melhorar e desenvolver produtos depende de anonimização. A política explica que os dados anonimizados são alterados para que não identifiquem mais ninguém e que a pessoa não possa ser reidentificada."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "If you would like to make a request to access, review, update, or delete personal information about you (if these rights are available to you under applicable law), please contact us at privacy@elemindtech.com.",
+        "id_documento": "P15-1",
+        "justificativa": "A política não cita o Brasil nem a LGPD. Os direitos de acesso e exclusão valem só 'se disponíveis pela lei aplicável', e a seção detalhada de direitos é dedicada a moradores da Califórnia."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact Information (name, email address, phone number)",
+          "inferido": false,
+          "evidencia": "Your contact Information (e.g., name, email address, phone number, etc.) when signing up for or using the Services.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Demographic information (gender, age, weight, height)",
+          "inferido": false,
+          "evidencia": "Information you choose to input into certain web-forms or features of the Elemind App (for instance demographic information such as gender, age weight, height, etc.)",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Contextual and behavioral information (sleep quality, mood, substance use, exercise habits, sleep preferences)",
+          "inferido": false,
+          "evidencia": "Contextual and behavioral information. This includes subjective descriptions such as sleep quality, mood, use of certain substances, exercise habits and sleep preferences.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Payment information",
+          "inferido": false,
+          "evidencia": "Payment information such as credit or debit card numbers, account and authentication information and billing, shipping and contact details including transaction history and related information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Information provided when contacting Elemind (questions, warranty, support)",
+          "inferido": false,
+          "evidencia": "Information provided when you contact Elemind with questions, warranty issues, support requests, etc.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Device information (model, OS, IP address, country and time zone, etc.)",
+          "inferido": false,
+          "evidencia": "Device information (model, operating system version, mobile network information, operating system and system settings, browser type, browser language, Internet Protocol (IP) address, country and time zone in which your device is located, and the Platform pages you viewed and how long you viewed them, and similar identifiers).",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Mobile Application Information",
+          "inferido": false,
+          "evidencia": "Mobile Application Information (application data and metadata stored on your device when permitted by your operating system settings)",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Data related to your use of the Services",
+          "inferido": false,
+          "evidencia": "Data related to your use of the Services including which services you have requested, which pages of the website you viewed or interacted with, etc.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Account credentials (usernames, emails, passwords)",
+          "inferido": false,
+          "evidencia": "Account credentials, including usernames, emails, and passwords.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "sinal_neural",
+          "descricao": "Neural activity measured through electroencephalogram (EEG)",
+          "inferido": false,
+          "evidencia": "Sensor-derived data (i.e., biometric data), including movement information derived from accelerometry, and neural activity measured through electroencephalogram (EEG), and device battery level.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Movement information derived from accelerometry",
+          "inferido": false,
+          "evidencia": "Sensor-derived data (i.e., biometric data), including movement information derived from accelerometry, and neural activity measured through electroencephalogram (EEG), and device battery level.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Device battery level",
+          "inferido": false,
+          "evidencia": "Sensor-derived data (i.e., biometric data), including movement information derived from accelerometry, and neural activity measured through electroencephalogram (EEG), and device battery level.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Ballistocardiogram (processed data derived from sensor data)",
+          "inferido": true,
+          "evidencia": "Processed data, including data derived from sensor data, such as ballistocardiogram, sleep stage estimations, EEG features such as sleep spindles or slow waves, or other health information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Sleep stage estimations",
+          "inferido": true,
+          "evidencia": "Processed data, including data derived from sensor data, such as ballistocardiogram, sleep stage estimations, EEG features such as sleep spindles or slow waves, or other health information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "EEG features such as sleep spindles or slow waves",
+          "inferido": true,
+          "evidencia": "Processed data, including data derived from sensor data, such as ballistocardiogram, sleep stage estimations, EEG features such as sleep spindles or slow waves, or other health information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Stress levels, sleep quality and other health metrics",
+          "inferido": true,
+          "evidencia": "Sensor data and other data types may be processed together to measure stress levels, sleep quality, or other health metrics.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Device and usage data (date and time of usage, firmware, error metrics, engagement with app pages, Bluetooth transmission information)",
+          "inferido": false,
+          "evidencia": "Device and usage data, such as date and time of device usage, device firmware version, device status such as error or performance metrics, mobile device model and operating system information, engagement with various app pages and features, Bluetooth transmission information, and location data.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "Location data",
+          "inferido": false,
+          "evidencia": "Device and usage data, such as date and time of device usage, device firmware version, device status such as error or performance metrics, mobile device model and operating system information, engagement with various app pages and features, Bluetooth transmission information, and location data.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Dream text entered in the Dream Journal",
+          "inferido": false,
+          "evidencia": "When you tap \"Visualize this dream\" in the Dream Journal, the text you wrote for that dream entry is sent to Google LLC (\"Google\") and processed by Google's Gemini API to generate an illustrative image.",
+          "id_documento": "P15-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Data imported from applications such as Apple Health or Google Fit",
+          "inferido": false,
+          "evidencia": "If you direct us to connect our products or Services to applications such as Apple Health or Google Fit, we will access and import certain data from such applications (in accordance with your privacy settings in such applications)",
+          "id_documento": "P15-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Shopify",
+          "categoria": "pagamento",
+          "evidencia": "Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Skio",
+          "categoria": "pagamento",
+          "evidencia": "Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Replo",
+          "categoria": "pagamento",
+          "evidencia": "Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Flex",
+          "categoria": "pagamento",
+          "evidencia": "Cookies necessary to operate the storefront, maintain your cart and session, process payment, and manage subscriptions. Providers include Shopify, Skio, Replo and Flex.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Google Analytics",
+          "categoria": "analise_de_uso",
+          "evidencia": "Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Statsig",
+          "categoria": "analise_de_uso",
+          "evidencia": "Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Lucky Orange",
+          "categoria": "analise_de_uso",
+          "evidencia": "Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Triple Whale",
+          "categoria": "analise_de_uso",
+          "evidencia": "Providers include Google Analytics, Statsig, Lucky Orange and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Google",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Meta",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "TikTok",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Pinterest",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Reddit",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "X",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Taboola",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Vibe",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "TVSquared",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Triple Whale",
+          "categoria": "publicidade",
+          "evidencia": "Providers include Google, Meta, TikTok, Pinterest, Reddit, X, Taboola, Vibe, TVSquared and Triple Whale.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Klaviyo",
+          "categoria": "outros",
+          "evidencia": "Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Okendo",
+          "categoria": "outros",
+          "evidencia": "Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Zigpoll",
+          "categoria": "outros",
+          "evidencia": "Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "UpPromote",
+          "categoria": "outros",
+          "evidencia": "Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Notify Me",
+          "categoria": "outros",
+          "evidencia": "Marketing communications, reviews and referrals. Providers include Klaviyo, Okendo, Zigpoll, UpPromote and Notify Me.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Zendesk",
+          "categoria": "outros",
+          "evidencia": "Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "accessiBe",
+          "categoria": "outros",
+          "evidencia": "Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Sentry",
+          "categoria": "outros",
+          "evidencia": "Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Pandectes",
+          "categoria": "outros",
+          "evidencia": "Customer support and accessibility. Providers include Zendesk, accessiBe, Sentry and Pandectes.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "third-party service providers (web hosting, translation or data storage)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "Sharing personal information with third-party service providers that perform services on behalf of Elemind (i.e., for web hosting, translation or data storage).",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "third parties offering additional products",
+          "categoria": "publicidade",
+          "evidencia": "Sharing personal information with third parties for purposes of offering additional products that we believe you may find useful.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "advertising or analytics recipients",
+          "categoria": "publicidade",
+          "evidencia": "Advertising and analytics purposes. We may disclose to or allow access to certain information about you for purposes of advertising or analytics.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "parties to a merger, sale, acquisition or other change of control",
+          "categoria": "outros",
+          "evidencia": "If Elemind is involved in a merger, sale, acquisition, divestiture, restructuring, reorganization, dissolution, bankruptcy or other change of ownership or control (in whole or in part), we may share your personal information, but it will at all times remain protected as described herein.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "government or law enforcement",
+          "categoria": "autoridades",
+          "evidencia": "Only as we are required to do so, to comply with valid requests from government or law enforcement.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Apple Health",
+          "categoria": "outros",
+          "evidencia": "we will transfer certain data to such applications, including processed data, in-app survey data, usage data, and demographic information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Google Fit",
+          "categoria": "outros",
+          "evidencia": "we will transfer certain data to such applications, including processed data, in-app survey data, usage data, and demographic information.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "Google LLC (Gemini API)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "When you tap \"Visualize this dream\" in the Dream Journal, the text you wrote for that dream entry is sent to Google LLC (\"Google\") and processed by Google's Gemini API to generate an illustrative image.",
+          "id_documento": "P15-1"
+        },
+        {
+          "nome": "third parties receiving de-identified or aggregated data",
+          "categoria": "outros",
+          "evidencia": "We may provide de-identified or aggregated data to third parties – but that data will not be linked to you, nor could you be re-identified from that data.",
+          "id_documento": "P15-1"
+        }
+      ],
+      "paises": [
+        {
+          "pais": "Estados Unidos",
+          "papel": "armazenamento",
+          "evidencia": "The personal information we collect is stored solely in the United States.",
+          "id_documento": "P15-1"
+        }
+      ]
+    }
+  }
+}

@@ -179,3 +179,54 @@ Tabelas de nós e de relações do grafo, geradas por `python -m src.preparar_gr
 | `criterios.csv` | critério | `id`, `criterio`, `pergunta`, `peso`, `hipotese` | `data/processed/criterios.csv` |
 | `lei_criterio.csv` | norma que fundamenta um critério | `id_lei`, `id_criterio`, `dispositivo` | Colunas `fonte_*` de `criterios.csv` |
 
+## `data/interim/avaliacao/`
+
+- `llm/<id_politica>_r<rodada>.json`: resposta bruta do modelo para cada política, com modelo, esforço, versão do prompt e da régua, hash do prompt, data, duração, uso de tokens e a saída estruturada completa. A rodada 1 cobre todas as políticas; a rodada 2 repete as políticas do padrão-ouro, para medir a estabilidade do modelo.
+- `amostra_padrao_ouro.csv`: as três políticas sorteadas para a avaliação manual (`id_politica`, `fabricante`, `grupo`, `semente`, `data_sorteio`), geradas por `python -m src.amostra_padrao_ouro`.
+- `manual/padrao_ouro.csv`: planilha da avaliação manual, uma linha por política da amostra e critério (`id_politica`, `id_criterio`, `pergunta`, `resposta`, `evidencia`, `observacoes`). As colunas `resposta`, `evidencia` e `observacoes` são preenchidas à mão, sem consultar as respostas do modelo.
+
+## `data/processed/avaliacoes.csv`
+
+Uma linha por política e critério (15 × 12), da rodada 1 do modelo. Gerado por `src/avaliacao.py`; verificado por `python -m src.validar_avaliacao`.
+
+| Coluna | Tipo | Descrição | Origem |
+|---|---|---|---|
+| `id_politica` | texto | Política avaliada. | `fontes_politicas.csv` |
+| `id_criterio` | texto | Critério da régua. | `criterios.csv` |
+| `resposta` | categoria | `sim`, `nao` ou `nao_menciona`. | Modelo |
+| `evidencia` | texto | Trecho literal da política citado pelo modelo; pode ficar vazio em `nao_menciona`. | Modelo |
+| `id_documento` | texto | Documento onde o trecho foi encontrado pela conferência automática (ou o indicado pelo modelo, se o trecho não foi encontrado). | Conferência / modelo |
+| `evidencia_conferida` | categoria | `confere` (o trecho existe, palavra por palavra, no texto limpo), `nao_confere` ou `sem_evidencia`. | Conferência automática |
+| `precisa_revisao` | categoria | `sim` quando a resposta é `sim` ou `nao` sem trecho conferido, o que viola a regra da régua. | Calculado |
+| `justificativa` | texto | Explicação curta do modelo, em português. | Modelo |
+| `modelo` | texto | Modelo pedido na chamada. | `src/avaliacao.py` |
+| `versao_prompt` | texto | Versão dos arquivos de `prompts/`. | `src/avaliacao.py` |
+| `versao_regua` | texto | Versão da régua usada. | `src/avaliacao.py` |
+| `avaliado_em_utc` | data e hora | Momento da avaliação, em UTC. | Registro |
+
+## `data/processed/pontuacao.csv`
+
+Uma linha por política.
+
+| Coluna | Tipo | Descrição | Origem |
+|---|---|---|---|
+| `id_politica` | texto | Política. | `fontes_politicas.csv` |
+| `fabricante` | texto | Fabricante. | `fontes_politicas.csv` |
+| `grupo` | categoria | `brasil` ou `comparacao`. | `inventario.csv` |
+| `nota_ponderada` | inteiro | Soma dos pesos dos critérios respondidos com `sim` (0 a 25). | Calculado |
+| `nota_maxima` | inteiro | Soma de todos os pesos (25). | `criterios.csv` |
+| `respostas_sim` | inteiro | Quantidade de `sim` (0 a 12). | Calculado |
+| `respostas_nao` | inteiro | Quantidade de `nao`. | Calculado |
+| `respostas_nao_menciona` | inteiro | Quantidade de `nao_menciona`. | Calculado |
+| `respostas_para_revisao` | inteiro | Quantidade de respostas marcadas para revisão. | Calculado |
+
+## `data/processed/dados_coletados.csv`, `terceiros.csv` e `paises_dos_dados.csv`
+
+Fatos declarados nas políticas, extraídos pelo modelo na mesma chamada da avaliação. Não entram na nota; alimentam o grafo. Toda linha tem `id_politica`, `evidencia` (trecho literal), `id_documento` e `evidencia_conferida`, como em `avaliacoes.csv`.
+
+| Arquivo | Colunas próprias |
+|---|---|
+| `dados_coletados.csv` | `categoria` (`sinal_neural`, `inferencia_neural`, `outros_sinais_corporais`, `identificacao_e_contato`, `uso_do_aplicativo`, `dispositivo_e_rede`, `localizacao`, `pagamento`, `outros`), `descricao` (como a política chama o dado), `inferido` (`True` se o dado é produzido a partir de outro) |
+| `terceiros.csv` | `nome` (nome próprio ou categoria descrita pela política), `categoria` (`nuvem_e_infraestrutura`, `analise_de_uso`, `publicidade`, `pagamento`, `pesquisa`, `empresas_do_grupo`, `autoridades`, `outros`) |
+| `paises_dos_dados.csv` | `pais` (em português; pode ser uma região, como União Europeia), `papel` (`armazenamento` ou `transferencia`) |
+

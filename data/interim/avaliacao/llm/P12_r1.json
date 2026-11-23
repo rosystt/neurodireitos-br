@@ -1,0 +1,308 @@
+{
+  "id_politica": "P12",
+  "rodada": 1,
+  "modelo": "claude-opus-5-5",
+  "modelo_usado": [
+    "claude-opus-5-5"
+  ],
+  "esforco": "high",
+  "versao_prompt": "v1",
+  "versao_regua": "1.0",
+  "sha256_prompt": "592a2017f25f0b5a39d1c3146438cff58b421c2a90ba69ed4f7157bd2f6e19d8",
+  "avaliado_em_utc": "2026-11-17T23:52:30+00:00",
+  "duracao_ms": 56552,
+  "uso": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 14396,
+    "cache_read_input_tokens": 1757,
+    "output_tokens": 7298,
+    "output_tokens_details": {
+      "thinking_tokens": 3204
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 14396,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7298,
+        "cache_read_input_tokens": 1757,
+        "cache_creation_input_tokens": 14396,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 14396
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "resposta": {
+    "respostas": [
+      {
+        "id_criterio": "C01",
+        "resposta": "sim",
+        "evidencia": "Brainwave data, which means signals about large-scale electrical activity in the brain, collected by the Smartbuds’ EEG sensors.",
+        "id_documento": "P12-1",
+        "justificativa": "A política lista o 'brainwave data' com nome próprio entre as informações coletadas pelos sensores dos Smartbuds e o define como sinal de EEG."
+      },
+      {
+        "id_criterio": "C02",
+        "resposta": "sim",
+        "evidencia": "By default, we process your brainwave data locally on your device, without sending it to our cloud.",
+        "id_documento": "P12-1",
+        "justificativa": "A política traz uma regra própria para o dado neural: por padrão, ele é processado só no aparelho. A tabela de divulgações também inclui 'Brainwave data' entre as informações pessoais sensíveis."
+      },
+      {
+        "id_criterio": "C03",
+        "resposta": "sim",
+        "evidencia": "We collect your brainwave data only with your consent.",
+        "id_documento": "P12-1",
+        "justificativa": "A política condiciona a coleta do dado neural a um consentimento próprio para esse dado. Ela também exige consentimento explícito para enviá-lo à nuvem."
+      },
+      {
+        "id_criterio": "C04",
+        "resposta": "sim",
+        "evidencia": "We process your brainwave data only to help you with your sleep, meditation, and focus. The NextSense app uses algorithms to derive metrics from your brainwave data.",
+        "id_documento": "P12-1",
+        "justificativa": "A política limita o uso do dado neural a finalidades determinadas: sono, meditação e foco, com métricas derivadas pelo aplicativo."
+      },
+      {
+        "id_criterio": "C05",
+        "resposta": "sim",
+        "evidencia": "The App uses this information to generate sleep metrics, such as sleep stages and time spent asleep, as well as insights related to meditation and focus.",
+        "id_documento": "P12-1",
+        "justificativa": "A política nomeia as inferências feitas a partir do dado neural: estágios do sono, tempo dormindo e insights sobre meditação e foco."
+      },
+      {
+        "id_criterio": "C06",
+        "resposta": "sim",
+        "evidencia": "We do not sell your brainwave data or share it with our marketing or advertising partners.",
+        "id_documento": "P12-1",
+        "justificativa": "A política afasta expressamente a venda do dado neural e seu compartilhamento com parceiros de marketing ou publicidade."
+      },
+      {
+        "id_criterio": "C07",
+        "resposta": "sim",
+        "evidencia": "We also do not share your brainwave data with other third parties for their own purposes, except at your direction – for example, if you choose to participate in a clinical trial or other study.",
+        "id_documento": "P12-1",
+        "justificativa": "A política diz por categoria quem recebe o dado neural (estudos e ensaios clínicos por escolha do usuário), e a tabela de divulgações lista as categorias de destinatários dos dados sensíveis. Essa tabela, porém, inclui 'Business and marketing partners', o que contradiz o princípio declarado."
+      },
+      {
+        "id_criterio": "C08",
+        "resposta": "nao_menciona",
+        "evidencia": "If we transfer your personal information out of Europe, we will rely on recognized transfer mechanisms like the European Commission's Standard Contractual Clauses, or any equivalent contracts issued by the relevant competent authority of the UK, as relevant, unless the data transfer is to a country that has been determined to provide an adequate level of protection.",
+        "id_documento": "P12-1",
+        "justificativa": "A política não diz em que país os dados ficam guardados; diz apenas que podem ser tratados fora do país do usuário. O mecanismo de transferência (cláusulas contratuais padrão) só é descrito para transferências a partir da Europa."
+      },
+      {
+        "id_criterio": "C09",
+        "resposta": "sim",
+        "evidencia": "You may ask us at any time to delete the information we maintain about you. This Privacy Policy explains how to submit a request.",
+        "id_documento": "P12-1",
+        "justificativa": "Nos princípios sobre o dado neural, a política oferece a exclusão a qualquer usuário, a qualquer momento, e indica canais de contato para o pedido."
+      },
+      {
+        "id_criterio": "C10",
+        "resposta": "nao_menciona",
+        "evidencia": "",
+        "id_documento": "",
+        "justificativa": "A política fixa prazo (exclusão da conta ou três anos) só para métricas de sono e dados de movimento. Para o sinal de EEG bruto, há só critérios genéricos, como o tempo de relação com o usuário mais o período de 'legitimate need'."
+      },
+      {
+        "id_criterio": "C11",
+        "resposta": "sim",
+        "evidencia": "You may opt in to allow us to use your brainwave data to train and improve our algorithms and models. If you do not opt in, we will not use your brainwave data for model training or other service development and improvement purposes.",
+        "id_documento": "P12-1",
+        "justificativa": "A política exige adesão separada (opt-in) do usuário para usar o dado neural no treinamento de algoritmos e na melhoria do serviço."
+      },
+      {
+        "id_criterio": "C12",
+        "resposta": "nao_menciona",
+        "evidencia": "Depending on where you live, you may have some or all of the rights listed below in relation to your personal information.",
+        "id_documento": "P12-1",
+        "justificativa": "A política não cita o Brasil nem a LGPD e faz os direitos dependerem do local de residência, sem estendê-los a usuários de qualquer país."
+      }
+    ],
+    "fatos": {
+      "tipos_de_dado": [
+        {
+          "categoria": "sinal_neural",
+          "descricao": "Brainwave data",
+          "inferido": false,
+          "evidencia": "Brainwave data, which means signals about large-scale electrical activity in the brain, collected by the Smartbuds’ EEG sensors.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Motion data",
+          "inferido": false,
+          "evidencia": "Motion data collected by the Smartbuds’ motion sensors (such as your movement during sleep).",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Sleep data and sleep metrics (sleep stages, time spent asleep)",
+          "inferido": true,
+          "evidencia": "Sleep data and sleep metrics derived from Smartbuds data (such as sleep stages and time spent asleep).",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "inferencia_neural",
+          "descricao": "Insights related to meditation and focus",
+          "inferido": true,
+          "evidencia": "The App uses this information to generate sleep metrics, such as sleep stages and time spent asleep, as well as insights related to meditation and focus.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "outros_sinais_corporais",
+          "descricao": "Additional health metrics like heart rate variability (via Apple HealthKit)",
+          "inferido": false,
+          "evidencia": "we may also collect additional health metrics like heart rate variability based on the permissions you grant.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Contact details",
+          "inferido": false,
+          "evidencia": "Contact details including your name, address, phone number, and email.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Biographic information",
+          "inferido": false,
+          "evidencia": "Biographic information including your age, sex, and gender.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Wellness-related information",
+          "inferido": false,
+          "evidencia": "Wellness-related information including details of your fitness activity, habits, weight, and health goals.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Order information",
+          "inferido": false,
+          "evidencia": "Order information including your name, billing address, shipping address, payment confirmation, email address, phone number, and purchase history.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "pagamento",
+          "descricao": "Payment information from payment processors",
+          "inferido": false,
+          "evidencia": "Our payment processors that collect payment information (e.g., bank account, credit or debit card information, billing address)",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "identificacao_e_contato",
+          "descricao": "Account information",
+          "inferido": false,
+          "evidencia": "Account information including your username, password, security questions and other information used for account security purposes.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "outros",
+          "descricao": "Customer support information",
+          "inferido": false,
+          "evidencia": "Customer support information including the information you choose to include in communications with us, for example, when sending a message through the Services.",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "uso_do_aplicativo",
+          "descricao": "Usage Data",
+          "inferido": false,
+          "evidencia": "such as pages or screens you viewed, how long you spent on a page or screen, navigation paths between pages or screens, information about your activity on a page or screen, access times, and duration of access",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "dispositivo_e_rede",
+          "descricao": "Device information, browser information, network connection, IP address",
+          "inferido": false,
+          "evidencia": "including device information, browser information, information about your network connection, your IP address and general location",
+          "id_documento": "P12-1"
+        },
+        {
+          "categoria": "localizacao",
+          "descricao": "Geolocation data",
+          "inferido": false,
+          "evidencia": "Geolocation data such as locations determined by an IP address or other technical measures",
+          "id_documento": "P12-1"
+        }
+      ],
+      "terceiros": [
+        {
+          "nome": "Shopify",
+          "categoria": "outros",
+          "evidencia": "We may also enhance your shopping experience by enabling Shopify to match your account with other Shopify services that you may choose to use.",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Vendors (cloud storage, IT management)",
+          "categoria": "nuvem_e_infraestrutura",
+          "evidencia": "Vendors or other third parties that perform services on our behalf (e.g., IT management, payment processing, data analytics, customer support, cloud storage, fulfillment and shipping).",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Payment processors",
+          "categoria": "pagamento",
+          "evidencia": "Vendors and third parties who perform services on our behalf (such as Internet service providers, payment processors, fulfillment partners, customer support partners and data analytics providers)",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Data analytics providers",
+          "categoria": "analise_de_uso",
+          "evidencia": "Vendors and third parties who perform services on our behalf (such as Internet service providers, payment processors, fulfillment partners, customer support partners and data analytics providers)",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Business and marketing partners",
+          "categoria": "publicidade",
+          "evidencia": "Business and marketing partners to provide Services and advertise to you. Our business and marketing partners may use your information in accordance with their own privacy notices.",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Third parties and service providers using Cookies",
+          "categoria": "publicidade",
+          "evidencia": "We may also permit third parties and services providers to use Cookies on our website to better tailor the services, products and advertising on our website and other websites.",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Research organizations",
+          "categoria": "pesquisa",
+          "evidencia": "Other third parties, at your direction, such as research organizations when you choose to participate in a study, or social media companies when you use social media widgets or login integrations.",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Social media companies",
+          "categoria": "outros",
+          "evidencia": "Other third parties, at your direction, such as research organizations when you choose to participate in a study, or social media companies when you use social media widgets or login integrations.",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Public and governmental authorities",
+          "categoria": "autoridades",
+          "evidencia": "Public and governmental authorities; and",
+          "id_documento": "P12-1"
+        },
+        {
+          "nome": "Parties to a business transaction (merger or bankruptcy)",
+          "categoria": "outros",
+          "evidencia": "We may also disclose your information in connection with a business transaction such as a merger or bankruptcy",
+          "id_documento": "P12-1"
+        }
+      ],
+      "paises": []
+    }
+  }
+}

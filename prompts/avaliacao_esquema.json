@@ -1,0 +1,88 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["respostas", "fatos"],
+  "properties": {
+    "respostas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id_criterio", "resposta", "evidencia", "id_documento", "justificativa"],
+        "properties": {
+          "id_criterio": {
+            "type": "string",
+            "enum": ["C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C10", "C11", "C12"]
+          },
+          "resposta": {"type": "string", "enum": ["sim", "nao", "nao_menciona"]},
+          "evidencia": {"type": "string"},
+          "id_documento": {"type": "string"},
+          "justificativa": {"type": "string"}
+        }
+      }
+    },
+    "fatos": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tipos_de_dado", "terceiros", "paises"],
+      "properties": {
+        "tipos_de_dado": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["categoria", "descricao", "inferido", "evidencia", "id_documento"],
+            "properties": {
+              "categoria": {
+                "type": "string",
+                "enum": [
+                  "sinal_neural", "inferencia_neural", "outros_sinais_corporais",
+                  "identificacao_e_contato", "uso_do_aplicativo", "dispositivo_e_rede",
+                  "localizacao", "pagamento", "outros"
+                ]
+              },
+              "descricao": {"type": "string"},
+              "inferido": {"type": "boolean"},
+              "evidencia": {"type": "string"},
+              "id_documento": {"type": "string"}
+            }
+          }
+        },
+        "terceiros": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nome", "categoria", "evidencia", "id_documento"],
+            "properties": {
+              "nome": {"type": "string"},
+              "categoria": {
+                "type": "string",
+                "enum": [
+                  "nuvem_e_infraestrutura", "analise_de_uso", "publicidade", "pagamento",
+                  "pesquisa", "empresas_do_grupo", "autoridades", "outros"
+                ]
+              },
+              "evidencia": {"type": "string"},
+              "id_documento": {"type": "string"}
+            }
+          }
+        },
+        "paises": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["pais", "papel", "evidencia", "id_documento"],
+            "properties": {
+              "pais": {"type": "string"},
+              "papel": {"type": "string", "enum": ["armazenamento", "transferencia"]},
+              "evidencia": {"type": "string"},
+              "id_documento": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}
