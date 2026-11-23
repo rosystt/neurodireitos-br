@@ -1,0 +1,15 @@
+criterio,nome,grupo,politicas,sim,pct_sim
+C03,Consentimento específico,brasil,9,0,0.0
+C03,Consentimento específico,comparacao,6,1,16.7
+C04,Finalidades declaradas,brasil,9,5,55.6
+C04,Finalidades declaradas,comparacao,6,5,83.3
+C05,Inferências informadas,brasil,9,4,44.4
+C05,Inferências informadas,comparacao,6,4,66.7
+C09,Exclusão a pedido,brasil,9,6,66.7
+C09,Exclusão a pedido,comparacao,6,2,33.3
+C10,Prazo de retenção,brasil,9,4,44.4
+C10,Prazo de retenção,comparacao,6,2,33.3
+C11,Uso secundário controlado,brasil,9,2,22.2
+C11,Uso secundário controlado,comparacao,6,2,33.3
+C12,Direitos no Brasil,brasil,9,0,0.0
+C12,Direitos no Brasil,comparacao,6,0,0.0
