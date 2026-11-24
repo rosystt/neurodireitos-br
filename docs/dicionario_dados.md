@@ -94,7 +94,7 @@ Um arquivo `<id_documento>.txt` por documento, com o texto limpo (UTF-8, uma lin
 
 ## `data/interim/traducoes/`
 
-Traduções para o português dos documentos que não estão em inglês nem em português, em arquivos `<id_documento>_pt.txt`. Cada tradução tem **o mesmo número de linhas do original**, de modo que a linha *n* da tradução corresponde à linha *n* do texto em `data/interim/politicas/`. O original continua sendo a fonte: todo trecho citado como evidência na avaliação deve ser conferido nele.
+Traduções para o português, em arquivos `<id_documento>_pt.txt`: obrigatórias para os documentos que não estão em inglês nem em português, e de apoio para os documentos em inglês das políticas do padrão-ouro (P01, P05 e P13), usados na avaliação manual. Cada tradução tem **o mesmo número de linhas do original**, de modo que a linha *n* da tradução corresponde à linha *n* do texto em `data/interim/politicas/`. O original continua sendo a fonte: todo trecho citado como evidência na avaliação deve ser conferido nele.
 
 O registro `traducoes.csv` tem uma linha por tradução:
 
@@ -203,7 +203,8 @@ Resultado de cada consulta de `cypher/consultas/`, gerado por `python -m src.con
 
 - `llm/<id_politica>_r<rodada>.json`: resposta bruta do modelo para cada política, com modelo, esforço, versão do prompt e da régua, hash do prompt, data, duração, uso de tokens e a saída estruturada completa. A rodada 1 cobre todas as políticas; a rodada 2 repete as políticas do padrão-ouro, para medir a estabilidade do modelo.
 - `amostra_padrao_ouro.csv`: as três políticas sorteadas para a avaliação manual (`id_politica`, `fabricante`, `grupo`, `semente`, `data_sorteio`), geradas por `python -m src.amostra_padrao_ouro`.
-- `manual/padrao_ouro.csv`: planilha da avaliação manual, uma linha por política da amostra e critério (`id_politica`, `id_criterio`, `pergunta`, `resposta`, `evidencia`, `observacoes`). As colunas `resposta`, `evidencia` e `observacoes` são preenchidas à mão, sem consultar as respostas do modelo.
+- `manual/padrao_ouro.csv`: planilha da avaliação manual, uma linha por política da amostra e critério (`id_politica`, `id_criterio`, `pergunta`, `resposta`, `evidencia`, `observacoes`). As colunas `resposta`, `evidencia` e `observacoes` são preenchidas à mão, sem consultar as respostas do modelo; `id_documento` e `linha` indicam onde a evidência foi encontrada e são preenchidas pela importação. É o arquivo que o notebook 03 compara com o modelo.
+- `manual/padrao_ouro.xlsx`: a mesma planilha em Excel, para preencher: regra de cada critério ao lado da pergunta, lista suspensa para a resposta e caminhos dos textos originais e traduzidos. Não mostra respostas do modelo. `python -m src.planilha_padrao_ouro gerar` cria o arquivo a partir do CSV; `python -m src.planilha_padrao_ouro importar` grava o preenchimento de volta no CSV, confere as respostas e localiza cada evidência no texto (aceita trecho colado da tradução ou do original).
 
 ## `data/processed/avaliacoes.csv`
 

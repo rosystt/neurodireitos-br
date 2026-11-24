@@ -91,22 +91,30 @@ def validar() -> list[str]:
 
 
 def _validar_traducoes(resumo: pd.DataFrame) -> list[str]:
-    """Todo documento em outro idioma tem tradução atual e alinhada linha a linha."""
+    """Todo documento em outro idioma tem tradução; toda tradução registrada é atual e alinhada.
+
+    Documentos em inglês podem ter tradução de apoio (por exemplo, para a
+    avaliação manual); ela é conferida da mesma forma, embora não seja exigida.
+    """
     erros = []
     traducoes = _ler(TRADUCOES).set_index("id_documento")
+    if traducoes.index.duplicated().any():
+        erros.append("Documento com mais de uma tradução registrada")
     for doc in resumo[~resumo["idioma"].isin(IDIOMAS_SEM_TRADUCAO)].itertuples():
         if doc.id_documento not in traducoes.index:
             erros.append(f"{doc.id_documento}: documento em '{doc.idioma}' sem tradução")
-            continue
-        registro = traducoes.loc[doc.id_documento]
+    for id_documento, registro in traducoes.iterrows():
         original = PASTA_INTERIM / registro["arquivo_original"]
         traducao = PASTA_TRADUCOES / registro["arquivo_traducao"]
+        if not original.exists() or not traducao.exists():
+            erros.append(f"{id_documento}: arquivo original ou tradução ausente")
+            continue
         if hashlib.sha256(original.read_bytes()).hexdigest() != registro["sha256_original"]:
-            erros.append(f"{doc.id_documento}: o original mudou depois da tradução")
+            erros.append(f"{id_documento}: o original mudou depois da tradução")
         linhas_original = original.read_text(encoding="utf-8").splitlines()
         linhas_traducao = traducao.read_text(encoding="utf-8").splitlines()
         if len(linhas_original) != len(linhas_traducao):
-            erros.append(f"{doc.id_documento}: tradução com número de linhas diferente do original")
+            erros.append(f"{id_documento}: tradução com número de linhas diferente do original")
     return erros
 
 

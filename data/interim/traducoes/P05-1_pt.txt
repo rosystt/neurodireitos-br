@@ -1,0 +1,174 @@
+# Política de Privacidade
+BrainBit Inc.
+Última atualização: 11 de novembro de 2026
+# 1. Introdução
+A BrainBit Inc. (“BrainBit”, “nós” ou “nosso”) respeita a sua privacidade e se compromete a proteger as suas informações pessoais.
+Esta Política de Privacidade explica como coletamos, usamos, compartilhamos e protegemos informações pessoais quando você interage com nossos sites, loja on-line, produtos, aplicativos de software e serviços.
+Esta Política se aplica a:
+• sites da BrainBit, incluindo brainbit.com, store.brainbit.com e sdk.brainbit.com;
+• aplicativos móveis e de computador da BrainBit, software e serviços conectados;
+• compras on-line, cadastros de conta, formulários de contato e consultas sobre produtos;
+• vendas, marketing, atendimento ao cliente e outras comunicações comerciais.
+# 2. Informações que coletamos
+Dependendo de como você interage com a BrainBit, podemos coletar as seguintes informações:
+Informações de contato e profissionais: nome, endereço de e-mail, número de telefone, empresa, cargo, país e outras informações que você fornecer.
+Informações comerciais e de comunicação: consultas sobre produtos, pedidos de orçamento ou de demonstração, correspondência, detalhes de reuniões, interesses profissionais, intenções de compra e histórico de relacionamento com o cliente.
+Informações de compra: pedidos, endereços de cobrança e de entrega, detalhes da transação, situação do pagamento e solicitações de atendimento ao cliente. As informações do cartão de pagamento podem ser processadas diretamente por prestadores de serviços de pagamento.
+Informações de conta e de aplicativo: identificadores de conta, informações de login, preferências, configurações do aplicativo e histórico de uso.
+Informações do dispositivo e técnicas: identificadores do dispositivo, sistema operacional, versões de software, informações de conexão Bluetooth, endereço IP, registros de diagnóstico e dados de desempenho do aplicativo.
+Informações de biossinais e de sessões: dependendo do produto ou do aplicativo, EEG, EMG, ECG e outros sinais fisiológicos compatíveis, medidas calculadas, resultados de treino e histórico de sessões.
+Informações de uso do site: páginas visitadas, interações, cookies, identificadores de análise e informações técnicas semelhantes.
+Coletamos informações diretamente de você, automaticamente por meio de nossos sites e aplicativos e, quando a lei permite, de parceiros comerciais, indicações ou fontes profissionais publicamente disponíveis.
+# 3. Como usamos suas informações
+Usamos informações pessoais para:
+• responder a consultas e fornecer as informações sobre produtos solicitadas;
+• organizar demonstrações, consultorias e reuniões;
+• preparar orçamentos, processar pedidos e prestar atendimento ao cliente;
+• gerenciar o relacionamento com clientes potenciais e atuais;
+• dar seguimento a consultas e conversas comerciais anteriores;
+• fornecer informações sobre produtos, serviços e oportunidades de negócio relevantes;
+• enviar boletins informativos, anúncios de produtos, materiais educativos, convites para eventos e ofertas promocionais, quando a lei permite;
+• operar e melhorar nossos sites, aplicativos, dispositivos e serviços;
+• manter contas, processar os dados de biossinais compatíveis e oferecer as funcionalidades do aplicativo;
+• analisar o desempenho do site e melhorar a experiência do cliente;
+• proteger nossos sistemas, prevenir fraudes e cumprir obrigações legais.
+Podemos usar informações sobre suas consultas e compras anteriores e sobre seus interesses profissionais para tornar nossas comunicações comerciais mais relevantes.
+Não usamos informações sensíveis de biossinais ou relacionadas à saúde para publicidade ou para perfis de marketing sem uma base legal adequada e sem o consentimento explícito exigido.
+# 4. Bases legais para o tratamento
+Quando se aplicam o Regulamento Geral sobre a Proteção de Dados (RGPD), o RGPD do Reino Unido ou leis semelhantes, tratamos informações pessoais com base em uma ou mais das seguintes hipóteses:
+Necessidade contratual: para fornecer produtos, serviços ou informações solicitados antes da celebração de um contrato.
+Interesses legítimos: para gerenciar relações comerciais, responder a consultas, manter registros adequados de clientes, melhorar serviços e realizar atividades comerciais permitidas.
+Consentimento: quando exigido para comunicações de marketing, determinados cookies, informações sensíveis ou outras finalidades específicas.
+Obrigações legais: para cumprir as leis aplicáveis, exigências contábeis e obrigações regulatórias.
+Quando nos baseamos em interesses legítimos, levamos em conta os seus direitos e as suas expectativas razoáveis.
+Quando o tratamento exige consentimento, você pode retirá-lo a qualquer momento.
+# 5. Comunicações de vendas e de marketing
+Quando você entra em contato com a BrainBit, envia uma consulta ou pede informações sobre nossos produtos, nossos representantes podem usar seus dados de contato para responder e dar seguimento à sua solicitação.
+Também podemos entrar em contato com clientes atuais e contatos comerciais sobre produtos, serviços, atualizações e oportunidades de negócio relevantes, quando a lei aplicável permite.
+As comunicações de marketing podem incluir anúncios de produtos, boletins informativos, conteúdo educativo, ofertas promocionais e convites para eventos ou demonstrações.
+Só enviamos comunicações de marketing quando temos uma base legal adequada e cumprimos as exigências aplicáveis ao canal de comunicação e à localização do destinatário.
+Você pode cancelar o recebimento de e-mails de marketing pelo link incluído nessas mensagens ou entrar em contato conosco para atualizar suas preferências.
+# Comunicações por SMS
+Quando você tiver dado o consentimento necessário ou outra autorização legalmente suficiente, a BrainBit poderá enviar mensagens SMS sobre:
+• consultas sobre produtos e informações solicitadas;
+• acompanhamento de vendas e conversas em andamento;
+• agendamento de demonstrações e lembretes;
+• atendimento ao cliente e atualizações de pedidos;
+• comunicações promocionais, quando autorizadas separadamente.
+• A frequência das mensagens varia. Podem ser cobradas tarifas de mensagens e de dados.
+Você pode deixar de receber SMS a qualquer momento respondendo STOP. Para obter ajuda, escreva para support@brainbit.com e info@brainbit.com.
+O consentimento para receber SMS é voluntário e não é condição para a compra.
+Não vendemos nem compartilhamos números de celular, informações de adesão a SMS ou registros de consentimento com terceiros ou empresas afiliadas para fins de marketing próprios deles. As informações podem ser compartilhadas com prestadores de serviços e operadoras de telecomunicações, na medida necessária para entregar as mensagens.
+# 6. Software, aplicativos e dispositivos conectados
+Os aplicativos da BrainBit podem tratar informações pessoais, informações do dispositivo e sinais fisiológicos para oferecer as funcionalidades a que se destinam.
+Dependendo do aplicativo, isso pode incluir:
+• criar e gerenciar contas de usuário;
+• conectar-se a dispositivos compatíveis por Bluetooth;
+• registrar, exibir ou analisar o EEG e outros biossinais;
+• oferecer funcionalidades de neurofeedback, biofeedback e treino;
+• salvar resultados de sessões, configurações e histórico de progresso;
+• coletar as informações técnicas necessárias para diagnóstico e melhoria do aplicativo.
+Algumas informações podem ser tratadas localmente no seu dispositivo, enquanto certos aplicativos podem usar armazenamento ou sincronização em servidor.
+Os aplicativos podem pedir permissões de Bluetooth, de dispositivos próximos ou de localização quando necessárias para encontrar o dispositivo e conectar-se a ele. Essas permissões não significam necessariamente que informações de localização física sejam coletadas ou armazenadas.
+Quando for o caso, avisos específicos de cada produto trazem mais detalhes sobre coleta de dados, armazenamento, serviços de terceiros e exclusão de conta.
+# 7. Cookies e análise de uso
+Nossos sites podem usar cookies e tecnologias semelhantes para funcionalidades essenciais, segurança, análise de uso, preferências do usuário e fins de marketing.
+Algumas tecnologias são necessárias para o funcionamento dos nossos sites. Outras, incluindo certas tecnologias de análise e de publicidade, podem exigir o seu consentimento.
+Quando exigido, oferecemos opções para gerenciar cookies não essenciais e preferências de rastreamento.
+Você também pode controlar os cookies nas configurações do seu navegador.
+# 8. Compartilhamento de informações pessoais
+Podemos compartilhar informações pessoais com prestadores de serviços de confiança que apoiam nossas operações, incluindo:
+• hospedagem de sites e infraestrutura técnica;
+• gestão do relacionamento com clientes e comunicações comerciais;
+• envio de e-mails e SMS;
+• processamento de pagamentos, comércio eletrônico e entrega;
+• análise de uso, segurança e atendimento ao cliente.
+Também podemos compartilhar informações relevantes com distribuidores autorizados ou parceiros comerciais quando necessário para responder à sua solicitação, entregar um pedido ou prestar um serviço solicitado.
+Exigimos proteções adequadas quando terceiros tratam informações pessoais em nosso nome.
+Podemos divulgar informações quando exigido por lei, para proteger nossos direitos ou em razão de uma operação societária.
+Não vendemos listas de contatos de clientes nem informações sensíveis de biossinais a terceiros para fins de marketing próprios deles.
+Certas tecnologias de publicidade podem ser consideradas “venda”, “compartilhamento” ou “publicidade direcionada” segundo as leis de privacidade aplicáveis. Quando for o caso, fornecemos os avisos exigidos e as opções de recusa.
+# 9. Transferências internacionais de dados
+A BrainBit atua internacionalmente. As informações pessoais podem ser tratadas nos Estados Unidos ou em outros países onde nós ou nossos prestadores de serviços atuamos.
+Quando a lei aplicável exige, usamos salvaguardas adequadas para transferências internacionais de dados, incluindo mecanismos contratuais reconhecidos ou outros mecanismos legais de transferência.
+# 10. Retenção e segurança dos dados
+Guardamos as informações pessoais pelo tempo razoavelmente necessário para cumprir as finalidades descritas nesta Política, manter relações comerciais legítimas, cumprir obrigações legais ou resolver disputas.
+Os prazos de retenção dependem do tipo de informação, do serviço em questão e das exigências legais aplicáveis.
+Revisamos periodicamente as informações que guardamos e excluímos ou anonimizamos os dados quando deixam de ser necessários, respeitadas as exigências legais de retenção.
+Podemos guardar as informações mínimas necessárias para atender a pedidos de cancelamento de inscrição e evitar comunicações indesejadas.
+Usamos salvaguardas técnicas e organizacionais razoáveis para proteger as informações pessoais contra acesso, divulgação, perda ou uso indevido não autorizados. No entanto, nenhum sistema eletrônico pode garantir segurança absoluta.
+# 11. Seus direitos de privacidade
+Dependendo da sua localização e da lei aplicável, você pode ter o direito de:
+• acessar as informações pessoais que mantemos sobre você;
+• pedir a correção ou a exclusão das suas informações;
+• pedir a limitação de certas atividades de tratamento;
+• opor-se ao tratamento baseado em interesses legítimos;
+• opor-se ao marketing direto a qualquer momento;
+• retirar o consentimento;
+• pedir a portabilidade dos dados;
+• recusar certas atividades de venda, compartilhamento ou publicidade direcionada;
+• apresentar reclamação a uma autoridade de proteção de dados competente.
+Para exercer seus direitos, escreva para support@brainbit.com e info@brainbit.com.
+Podemos pedir uma verificação razoável da sua identidade antes de atender a certas solicitações.
+Responderemos de acordo com as exigências legais aplicáveis.
+# 12. Privacidade de crianças
+Nosso site institucional, nossa loja on-line e nossos serviços comerciais em geral não se destinam a crianças menores de 13 anos.
+Não coletamos conscientemente informações pessoais diretamente de crianças menores de 13 anos por meio desses serviços sem a autorização dos pais exigida.
+Certas tecnologias da BrainBit podem ser usadas em ambientes de pesquisa, educacionais ou supervisionados que envolvam menores. Nesses casos, podem valer exigências adicionais de privacidade e de consentimento.
+Se você acredita que informações pessoais de uma criança foram coletadas de forma inadequada, entre em contato conosco.
+# 13. Serviços de terceiros
+Nossos sites e aplicativos podem conter links para serviços de terceiros ou integrar tecnologias fornecidas por outras organizações.
+Esses serviços podem ter suas próprias políticas de privacidade e termos. Recomendamos que você os leia ao usar esses serviços.
+# 14. Alterações nesta Política
+Podemos atualizar esta Política de Privacidade para refletir mudanças em nossos produtos, serviços, práticas comerciais ou nas leis aplicáveis.
+A versão mais recente estará disponível em nosso site, com a data de vigência atualizada.
+Quando a lei exigir, daremos aviso adicional ou obteremos novo consentimento para alterações relevantes.
+# 15. Fale conosco
+Para dúvidas sobre esta Política de Privacidade, suas informações pessoais ou seus direitos de privacidade, entre em contato:
+BrainBit Inc.
+Estados Unidos
+E-mail: support@brainbit.com ou info@brainbit.com
+Site: https://brainbit.com/
+Responderemos a solicitações relacionadas à privacidade de acordo com as leis de proteção de dados aplicáveis.
+A BrainBit cria soluções de neurotecnologia e biofeedback para pesquisa, bem-estar e desenvolvimento de aplicativos. Global Recognition Award e Top Innovator 2025. Produtos não médicos; não se destinam a diagnosticar, tratar ou curar.
+© Copyright 2016 - 2026 | BrainBit | Todos os direitos reservados
+Hardware
+BrainBit Headband
+BrainBit Flex
+MINDO Headband
+Sensores Callibri
+BrainBit Headphones
+DragonEEG
+BrainBit Flex8
+Headband Pro
+Boné Callibri
+Solução personalizada
+Software
+NeuroFit PRO
+NeuroREC
+EEG Waves App
+BrainBit Neurofeedback App
+Neurofeedback
+Sobre nós
+Blog
+Fale conosco
+Soluções completas
+DragonEEG+NeuroGuide
+BrainAssistant
+Attune+Headband
+Serviços de parceria
+White Label
+Para desenvolvedores
+Áreas de uso
+Meditação
+Sono
+Educação
+Negócios
+Coaching
+Psicoterapia
+Outros
+Política de devolução e reembolso
+EULA
+Política de privacidade
+info@brainbit.com
++1-888-979-2724

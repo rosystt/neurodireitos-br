@@ -1,0 +1,235 @@
+# Política de Privacidade
+POLÍTICA DE PRIVACIDADE DA INTERAXON
+Data de vigência da Política de Privacidade: 29 de setembro de 2026
+Na Interaxon, nossa visão é impulsionar a transformação pessoal para melhorar vidas e mudar o mundo. Valorizamos nossos clientes e respeitamos sua privacidade e suas informações pessoais. Informações pessoais são informações sobre você, que podem incluir seu nome, e-mail ou outros endereços, números de telefone ou outros dados que possam ser razoavelmente associados a você.
+Leia nossa Política de Privacidade abaixo para saber mais sobre as decisões que você pode tomar a respeito das suas informações pessoais e sobre como coletamos, usamos e divulgamos informações quando você usa nossos produtos, serviços e sites, incluindo os dispositivos Muse e os aplicativos associados, o aplicativo web Muse Connect, o aplicativo móvel, de computador e web Muse Direct, os aplicativos móvel e web Meditation Studio e nossos sites localizados em
+www.choosemuse.com
+e
+www.meditationstudioapp.com
+(em conjunto, “Produtos”).
+Se esta política mudar no futuro, publicaremos uma versão atualizada em nosso site
+www.choosemuse.com
+e/ou
+www.meditationstudioapp.com, e/ou em nossos aplicativos web ou móveis. Você pode saber se esta política mudou verificando a data de vigência que aparece no topo da política. Dependendo das circunstâncias, também podemos avisar você sobre uma atualização por e-mail ou por outro meio de contato que você tenha fornecido.
+Se tiver dúvidas ou preocupações, você pode nos procurar pelos nossos
+dados de contato
+abaixo.
+DEFINIÇÕES
+Os termos em maiúsculas usados, mas não definidos em outra parte da Política, têm as seguintes definições:
+“Dados de Atividade” significa dados como progresso, tendências, conquistas ao longo do tempo e horários de início e fim das sessões, coletados por nós com base na sua atividade.
+“
+Dados de Localização
+” significa os recursos de localização quando você usa nossos aplicativos móveis para Android, para permitir o uso da funcionalidade Bluetooth.
+“Dados Muse” significa Dados de Sensores, Dados Processados e Dados de Atividade.
+“
+Dispositivo Pessoal
+” significa
+computadores, smartphones, TVs conectadas e outros dispositivos conectados à internet que você usa e que se integram aos nossos Produtos
+.
+“
+Dados de Preferência
+” significa os dados que você fornece sobre suas preferências, como lembretes de sessão, e quaisquer outros dados que você opte por inserir; por exemplo, anotações que você registra no aplicativo depois de uma sessão com o Muse.
+“
+Dados Processados
+” significa dados como frequência cardíaca, variabilidade da frequência cardíaca (VFC) e frequência respiratória, gerados por nós a partir do processamento dos Dados de Sensores.
+“
+Informações de Compra
+” significa seu nome, endereço de e-mail, endereço de entrega, endereço de cobrança, número de telefone, informações da conta, outras informações que você compartilha durante o processo de compra, detalhes do produto ou da assinatura comprados, data e hora do pedido ou da assinatura, quantidade e preço do pedido ou da assinatura, se o pagamento foi feito, forma de pagamento, histórico de compras ou de assinaturas e se você fez novo pedido ou renovou uma assinatura.
+“
+Dados de Sensores
+” significa dados como padrões de ondas cerebrais (por eletroencefalograma, ou EEG), padrões de batimentos cardíacos (fotopletismograma (PPG)), dados de movimento, dados de UV, dados do estado da bateria, dados de temperatura e dados de pressão coletados pelos sensores do dispositivo Muse.
+“
+Dados de Transmissão
+” significa seus dados de registro (log), como a data e a hora da sincronização do seu Dispositivo Pessoal com nossos servidores, o tempo de uso dos nossos aplicativos no seu Dispositivo Pessoal e o endereço de Protocolo de Internet (
+IP
+) do seu Dispositivo Pessoal.
+“
+Dados Conversacionais
+” significa as entradas e mensagens de conversa que você compartilha com o Muse AI Coach (“AI Coach”), incluindo transcrições de texto ou de voz e metadados relacionados (por exemplo, registros de data e hora e identificadores de sessão).
+“
+Muse AI Coach / Insights Conversacionais
+” O Muse AI Coach é um recurso do serviço que oferece insights conversacionais, orientação (coaching) e feedback personalizado usando seus dados cerebrais, seu histórico de sessões e suas interações.
+“
+Dados Conversacionais / Dados de Chat
+” Quaisquer comandos (prompts), mensagens, respostas, transcrições, anotações ou registros de memória trocados entre você e o Muse AI Coach serão considerados “Dados Conversacionais” e estarão sujeitos a esta Política de Privacidade.
+INFORMAÇÕES QUE COLETAMOS E COMO AS USAMOS
+Quando você usa ou acessa nossos Produtos
+Se você tiver menos de 16 anos, não poderá criar uma conta conosco. Ao criar uma conta conosco, você precisará nos fornecer informações como suas credenciais de acesso (por exemplo, seu endereço de e-mail, nome e/ou senha) e, quando for o caso, informações de pagamento. Em vez de nos fornecer suas credenciais de acesso, você também poderá usar um serviço de terceiros, como o login do Google, para criar uma conta conosco. Ao fazer isso, você nos autoriza a acessar certas informações da conta (de acordo com suas configurações de privacidade no serviço de terceiros), como seu nome, endereço de e-mail e idade. Usamos essas informações para criar e acessar sua conta. Suas informações de pagamento são usadas para processar seus pagamentos e para a renovação automática das suas assinaturas, quando for o caso.
+Aplicativo móvel Muse
+O aplicativo móvel Muse, junto com o dispositivo Muse, foi criado para ajudar os usuários a criar hábitos de vida saudáveis (por exemplo, estabelecendo uma prática de meditação e/ou melhorando seus hábitos de higiene do sono)
+Criação de conta
+Para usar nosso aplicativo móvel Muse, você precisará baixar o aplicativo e criar uma conta.
+Outras informações que pediremos quando você criar sua conta no aplicativo móvel Muse são sua região geográfica e/ou país, se você é destro ou canhoto, seu gênero e seu ano de nascimento. Fatores como idade, gênero e lateralidade podem influenciar o seu cérebro e nos ajudam na pesquisa e no desenvolvimento do aplicativo. Usamos essas informações para melhorar e personalizar sua experiência de usuário.
+Ao usar o aplicativo móvel Muse
+Quando você usa o aplicativo Muse com o dispositivo Muse, registramos, processamos e armazenamos seus Dados de Atividade, Dados de Sensores, Dados de Preferência, Dados Processados e Dados de Transmissão. Usamos os dados mencionados na frase anterior para oferecer feedback em tempo real durante uma sessão com o Muse, relatórios depois das sessões, atendimento ao cliente, pesquisa científica sobre cérebro e corpo, solução de problemas técnicos, gestão de desempenho, aprimoramento de produtos e melhoria dos nossos próprios algoritmos e modelos de aprendizado de máquina, incluindo modelos de base (foundation models), que alimentam recursos do Muse como a identificação das fases do sono e métricas de saúde cerebral. Os dados usados para essa finalidade são antes desidentificados. Quando você usa um Dispositivo Pessoal Android para acessar o aplicativo Muse, também precisamos acessar seus Dados de Localização durante esse uso para permitir a conexão Bluetooth; no entanto, não armazenamos esses Dados de Localização.
+Programa de Pesquisa com Terceiros no Aplicativo Muse
+: Ao usar o aplicativo móvel Muse, você poderá ter a opção de participar do nosso programa voluntário de pesquisa no aplicativo, que envolve terceiros. Ao optar por participar do nosso programa de pesquisa com terceiros, você consente com o compartilhamento dos seus Dados Muse, de forma desidentificada, com terceiros envolvidos em pesquisas relacionadas à melhoria do conhecimento científico sobre o cérebro e o corpo, ou à melhoria de produtos e/ou à oferta de experiências e serviços melhores. Você pode retirar a qualquer momento seu consentimento para que compartilhemos suas informações no contexto desses programas voluntários de pesquisa, nas configurações do aplicativo móvel Muse que estiver usando. Se você retirar seu consentimento, não compartilharemos seus Dados Muse em nenhum novo estudo de pesquisa com terceiros.
+Muse AI Coach. Quando você usa o Muse AI Coach, nós também:
+Geramos insights, orientações e conteúdos personalizados por meio do Muse AI Coach
+Armazenamos e consultamos os Dados Conversacionais para adaptar respostas futuras e melhorar a continuidade (“memória”)
+Analisamos Dados Conversacionais desidentificados ou agregados para melhorar o desempenho do sistema e a precisão do modelo
+Aplicativo web Muse Account
+O aplicativo web Muse Account foi criado para ajudar você a gerenciar as informações da sua conta, como seu endereço de e-mail, sua senha e sua assinatura.
+Ao criar uma conta pelo aplicativo web Muse Account
+Ao criar uma conta pelo aplicativo web Muse Account, você precisará informar suas credenciais de acesso (por exemplo, seu endereço de e-mail, nome e/ou senha) para criar uma conta ou usar uma conta já existente.
+Usamos suas credenciais de acesso para criar sua conta e permitir que você a acesse.
+Ao usar o aplicativo web Muse Account
+Quando você usa o aplicativo web Muse Account, registramos, processamos e armazenamos seus Dados de Preferência e Dados de Transmissão. Usamos os dados mencionados na frase anterior para prestar atendimento ao cliente, solucionar problemas técnicos, gerir o desempenho e aprimorar produtos. Isso tem o objetivo de melhorar e personalizar sua experiência de usuário.
+Assinaturas de Meditação Guiada Muse
+O aplicativo móvel da Assinatura de Meditação Guiada Muse foi criado para ajudar os usuários em sua prática de meditação. A Assinatura de Meditação Guiada Muse pode ser usada como produto independente ou com um dispositivo Muse.
+Ao criar uma conta para a Assinatura de Meditação Guiada Muse
+Se você não tiver uma Conta Muse, precisará criar uma (veja “Criação de uma Conta Muse” para mais detalhes.
+Ao usar a Assinatura de Meditação Guiada Muse
+Quando você usa as Meditações Guiadas Muse com o dispositivo Muse, registramos, processamos e armazenamos seus Dados de Atividade, Dados de Sensores, Dados de Preferência, Dados Processados e Dados de Transmissão. Usamos os dados mencionados na frase anterior para oferecer feedback em tempo real durante uma sessão com o Muse, relatórios depois da sessão, atendimento ao cliente, pesquisa científica sobre cérebro e corpo, solução de problemas técnicos, gestão de desempenho, aprimoramento de produtos e melhoria dos nossos próprios algoritmos e modelos de aprendizado de máquina, incluindo modelos de base (foundation models), que alimentam recursos do Muse como a identificação das fases do sono e métricas de saúde cerebral. Os dados usados para essa finalidade são antes desidentificados. Quando você usa um Dispositivo Pessoal Android para acessar a Assinatura de Meditação Guiada Muse, também precisamos acessar seus Dados de Localização durante esse uso para permitir a conexão Bluetooth; no entanto, não armazenamos esses Dados de Localização.
+Quando você usa as Meditações Guiadas Muse sem um dispositivo Muse, registramos, processamos e armazenamos seus Dados de Atividade, Dados de Preferência e Dados de Transmissão. Usamos os dados mencionados na frase anterior para prestar atendimento ao cliente, solucionar problemas técnicos, gerir o desempenho e aprimorar produtos. Isso tem o objetivo de melhorar e personalizar sua experiência de usuário.
+Aplicativos Meditation Studio
+Os aplicativos móvel e web Meditation Studio foram criados para ajudar os usuários em sua prática de meditação.
+Ao criar uma conta para o aplicativo Meditation Studio
+Ao usar o aplicativo móvel Meditation Studio, você poderá ser convidado a criar uma conta. Criar uma conta não é obrigatório para usar o aplicativo móvel Meditation Studio. Se decidir criar uma conta, você precisará nos fornecer informações como suas credenciais de acesso (por exemplo, seu endereço de e-mail, nome e/ou senha). Criar uma conta no aplicativo móvel também permitirá que você use o aplicativo web Meditation Studio com as mesmas credenciais de acesso.
+Ao usar o aplicativo web Meditation Studio, você precisará informar suas credenciais de acesso para criar uma conta ou usar uma conta já existente.
+Usamos suas credenciais de acesso para criar sua conta e permitir que você a acesse.
+Ao usar os aplicativos Meditation Studio
+Quando você usa os aplicativos móvel ou web Meditation Studio, registramos, processamos e armazenamos seus Dados de Atividade, Dados de Preferência e Dados de Transmissão. Usamos os dados mencionados na frase anterior para prestar atendimento ao cliente, solucionar problemas técnicos, gerir o desempenho e aprimorar produtos. Isso tem o objetivo de melhorar e personalizar sua experiência de usuário.
+Aplicativo web Muse Connect
+O aplicativo web Muse Connect foi criado para permitir que uma pessoa ou entidade (como um coach, um profissional de bem-estar ou um empregador que participe de um programa de bem-estar) (o “Observador”) acompanhe, pelo painel do Muse Connect, as sessões com o Muse de uma ou mais pessoas que usam dispositivos Muse junto com o aplicativo móvel Muse (o(s) “Participante(s)”). Os Participantes precisam dar consentimento para que o Observador possa acompanhar suas sessões com o Muse.
+Ao criar uma conta no Muse Connect
+Quando o Observador cria uma conta no Muse Connect, exigimos que ele nos forneça informações como número de telefone, tipo de negócio, nome da entidade e qualificação profissional. Pedimos essas informações porque elas são necessárias para validarmos as credenciais do Observador, darmos acesso a certos preços com desconto e disponibilizarmos conteúdo relevante ao Observador.
+Ao usar o aplicativo web Muse Connect
+Quando um Observador adiciona um Participante ao painel do Muse Connect, pedimos ao Participante que consinta com o compartilhamento dos seus Dados de Atividade e Dados Processados com o Observador. Quando um Participante nos dá consentimento para compartilhar seus dados com um determinado Observador, compartilhamos os Dados de Atividade, os Dados Processados, o e-mail, o nome e a foto de perfil do Participante apenas com esse Observador. No entanto, não controlamos o uso que o Observador faz desses dados; por isso, recomendamos que, se você quiser ser um Participante, leia a política de privacidade do Observador. Para revogar seu consentimento para o compartilhamento dos seus dados com o Observador, você precisa nos enviar um e-mail pelos nossos
+dados de contato
+abaixo, incluindo no pedido as seguintes informações: o endereço de e-mail do Observador e o do Participante. Depois que confirmarmos as informações e desvincularmos o endereço de e-mail do Participante do endereço de e-mail do Observador, não compartilharemos nenhum dado novo do Participante com o Observador.
+Quando o Observador usa o aplicativo web Muse Connect, registramos, processamos e armazenamos os Dados de Atividade, os Dados de Preferência e os Dados de Transmissão do Observador. Usamos os dados mencionados na frase anterior para prestar atendimento ao cliente, solucionar problemas técnicos, gerir o desempenho e aprimorar produtos. Isso tem o objetivo de melhorar e personalizar sua experiência de usuário.
+Aplicativo Muse Direct
+O Muse Direct é um aplicativo móvel, de computador e web criado para dar aos usuários de dispositivos Muse acesso aos seus Dados de Sensores e Dados Processados.
+Ao criar uma conta no Muse Direct
+Quando você cria uma conta no Muse Direct, exigimos que informe sua profissão e como ficou sabendo de nós. Usamos essas informações para entender como você pretende usar essas informações e para melhorar e personalizar sua experiência de usuário e nossos produtos.
+Ao usar o aplicativo Muse Direct
+Quando você usa os aplicativos móvel, web ou de computador Muse Direct, registramos, processamos e armazenamos seus Dados de Atividade, Dados de Sensores, Dados Processados e Dados de Transmissão. Armazenamos seus Dados de Sensores em nossa nuvem apenas para facilitar o seu acesso. Quando você usa um Dispositivo Pessoal Android para acessar o aplicativo Muse, também precisamos acessar seus Dados de Localização para permitir a conexão Bluetooth; no entanto, não armazenamos esses Dados de Localização.
+Sites
+Usamos
+www.choosemuse.com
+e
+www.meditationstudioapp.com
+para fornecer informações e divulgar e/ou vender certos Produtos.
+Ao usar nossos sites
+Coletamos informações sobre como você usa nossos sites, como os tipos de conteúdo que você vê ou com os quais interage; os recursos que usa; as ações que realiza; as pessoas ou contas com as quais interage; e o horário, a frequência e a duração das suas atividades. Por exemplo, registramos quando você está usando e quando usou pela última vez nosso site, e quais publicações, vídeos e outros conteúdos você vê em nossos sites.
+Coletamos informações dos Dispositivos Pessoais que você usa para acessar nossos sites, e sobre eles, e combinamos essas informações entre seus diferentes Dispositivos Pessoais. Por exemplo, usamos as informações coletadas sobre o seu uso dos nossos sites em um dos seus Dispositivos Pessoais, como seu smartphone, para personalizar melhor o conteúdo ou os recursos que você vê quando usa nossos sites em outro Dispositivo Pessoal, como seu notebook ou tablet, ou para medir se você realizou, em outro dispositivo, uma ação em resposta a um anúncio que mostramos no seu smartphone. Nosso acesso às informações dos Dispositivos Pessoais e o uso que fazemos delas, assim como nosso uso de cookies e tecnologias de rastreamento, estão descritos mais adiante em
+“COOKIES, TECNOLOGIAS DE RASTREAMENTO E INFORMAÇÕES ADICIONAIS SOBRE NOSSOS PRODUTOS”.
+Usamos tecnologias para fornecer produtos e serviços, facilitar o uso dos nossos sites, permitir que você navegue pelo site e use seus recursos, como o acesso a áreas seguras, e armazenar informações para respondermos mais rápido. Podemos usar essas tecnologias para coletar informações sobre como você usa o site, por exemplo, quais páginas você visita com mais frequência e se recebe mensagens de erro em certas páginas.
+Podemos usar tecnologias que nos permitem lembrar as escolhas que você faz (como seu nome de usuário, idioma ou a região em que está) e adaptar o site para oferecer recursos e conteúdos aprimorados para você. Podemos usar tecnologias para exibir publicidade relevante para os seus interesses. Essas tecnologias podem lembrar que o seu Dispositivo Pessoal visitou um site ou serviço e também podem conseguir rastrear a atividade de navegação do seu Dispositivo Pessoal em outros sites ou serviços além de
+www.choosemuse.com
+ou
+www.meditationstudioapp.com.
+As informações coletadas dos Dispositivos Pessoais podem ser compartilhadas com organizações de fora da nossa empresa, como anunciantes e/ou plataformas de publicidade, para exibir a publicidade e ajudar a medir a eficácia de uma campanha publicitária.
+Também podemos usar as informações coletadas por essas tecnologias para entender, melhorar e pesquisar produtos e serviços.
+QUANDO VOCÊ FAZ COMPRAS CONOSCO
+Embora os pagamentos feitos por meio dos nossos Produtos ou por eles sejam processados por um processador de pagamentos terceiro, coletamos e usamos informações sobre a compra ou transação. Isso inclui informações de pagamento, como o número do seu cartão de crédito ou de débito e outras informações do cartão; outras informações de conta e de autenticação; e dados de cobrança, de entrega e de contato. Usamos essas informações na medida necessária para fornecer os Produtos que você solicita de acordo com nossos termos, inclusive para administrar, gerenciar e atender às compras ou assinaturas que você faz, para a gestão de estoque e para nossos outros interesses comerciais legítimos.
+QUANDO VOCÊ ENTRA EM CONTATO CONOSCO
+Quando você nos procura com um comentário, uma pergunta ou uma reclamação por telefone, e-mail ou outro meio, coletamos informações como a identidade de quem liga ou de quem envia o e-mail ou outra comunicação, a data e a hora da ligação ou da mensagem, e o assunto e a solução do problema. Suas ligações para o atendimento ao cliente, seus e-mails e outras comunicações conosco podem ser gravados, registrados e/ou monitorados para garantia de qualidade e/ou para fins de aprimoramento de produtos e serviços, como ajudar a responder às suas consultas, solucionar problemas, treinar equipes e fazer análises para identificar tendências e melhorar nossos produtos. Faremos isso na medida necessária para responder e nos comunicar com você sobre seu comentário, pergunta ou reclamação e para melhorar nossos produtos e serviços.
+MARKETING E OUTRAS COMUNICAÇÕES
+Podemos oferecer a você a possibilidade de se inscrever para receber comunicações promocionais, educativas e motivacionais, incluindo notícias, atualizações de produtos, anúncios dentro do aplicativo, notificações push, dicas motivacionais, novidades de eventos, além de ofertas e comunicações nossas.
+Se você se inscrever, coletamos certas informações pessoais (como nome e sobrenome, número de celular e endereço de e-mail), que usamos para enviar essas comunicações.
+CONSENTIMENTO PARA COMUNICAÇÕES DE MARKETING
+Ao fornecer seu endereço de e-mail ou número de celular, você concorda que consente expressamente em receber comunicações educativas e promocionais nossas, ou em nosso nome, no endereço de e-mail e/ou no número de celular fornecidos.
+Com o seu consentimento, podem ser enviadas notificações por SMS, anúncio dentro do aplicativo, notificação push ou e-mail para incentivar, motivar, ensinar ou de outra forma engajar você com nossos Produtos.
+COMO DESATIVAR NOTIFICAÇÕES PUSH
+As notificações push podem ser desativadas na seção de configurações dos nossos aplicativos.
+COMO DEIXAR DE RECEBER E-MAILS
+Você pode cancelar a qualquer momento o recebimento de e-mails promocionais, educativos e motivacionais, ou atualizar suas preferências sobre o tipo de comunicação que não deseja mais receber de nós, simplesmente clicando no link de “cancelar inscrição” no fim desses e-mails ou entrando em contato conosco por
+http://choosemuse.com/contactsupport
+ou pelo endereço postal indicado abaixo. Deixar de receber esses e-mails não interrompe o envio de e-mails importantes sobre o serviço, necessários para sua conta ou para suas transações conosco.
+COMO DEIXAR DE RECEBER MENSAGENS DE TEXTO/SMS
+Você pode deixar de receber novas mensagens de texto/SMS promocionais, educativas e motivacionais enviando STOP para o número de SMS que usamos para falar com você. As abreviações usadas nas mensagens de texto podem incluir: mensagem (msg), por (/), texto (txt), por mês (mo, ea. mo. ou /mth) e "podem ser cobradas tarifas de mensagens e de dados" (Msg&Data Rates May Apply).
+Podemos compartilhar seu número de celular com prestadores de serviços que contratamos para nos ajudar nas atividades acima, mas não compartilharemos seu número de celular com terceiros para fins de marketing próprios deles sem o seu consentimento. As mensagens de texto/SMS são enviadas por operadoras de telefonia móvel terceiras e, por isso, não podemos controlar certos fatores relacionados à entrega das mensagens. Dependendo da sua operadora, pode não ser possível enviar a mensagem de texto a você; e o conteúdo não está disponível em todas as operadoras. Não afirmamos nem garantimos a disponibilidade ou o desempenho deste serviço, nem assumimos responsabilidade por atrasos na transmissão ou falhas de mensagens.
+INDICAÇÃO
+Os recursos de indicação dos Produtos podem permitir que você envie um e-mail a outras pessoas que possam se interessar pelos Produtos. Esse recurso exige que você informe seu nome e endereço de e-mail, além do nome e do endereço de e-mail do destinatário. Não usamos os nomes ou endereços de e-mail informados nessas circunstâncias para nenhuma outra finalidade sem o consentimento seu ou do destinatário do e-mail. Informe apenas endereços de e-mail de pessoas com quem você tem relação pessoal ou familiar e que gostariam de receber a mensagem. Nossos recursos de indicação também podem permitir que você publique ou compartilhe uma atualização com sua rede em plataformas de redes sociais.
+CONCURSOS E SORTEIOS
+A Interaxon pode oferecer oportunidades de participar de concursos, sorteios e outras promoções. Podemos coletar seu nome, endereço, endereço de e-mail e outras informações que você nos fornecer. Essas informações são usadas na medida necessária para administrar sua participação no concurso, sorteio ou outra promoção. Todas as informações pessoais que você enviar em relação a essas atividades serão tratadas de acordo com esta Política de Privacidade e com quaisquer termos adicionais previstos no regulamento dessas ofertas.
+PESQUISAS DE OPINIÃO
+A Interaxon também pode pedir que você participe de pesquisas de opinião que nos ajudam a entender nossos clientes e o uso dos nossos Produtos. As informações obtidas nessas pesquisas são usadas para nos ajudar a aprimorar nossa oferta de produtos e serviços. Todas as informações pessoais que você enviar em relação a essas atividades serão tratadas de acordo com esta Política de Privacidade e com quaisquer termos adicionais associados a essas pesquisas.
+FERRAMENTAS SOCIAIS
+Em nossos aplicativos, podemos oferecer ferramentas sociais que permitem compartilhar informações pessoais com outras pessoas. Por exemplo, nos aplicativos Muse e Meditation Studio, você pode compartilhar dados de uma sessão com o Muse no Facebook, no Instagram ou no Twitter. Quando você interage com outras pessoas por meio dessas ferramentas, pode estar exibindo publicamente suas informações pessoais. Tome as medidas adequadas para proteger suas informações pessoais.
+INFORMAÇÕES QUE COMPARTILHAMOS
+Não divulgaremos, trocaremos, alugaremos, venderemos nem compartilharemos de outra forma informações pessoais sem consentimento, exceto conforme estabelecido aqui, em qualquer consentimento especial que você tenha dado, ou conforme permitido ou exigido por lei.
+OUTROS APLICATIVOS DE BEM-ESTAR
+Podemos oferecer a opção de integrar nossos Produtos a aplicativos como o Apple Saúde (Apple Health) ou o Google Fit para ajudar você a acompanhar seu progresso. Se você nos orientar a conectar os Produtos a aplicativos como o Apple Saúde ou o Google Fit, acessaremos e importaremos certos dados desses aplicativos (de acordo com suas configurações de privacidade neles), como minutos de meditação e frequência cardíaca, e transferiremos certos dados para esses aplicativos, incluindo Dados Muse, lembretes de sessão e suas metas de meditação. Só conecte os Produtos a aplicativos como o Apple Saúde ou o Google Fit se você for a única pessoa que usa os Produtos com o seu Dispositivo Pessoal. Você pode desativar a conexão com esses aplicativos a qualquer momento nas configurações dos nossos Produtos. Recomendamos que você leia a política de privacidade do terceiro que fornece o aplicativo, pois ela trata, entre outras coisas, do que acontece com as informações compartilhadas com esse fornecedor depois que a conexão é desativada.
+PESQUISA E TESTES VOLUNTÁRIOS DE PRODUTOS
+De tempos em tempos, você pode optar por participar de pesquisas e testes voluntários de produtos e compartilhar conosco certas informações pessoais, como seu nome e endereço de e-mail. Salvo se você concordar expressamente com o contrário, não usaremos suas informações de identificação pessoal compartilhadas nesse contexto para nenhuma outra finalidade além de administrar a pesquisa e/ou o estudo.
+EMPRESAS AFILIADAS E PRESTADORES DE SERVIÇOS
+Transferiremos (ou disponibilizaremos de outra forma) informações pessoais às nossas empresas afiliadas para as finalidades acima e a terceiros que prestam serviços em nosso nome. Isso inclui prestadores de serviços que: (a) armazenam informações em nosso nome na nuvem; (b) hospedam nossos sites; (c) operam certos recursos dos nossos Produtos; (d) administram serviços como processamento de pedidos e pagamentos, entrega e atendimento ao cliente; (e) enviam e-mails ou outras comunicações; (f) gerenciam e analisam dados e/ou a eficácia da nossa publicidade; e (g) nos prestam serviços financeiros, de seguros, jurídicos, contábeis ou outros serviços profissionais, conforme o caso. As informações pessoais podem ser mantidas e tratadas por prestadores de serviços terceiros nos EUA, no Canadá ou em outras jurisdições. Nossos prestadores de serviços recebem as informações de que precisam para exercer as funções que lhes foram atribuídas e não estão autorizados a usar ou divulgar informações pessoais para seu próprio marketing ou outras finalidades. Para ver a lista completa das nossas empresas afiliadas e prestadores de serviços, acesse esta página:
+Afiliadas
+.
+EXIGÊNCIAS LEGAIS E OUTRAS
+Nós e nossos prestadores de serviços canadenses, norte-americanos ou de outros países podemos fornecer informações pessoais em resposta a um mandado de busca ou outra solicitação ou ordem legalmente válida (o que pode incluir o acesso legal por autoridades governamentais, tribunais ou órgãos policiais canadenses, norte-americanos ou de outros países), ou a outras organizações no caso de investigação de violação de contrato ou de infração à lei, ou de detecção, repressão ou prevenção de fraudes, ou conforme exigido ou permitido de outra forma pela lei aplicável do Canadá, dos EUA ou de outro país. Também podemos divulgar informações pessoais quando necessário para estabelecer, exercer ou defender direitos em juízo e para investigar ou prevenir perda ou dano, real ou suspeito, a pessoas ou bens.
+OPERAÇÕES SOCIETÁRIAS
+Podemos transferir informações pessoais como ativo em razão de uma fusão ou venda, proposta ou concluída (incluindo transferências feitas em processo de insolvência ou falência), que envolva todo ou parte do nosso grupo de empresas, ou como parte de uma reorganização societária, de um financiamento ou de outra mudança de controle societário.
+COOKIES, TECNOLOGIAS DE RASTREAMENTO E INFORMAÇÕES ADICIONAIS SOBRE NOSSOS PRODUTOS
+Quando você usa nossos Produtos, coletamos certas informações por meios automatizados, como arquivos de registro (log) do servidor, cookies (arquivos de texto enviados ao seu Dispositivo Pessoal e armazenados nele quando você acessa nossos sites), web beacons (também chamados de GIFs transparentes e pixel tags, que podem ser usados para transmitir informações de volta aos nossos Produtos), ID do Dispositivo Pessoal (se você usa um dos nossos aplicativos móveis) e scripts incorporados (código de programação criado para coletar informações sobre suas interações com os Produtos, como os links ou recursos em que você clica ou que seleciona, e que fica ativo apenas enquanto você usa os Produtos) (em conjunto, “Tecnologias de Rastreamento”).
+As informações que coletamos dessa forma podem incluir detalhes sobre o Dispositivo Pessoal usado para acessar os Produtos (como tipo de navegador, tipo de dispositivo, sistema operacional e versão, e endereço IP), URLs de origem e informações sobre ações realizadas ou interações com nossos Produtos.
+Usamos as seguintes Tecnologias de Rastreamento em relação aos Produtos:
+Tecnologias de Rastreamento necessárias:
+São Tecnologias de Rastreamento necessárias para o funcionamento dos nossos Produtos, para melhorar sua experiência de usuário quando você usa nossos Produtos e para incorporar recursos de terceiros. Elas incluem, por exemplo, Tecnologias de Rastreamento que permitem que você entre na sua conta ou acesse os recursos ou páginas que seleciona, lembram suas preferências (por exemplo, o idioma escolhido), preenchem previamente campos de formulários que você já completou e integram aos nossos Produtos serviços úteis oferecidos por terceiros, como recursos de redes sociais.
+Tecnologias de Rastreamento para análise de uso:
+Usamos serviços de análise de uso web e móvel de terceiros, como o Google Analytics e o Firebase Analytics, para nos ajudar a analisar como os visitantes usam os Produtos. Podemos permitir que esses terceiros operem diretamente em nossos Produtos ou por meio deles, usando suas próprias Tecnologias de Rastreamento, e coletem informações sobre você em nosso nome. Essas Tecnologias de Rastreamento nos permitem medir e analisar comportamentos e padrões de uso dos nossos clientes, como quais páginas ou recursos são mais visitados ou usados, por quanto tempo, e se o cliente recebe uma mensagem de erro. Esses serviços de análise também podem nos fornecer outros dados que coletam fora dos nossos aplicativos, de forma agregada e desidentificada. Usamos essas informações para nos ajudar a monitorar e aprimorar o desempenho dos Produtos e a solucionar problemas técnicos.
+Tecnologias de Rastreamento para publicidade baseada em interesses:
+Quando você visita nossos sites ou aplicativos, podemos permitir que alguns terceiros (como redes de publicidade e empresas de análise de dados) coletem informações sobre suas atividades on-line ao longo do tempo e em diferentes sites e aplicativos (como os sites
+e aplicativos
+que você visita e sua resposta a anúncios) para medir a eficácia das nossas campanhas de marketing e exibir anúncios mais relevantes para você, dentro e fora dos nossos sites. Em alguns casos, também podemos combinar informações sobre você que recebemos de terceiros com informações que coletamos por meio dos nossos sites. Para recusar a publicidade baseada em interesses, veja “Como recusar a publicidade baseada em interesses” abaixo.
+Você pode configurar seu navegador ou seu Dispositivo Pessoal para avisar quando receber um cookie ou para não aceitar certas Tecnologias de Rastreamento. Em nossos aplicativos, oferecemos a possibilidade de recusar Tecnologias de Rastreamento, normalmente nas configurações. No entanto, se você decidir não aceitar Tecnologias de Rastreamento em relação aos nossos Produtos, poderá não conseguir aproveitar todos os recursos dos nossos Produtos.
+Para saber mais sobre cookies, inclusive como ver quais cookies foram instalados e como ajustar as configurações do navegador para bloqueá-los, visite www.aboutcookies.org ou www.allaboutcookies.org. As configurações do seu navegador também podem permitir o envio automático de um sinal “Do Not Track” (não rastrear) aos sites e serviços on-line que você visita. No entanto, não há consenso entre os participantes do setor sobre o que “Do Not Track” significa nesse contexto. Como muitos sites e serviços on-line, atualmente não alteramos nossas práticas quando recebemos um sinal “Do Not Track” do navegador de um visitante.
+Você pode obter mais informações sobre a coleta e o tratamento de dados pelo Google Analytics, inclusive sobre como recusá-los, nos links abaixo:
+https://tools.google.com/dlpage/gaoptout
+https://www.google.com/policies/privacy/partners/
+https://support.google.com/analytics/topic/2919631?hl=en&ref_topic=1008008
+COMO RECUSAR A PUBLICIDADE BASEADA EM INTERESSES
+Para mais informações sobre publicidade baseada em interesses no navegador do seu computador ou celular e para entender suas opções, inclusive como deixar de receber anúncios comportamentais de empresas de publicidade terceiras que participam da DAAC, visite o site da Digital Advertising Alliance of Canada em
+http://youradchoices.ca/choices.
+Para saber mais sobre publicidade baseada em interesses em aplicativos móveis e recusar esse tipo de publicidade de empresas de publicidade terceiras que participam da ferramenta AppChoices da DAAC, baixe a versão do AppChoices para o seu dispositivo em
+https://youradchoices.ca/appchoices/.
+Observe que, mesmo que você recuse a publicidade baseada em interesses de um terceiro, essas tecnologias de rastreamento ainda podem coletar dados para outras finalidades, incluindo análise de uso, e você continuará vendo anúncios nossos, mas eles não serão direcionados com base em informações comportamentais sobre você e, por isso, podem ser menos relevantes para você e seus interesses.
+Para que a recusa funcione, os cookies precisam estar ativados no seu navegador. Consulte as instruções do seu navegador para obter informações sobre cookies e como ativá-los. Sua recusa vale apenas para o navegador que você usa, por isso é preciso fazer a recusa em cada navegador de cada dispositivo que você usa. Depois de recusar, se você apagar os cookies salvos no navegador, poderá ser preciso fazer a recusa de novo.
+USO DE DADOS DESIDENTIFICADOS
+Algumas das informações que você compartilha conosco ou que coletamos sobre você podem, por si sós, não identificar você para nós nem permitir sua identificação pessoal e, por isso, podem não ser consideradas informações pessoais. Também podemos remover identificadores pessoais das suas informações para torná-las não identificáveis. Isso inclui os Dados Muse e as pesquisas de opinião dentro do aplicativo. Mantemos e usamos essas informações como dados desidentificados e podemos combiná-las com outras informações para gerar dados agregados. Usamos essas informações desidentificadas e/ou agregadas para nos ajudar a melhorar nossa oferta de produtos e serviços, inclusive para treinar e melhorar nossos algoritmos e modelos de aprendizado de máquina (incluindo modelos de base), e também podemos fornecer dados desidentificados e/ou agregados a pesquisadores em programas de pesquisa.
+LINKS E INTEGRAÇÕES DE TERCEIROS
+Podemos oferecer em nossos Produtos links para sites, produtos ou serviços de terceiros que achamos que você vai gostar ou que podem ser relevantes para você, incluindo sites de redes sociais, plug-ins e aplicativos. Além disso, links para nossos Produtos podem aparecer em sites ou serviços de terceiros nos quais anunciamos. Quando você interage com nosso conteúdo em serviços de redes sociais de terceiros, ou por meio deles, pode nos permitir acessar certas informações associadas à sua conta na rede social (por exemplo, nome, nome de usuário, endereço de e-mail, foto de perfil, gênero) para exibir o conteúdo ou como parte do funcionamento do serviço. Esses sites e serviços funcionam de forma independente de nós e podem ter estabelecido suas próprias políticas de privacidade e de segurança. Não temos controle sobre esses sites e serviços e, por isso, não temos responsabilidade pela forma como as organizações que operam esses sites ou serviços coletam, usam, divulgam, protegem e de outra forma tratam informações pessoais. Recomendamos que você leia a política de privacidade deles antes de compartilhar informações com eles.
+COMO A INTERAXON MANTÉM SUAS INFORMAÇÕES SEGURAS?
+Levamos a privacidade dos dados a sério e implementamos salvaguardas físicas, técnicas e administrativas destinadas a proteger adequadamente a segurança e a privacidade das suas informações pessoais contra perda, roubo e acesso, cópia, uso, divulgação ou modificação não autorizados.
+Limitamos o acesso às suas informações pessoais aos funcionários e prestadores de serviços autorizados que precisam conhecê-las para exercer as funções que lhes foram atribuídas.
+TRANSFERÊNCIA DE INFORMAÇÕES PESSOAIS PARA OUTROS PAÍSES
+Suas informações pessoais podem ser coletadas, usadas, tratadas, transferidas e guardadas por nós, por nossas empresas afiliadas e por nossos prestadores de serviços em vários países (incluindo o Canadá, os Estados Unidos e o Espaço Econômico Europeu (“EEE”)), que podem estar fora da região em que você se encontra e ter legislação de privacidade ou de proteção de dados diferente, e por isso podem estar sujeitas às leis desses países. Se você estiver no EEE: a Comissão Europeia reconheceu que o Canadá oferece um nível adequado de proteção para as informações pessoais transferidas do EEE a destinatários sujeitos à lei canadense de proteção de informações pessoais e documentos eletrônicos (PIPEDA), como a Interaxon. Além disso, cumprimos as exigências legais aplicáveis que garantem proteção adequada para a transferência de informações pessoais a destinatários em países fora do EEE e da Suíça que não foram reconhecidos pela Comissão Europeia como oferecendo esse nível de proteção. Em todos esses casos, só transferiremos suas informações pessoais se tivermos adotado salvaguardas adequadas para a transferência, inclusive escolhendo prestadores de serviços norte-americanos certificados no EU-U.S. Data Privacy Framework e no Swiss-U.S. Data Privacy Framework, ou celebrando com nossos prestadores de serviços contratos de transferência de dados baseados nas Cláusulas Contratuais-Padrão da Comissão Europeia, conforme os artigos 45 e 46 do Regulamento Geral sobre a Proteção de Dados da UE (RGPD), respectivamente. Você pode obter uma cópia das salvaguardas que usamos nessas transferências entrando em contato conosco pelos nossos
+dados de contato
+abaixo.
+POR QUANTO TEMPO A INTERAXON GUARDA SUAS INFORMAÇÕES?
+Temos processos de retenção de informações criados para guardar suas informações pessoais apenas pelo tempo que consideramos necessário para as finalidades descritas acima e para outras finalidades comerciais legítimas, levando em conta critérios como as exigências legais aplicáveis e os prazos de prescrição, a duração do seu uso dos Produtos e as informações necessárias para atender aos seus pedidos de garantia e de suporte. Normalmente, guardaremos as informações pessoais da sua conta Muse enquanto você tiver uma conta em um ou mais dos nossos Produtos. Excluiremos suas informações pessoais dos nossos Produtos se sua conta ficar inativa, ou seja, se não houver login do usuário na conta por um período definido por nós de tempos em tempos (esse período de inatividade não passará de 10 anos), ou se você retirar seu consentimento para o tratamento das suas informações pessoais (por exemplo, se excluir sua conta). Nesse caso, as cópias de segurança das suas informações pessoais serão removidas da nossa nuvem, mas podem continuar em nosso banco de dados por um curto período (até 30 dias) por motivos técnicos. A Interaxon pode continuar a usar dados desidentificados e informações agregadas obtidos em razão do seu uso dos Produtos. Apesar do exposto acima, podemos guardar suas informações de compra, de garantia e de atendimento ao cliente na medida necessária para nossos interesses comerciais legítimos e de acordo com nossas obrigações pela lei aplicável, para atender você melhor; para excluir esse tipo de informação pessoal, entre em contato conosco pelos nossos
+dados de contato
+abaixo.
+SUAS ESCOLHAS E DIREITOS DE PRIVACIDADE
+Você pode ter certos direitos em relação ao nosso tratamento das suas informações pessoais. Conforme a lei aplicável, você pode ter o direito de: (1) pedir acesso às informações que mantemos sobre você; (2) pedir que atualizemos, corrijamos ou alteremos suas informações; (3) pedir que apaguemos suas informações; ou (4) pedir a limitação do nosso uso das suas informações pessoais. Além disso, conforme a lei aplicável, você pode receber, em formato estruturado, de uso comum e legível por máquina, as informações pessoais sobre você que nos forneceu com seu consentimento ou com base em um contrato conosco. Em circunstâncias adequadas, você tem o direito de que essas informações sejam transmitidas a outra empresa, quando for tecnicamente viável.
+Você também pode se opor a qualquer momento ao uso das suas informações pessoais, por motivos relacionados à sua situação particular, quando usamos essas informações com base em nossos interesses legítimos, conforme descrito acima. Você também pode retirar qualquer consentimento que nos tenha dado antes, por exemplo, excluindo qualquer conta de usuário que tenha em relação aos nossos Produtos ou entrando em contato conosco pelos nossos
+dados de contato
+abaixo. Se fizer isso, a retirada não afetará a legalidade do uso que fizemos das suas informações com base no seu consentimento antes dela. Observe que, se você revogar seu consentimento para o uso de certos dados, poderá não conseguir usar nossos Produtos ou certos recursos ou funções deles.
+Se você entrar em contato conosco para fazer qualquer uma das coisas listadas acima, poderemos pedir que forneça informações pessoais suficientes para que possamos identificar você e fornecer as informações solicitadas. Se você estiver no EEE, coloque “GDPR” no assunto da sua comunicação conosco para nos ajudar a encaminhar sua consulta. Responderemos ao seu pedido em prazo razoável e com custo mínimo ou sem custo para você, de acordo com as leis aplicáveis.
+Se você não ficar satisfeito com nossa resposta ou se considerar que nosso tratamento das suas informações pessoais viola a lei aplicável, poderá apresentar reclamação a uma autoridade supervisora ou reguladora competente, que pode ser a autoridade da jurisdição em que você mora ou trabalha.
+RESIDENTES NA CALIFÓRNIA – SEUS DIREITOS DE PRIVACIDADE NA CALIFÓRNIA
+A Seção 1798.83 do Código Civil da Califórnia permite que usuários residentes na Califórnia peçam certas informações, incluindo as categorias de informações pessoais divulgadas a terceiros para fins de marketing deles e os nomes e endereços desses terceiros, sobre a divulgação que fazemos de informações pessoais a terceiros para fins de marketing direto deles, se houver. Se você mora na Califórnia e tem dúvidas sobre nossas práticas de compartilhamento de informações com terceiros e empresas afiliadas para fins de marketing direto deles, entre em contato conosco pelos nossos
+dados de contato
+abaixo. Coloque a frase “Your California Privacy Rights” (seus direitos de privacidade na Califórnia) na sua comunicação conosco.
+POLÍTICAS DA INTERAXON PARA CRIANÇAS
+Nossos Produtos se destinam apenas a pessoas com 16 anos ou mais. Não coletamos conscientemente nenhuma informação pessoal de crianças menores de 16 anos. Se soubermos que coletamos sem saber informações pessoais de uma criança menor de 16 anos, faremos esforços comercialmente razoáveis para excluir essas informações dos nossos registros. Se você estiver preocupado e souber de um usuário menor de 16 anos usando nossos Produtos, entre em contato conosco pelos nossos
+dados de contato
+abaixo.
+IDIOMA
+Se esta Política de Privacidade for traduzida para outro idioma que não o inglês, em caso de conflito entre a versão em inglês e a versão traduzida, prevalecerá a versão em inglês (http://www.choosemuse.com/legal/privacy).
+FALE CONOSCO
+Se tiver dúvidas, comentários ou preocupações sobre esta Política de Privacidade ou sobre como nós ou nossos prestadores de serviços tratamos suas informações pessoais, ou se quiser exercer suas escolhas e direitos em relação às suas informações pessoais, entre em contato conosco pelos seguintes dados:
+Interaxon Inc. (“Interaxon”)
+A/C: Encarregado de Privacidade de Dados (Data Privacy Officer)
+555 Richmond St. West Suite 900
+Toronto, ON M5V 3B1 Canadá
+http://choosemuse.com/contactsupport
+Para usuários na UE/EEE, nosso representante na UE também pode ser contatado em:
+Amesto Global (Ireland) Limited
+The Gallery, 13 Bedford Row, Limerick
+Condado de Limerick
+E-mail:
+PrivacyEU@choosemuse.com
